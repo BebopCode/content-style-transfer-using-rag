@@ -1,0 +1,4207 @@
+[
+  {
+    "speaker": "YOUNG ELIZABETH (O.S.)",
+    "dialogue": " Yo, ho, yo, ho, a pirate's life for me Yo, ho, yo, ho, it's a pirate's life for me...",
+    "line_number": 1
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " ...drink up me hearties, yo, ho...",
+    "line_number": 2
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Quiet, missy! Cursed pirates sail these waters. You want to call 'em down on us?",
+    "line_number": 3
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Mr. Gibbs.",
+    "line_number": 4
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " That will do.",
+    "line_number": 5
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " She was singing about pirates.",
+    "line_number": 6
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Consider them marked. On your way.",
+    "line_number": 7
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " 'Aye, Captain. Bad luck to have a woman on board, too. Even a mini'ture one.",
+    "line_number": 8
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I think it would be rather exciting to meet a pirate.",
+    "line_number": 9
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Think again, Miss Swan. Vile and dissolute creatures, the lot of them. I intend to see to it that any man who sails under a pirate flag, or wears a pirates brand, gets what he deserves: a short drop and a sudden stop.",
+    "line_number": 10
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Captain Norrington... I appreciate your fervor, but I am concerned about the effect this subject will have on my daughter.",
+    "line_number": 11
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " My apologies, Governor.",
+    "line_number": 12
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Actually, I find it all fascinating.",
+    "line_number": 13
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " And that's what concerns me. Elizabeth, dear... we will be landing in Port Royal very soon, and beginning our new lives. Wouldn't it be wonderful if we comport ourselves as befits our class and station?",
+    "line_number": 14
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Yes, father.",
+    "line_number": 15
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I still think it would be exciting to meet a pirate...",
+    "line_number": 16
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Look! A boy! In the water!",
+    "line_number": 17
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Man overboard!",
+    "line_number": 18
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Boy overboard!",
+    "line_number": 19
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Fetch a hook! Haul him out of there!",
+    "line_number": 20
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " He's still breathing.",
+    "line_number": 21
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Where did he come from?",
+    "line_number": 22
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Mary mother of God...",
+    "line_number": 23
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " What happened here?",
+    "line_number": 24
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " An explosion in the powder magazine. Merchant vessels run heavily armed.",
+    "line_number": 25
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Lot of good it did them... Everyone's thinking it! I'm just saying it! Pirates!",
+    "line_number": 26
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " There is no proof of that. It could have been an accident. Captain, these men were protection. If there is even the slightest chance one of those poor devils is still alive, we cannot abandon them!",
+    "line_number": 27
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Of course not, Governor. Come about and strike the sails! Unlash the boats! Gunnery crew... jackets off the cannons! Hope for the best... prepare for the worst. Move the boy aft. We'll need the deck clear.",
+    "line_number": 28
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Elizabeth, I want you to accompany the boy. He's in your charge now. You'll watch over him?",
+    "line_number": 29
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " My name is Elizabeth Swann.",
+    "line_number": 30
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Will Turner.",
+    "line_number": 31
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I'm watching over you, Will.",
+    "line_number": 32
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You're a pirate.",
+    "line_number": 33
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Did he speak?",
+    "line_number": 34
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " His name is Will Turner -- that's all I found out.",
+    "line_number": 35
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Very good.",
+    "line_number": 36
+  },
+  {
+    "speaker": "SWANN (O.S.)",
+    "dialogue": " Elizabeth? Is everything all right? Are you decent?",
+    "line_number": 37
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Yes -- yes.",
+    "line_number": 38
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Still abed at this hour? It's a beautiful day!",
+    "line_number": 39
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " I have a gift for you.",
+    "line_number": 40
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " It's -- beautiful. May I inquire as to the occasion?",
+    "line_number": 41
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Is an occasion necessary for a father to dote upon his daughter with gifts?",
+    "line_number": 42
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Although... I did think you could wear it to the ceremony today.",
+    "line_number": 43
+  },
+  {
+    "speaker": "ELIZABETH (O.S.)",
+    "dialogue": " Ceremony?",
+    "line_number": 44
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Captain Norrington's promotion ceremony.",
+    "line_number": 45
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I knew it.",
+    "line_number": 46
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Or, rather, Commodore Norrington... a fine gentleman, don't you think? He fancies you, you know.",
+    "line_number": 47
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Elizabeth? How's it coming?",
+    "line_number": 48
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Difficult... to say.",
+    "line_number": 49
+  },
+  {
+    "speaker": "SWANN (O.S.)",
+    "dialogue": " I'm told that dress is the very latest fashion in London.",
+    "line_number": 50
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Women in London must have learned to not breath.",
+    "line_number": 51
+  },
+  {
+    "speaker": "BUTLER",
+    "dialogue": " Governor? A caller is here for you.",
+    "line_number": 52
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Ah, Mr. Turner! It's good to see you again!",
+    "line_number": 53
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Good day, sir. I have your order.",
+    "line_number": 54
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " The blade is folded steel. That's gold filigree laid into the handle. If I may --",
+    "line_number": 55
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Perfectly balanced. The tang is nearly the full width of the blade..",
+    "line_number": 56
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Impressive... very impressive. Commodore Norrington will be pleased, I'm sure. Do pass my compliments on to your master.",
+    "line_number": 57
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I shall. A craftsman is always pleased to hear his work is appreciated --",
+    "line_number": 58
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Elizabeth! You look stunning!",
+    "line_number": 59
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Will! It's so good to see you!",
+    "line_number": 60
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I dreamt about you last night.",
+    "line_number": 61
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Elizabeth, this is hardly appropriate --",
+    "line_number": 62
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " About the day we met. Do you remember?",
+    "line_number": 63
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I could never forget it, Miss Swann.",
+    "line_number": 64
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Will, how many times must I ask you to call me 'Elizabeth'?",
+    "line_number": 65
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " At least once more, Miss Swann. As always.",
+    "line_number": 66
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Well said! There's a boy who understands propriety. Now, we must be going.",
+    "line_number": 67
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Good day, Mr. Turner.",
+    "line_number": 68
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Good day.",
+    "line_number": 69
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Elizabeth.",
+    "line_number": 70
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Dear, I do hope you demonstrate a bit more decorum in front of Commodore Norrington. After all, it is only through his efforts that Port Royal has become at all civilized.",
+    "line_number": 71
+  },
+  {
+    "speaker": "HARBORMASTER",
+    "dialogue": " If you're out rolling scuppers in this tub, you're either incredibly brave or incredibly stupid.",
+    "line_number": 72
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " It's remarkable how often those two traits coincide.",
+    "line_number": 73
+  },
+  {
+    "speaker": "HARBORMASTER",
+    "dialogue": " It's a shilling for the dock space, and you're going to have to give me your name.",
+    "line_number": 74
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " What do you say to three shillings, and we forget the name?",
+    "line_number": 75
+  },
+  {
+    "speaker": "HARBORMASTER",
+    "dialogue": " Welcome to Port Royal, Mr. Smith.",
+    "line_number": 76
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " This dock is off-limits to civilians.",
+    "line_number": 77
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Sorry, I didn't know.",
+    "line_number": 78
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Some sort of to-do up at the fort, eh? You two weren't invited?",
+    "line_number": 79
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " No... someone has to make sure this dock stays off-limits to civilians.",
+    "line_number": 80
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " This must be some important boat.",
+    "line_number": 81
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " Ship.",
+    "line_number": 82
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Ship.",
+    "line_number": 83
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Captain Norrington's made it his flagship. He'll use it to hunt down the last dregs of piracy on the Spanish Lake.",
+    "line_number": 84
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " Commodore.",
+    "line_number": 85
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Right. Commodore Norrington.",
+    "line_number": 86
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That's a fine goal, I'm sure... But it seems to me a ship like that -- -- makes this one here just a wee superfluous.",
+    "line_number": 87
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Oh, the Dauntless is the power in these waters, true enough -- but there's no ship that can match the Interceptor for speed.",
+    "line_number": 88
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That so? I've heard of one, supposed to be fast, nigh uncatchable... the Black Pearl?",
+    "line_number": 89
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " There's no real ship as can match the Interceptor.",
+    "line_number": 90
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " The Black Pearl is a real ship.",
+    "line_number": 91
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " No, it's not.",
+    "line_number": 92
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Yes it is. I've seen it.",
+    "line_number": 93
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " You've seen it?",
+    "line_number": 94
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Yes.",
+    "line_number": 95
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " You've seen the Black Pearl?",
+    "line_number": 96
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Yes.",
+    "line_number": 97
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " You haven't seen it.",
+    "line_number": 98
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Yes, I have.",
+    "line_number": 99
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " You've seen a ship with black sails that's crewed by the damned and captained by a man so evil that hell itself spat him back out?",
+    "line_number": 100
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " ...No.",
+    "line_number": 101
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " No.",
+    "line_number": 102
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " But I've seen a ship with black sails.",
+    "line_number": 103
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " Oh, and no ship that's not crewed by the damned and captained by a man so evil hell itself spat him back out could possibly have black sails and therefore couldn't possibly be any ship other than the Black Pearl. Is that what you're saying?",
+    "line_number": 104
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " ...no.",
+    "line_number": 105
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " Like I said, there's no real ship as can match -- Hey!",
+    "line_number": 106
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " You!",
+    "line_number": 107
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " Get away from there! You don't have permission to be aboard there!",
+    "line_number": 108
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'm sorry. It's just such a pretty boat. Ship.",
+    "line_number": 109
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " What's your name?",
+    "line_number": 110
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Smith.",
+    "line_number": 111
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " What's your business in Port Royal, 'Mr. Smith' ?",
+    "line_number": 112
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " And no lies!",
+    "line_number": 113
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " None? Very well. You've rumbled me. I confess: I intend to commandeer one of these ships, pick up a crew in Tortuga, and go out on the account, do a little honest pirating.",
+    "line_number": 114
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " I said, no lies.",
+    "line_number": 115
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " I think he's telling the truth.",
+    "line_number": 116
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " He's not telling the truth.",
+    "line_number": 117
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " He may be.",
+    "line_number": 118
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " If he were telling the truth he wouldn't have told us.",
+    "line_number": 119
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Unless, of course, he knew you wouldn't believe the truth if he told it to you.",
+    "line_number": 120
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " May I have a moment?",
+    "line_number": 121
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " You look lovely. Elizabeth.",
+    "line_number": 122
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I apologize if I seem forward -- but I must speak my mind. This promotion confirms that I have accomplished the goals I set for myself in my career. But it also casts into sharp relief that which I have not achieved. The thing all men most require: a marriage to a fine woman. You have become a fine woman, Elizabeth.",
+    "line_number": 123
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I can't breathe.",
+    "line_number": 124
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I'm a bit nervous, myself --",
+    "line_number": 125
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Elizabeth!",
+    "line_number": 126
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " ELIZABETH!",
+    "line_number": 127
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " The rocks, sir! It's a miracle she missed them!",
+    "line_number": 128
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Aren't you going to save her?",
+    "line_number": 129
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " I can't swim.",
+    "line_number": 130
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Sailors.",
+    "line_number": 131
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Fine.",
+    "line_number": 132
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Don't lose these.",
+    "line_number": 133
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " Not breathing.",
+    "line_number": 134
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Move.",
+    "line_number": 135
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " I never would have thought of that.",
+    "line_number": 136
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Clearly, you've never been to Singapore.",
+    "line_number": 137
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Where did you get this?",
+    "line_number": 138
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " On your feet.",
+    "line_number": 139
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Elizabeth! Are you all right?",
+    "line_number": 140
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Yes -- yes, I'm fine -- Commodore Norrington, do you intend to kill my rescuer?",
+    "line_number": 141
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I believe thanks are in order.",
+    "line_number": 142
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Had a brush-up with the East India Trading Company, did you... pirate?",
+    "line_number": 143
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Keep your guns on him, men. Gillette, fetch some irons.",
+    "line_number": 144
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Well, well... Jack Sparrow, isn't it?",
+    "line_number": 145
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Captain Jack Sparrow. If you please.",
+    "line_number": 146
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I don't see your ship -- Captain.",
+    "line_number": 147
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " He said he'd come to commandeer one.",
+    "line_number": 148
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " I told you he was telling the truth. These are his, sir.",
+    "line_number": 149
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Extra powder, but no additional shot.",
+    "line_number": 150
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " It doesn't bear true.",
+    "line_number": 151
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I half-expected it to be made of wood.",
+    "line_number": 152
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Taking stock: you've got a pistol with only one shot, a compass that doesn't point north... and no ship. You are without a doubt the worst pirate I have ever heard of.",
+    "line_number": 153
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Ah, but you have heard of me.",
+    "line_number": 154
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Carefully, lieutenant.",
+    "line_number": 155
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Commodore, I must protest. Pirate or not, this man saved my life.",
+    "line_number": 156
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " One good deed is not enough to redeem a man of a lifetime of wickedness.",
+    "line_number": 157
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " But it seems to be enough to condemn him.",
+    "line_number": 158
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Indeed.",
+    "line_number": 159
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Finally.",
+    "line_number": 160
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Commodore Norrington... my pistol and belt, please.",
+    "line_number": 161
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Commodore!",
+    "line_number": 162
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Elizabeth -- it is Elizabeth?",
+    "line_number": 163
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Miss Swann.",
+    "line_number": 164
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Miss Swann, if you'll be so kind?",
+    "line_number": 165
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Now, if you'll be very kind?",
+    "line_number": 166
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You are despicable.",
+    "line_number": 167
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I saved your life; now you've saved mine. We're square.",
+    "line_number": 168
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Gentleman... m' lady... you will always remember this as the day you almost caught Captain Jack Sparrow.",
+    "line_number": 169
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " On his heels! Gillette, bring a squad down from the fort! Elizabeth, are you --",
+    "line_number": 170
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Yes, I'm all right, I'm fine! Go capture him.",
+    "line_number": 171
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Here, dear... you should wear this.",
+    "line_number": 172
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Thank you, Father... and let that be the last of your fashion advice, please.",
+    "line_number": 173
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Right where I left you.",
+    "line_number": 174
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Not where I left you.",
+    "line_number": 175
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You're the one they're hunting. The pirate.",
+    "line_number": 176
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You look familiar... Have I ever threatened you before?",
+    "line_number": 177
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I've made a point of avoiding familiarity with pirates.",
+    "line_number": 178
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Ah. Then it would be a shame to put a black mark on your record. So if you'll excuse me...",
+    "line_number": 179
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Do you think this is wise, boy? Crossing blades with a pirate?",
+    "line_number": 180
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You threatened Miss Swann.",
+    "line_number": 181
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Only a little.",
+    "line_number": 182
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You know what you're doing, I'll give you that... Excellent form... But how's your footwork? If I step here --",
+    "line_number": 183
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Very good! And if I step again, you step again... And so we circle, circle, like dogs we circle...",
+    "line_number": 184
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Ta!",
+    "line_number": 185
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That's a good trick. Except, once again, you are between me and the way out. And now you have no weapon.",
+    "line_number": 186
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Who makes all these?",
+    "line_number": 187
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I do. And I practice with them. At least three hours a day.",
+    "line_number": 188
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You need to find yourself a girl. Or maybe the reason you practice three hours a day is you've found one -- but can't get her?",
+    "line_number": 189
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " No. I practice three hours a day so that when I meet a pirate... I can kill him.",
+    "line_number": 190
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You cheated.",
+    "line_number": 191
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Pirate.",
+    "line_number": 192
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Move away.",
+    "line_number": 193
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " No.",
+    "line_number": 194
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Move!",
+    "line_number": 195
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " No. I can not just step aside and let you escape.",
+    "line_number": 196
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You're lucky, boy -- this shot's not meant for you.",
+    "line_number": 197
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Excellent work, Mister Brown. You've aided in the capture of a dangerous fugitive.",
+    "line_number": 198
+  },
+  {
+    "speaker": "BROWN",
+    "dialogue": " Just doing my civic duty.",
+    "line_number": 199
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I believe you will always remember this as the day Captain Jack Sparrow almost escaped.",
+    "line_number": 200
+  },
+  {
+    "speaker": "BROWN",
+    "dialogue": " That ratter broke my bottle.",
+    "line_number": 201
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Nice and toasty. Thank you, Estrellia.",
+    "line_number": 202
+  },
+  {
+    "speaker": "PRISONER",
+    "dialogue": " Come here, boy... Want a nice, juicy bone?",
+    "line_number": 203
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You can keep doing that forever, that dog's never going to move.",
+    "line_number": 204
+  },
+  {
+    "speaker": "PRISONER",
+    "dialogue": " Excuse us if we ain't resigned ourselves to the gallows just yet.",
+    "line_number": 205
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Has my daughter given you an answer yet?",
+    "line_number": 206
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " No. She hasn't.",
+    "line_number": 207
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Well, she had a taxing day... Ghastly weather tonight.",
+    "line_number": 208
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Bleak. Very bleak.",
+    "line_number": 209
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " What was that?",
+    "line_number": 210
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Cannon fire!",
+    "line_number": 211
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I know those guns!",
+    "line_number": 212
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " It's the Black Pearl.",
+    "line_number": 213
+  },
+  {
+    "speaker": "PRISONER",
+    "dialogue": " The Black Pearl? I've heard stories... she's been preying on ships and settlements for near ten years... and never leaves any survivors.",
+    "line_number": 214
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " There are a lot of stories about the Black Pearl.",
+    "line_number": 215
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Governor! Barricade yourself in my office! That's an order!",
+    "line_number": 216
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " They've flanked us! Men! Swords and pistols!",
+    "line_number": 217
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Up there!",
+    "line_number": 218
+  },
+  {
+    "speaker": "ESTRELLA",
+    "dialogue": " Miss Elizabeth?",
+    "line_number": 219
+  },
+  {
+    "speaker": "ESTRELLA",
+    "dialogue": " Are they come to kidnap you, miss? The daughter of the governor would be very valuable.",
+    "line_number": 220
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Listen, Estrella -- they haven't seen you. Hide, and first chance, run for the fort.",
+    "line_number": 221
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " We know you're here, poppet. Come out and we promise we won't hurt you.",
+    "line_number": 222
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " We will find you, poppet... You've got something of ours, and it calls to us!",
+    "line_number": 223
+  },
+  {
+    "speaker": "PINTEL (O.S.)",
+    "dialogue": " The gold calls to us!",
+    "line_number": 224
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Hello, poppet.",
+    "line_number": 225
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Please, no...",
+    "line_number": 226
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Par... Parlay!",
+    "line_number": 227
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " What?",
+    "line_number": 228
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Parlay! I invoke the right of parlay! According to the Code of the Brethren, set down by the pirates Morgan and Bartholomew, you must take me to your Captain!",
+    "line_number": 229
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " I know the code.",
+    "line_number": 230
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " If an adversary demands parley, you can do them no harm until the parlay is complete.",
+    "line_number": 231
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " It would appear, so do you.",
+    "line_number": 232
+  },
+  {
+    "speaker": "SMOLDERING PIRATE",
+    "dialogue": " To blazes with the code!",
+    "line_number": 233
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " She wants to be taken to the Captain, and she'll go without a fuss.",
+    "line_number": 234
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " We must honor the code.",
+    "line_number": 235
+  },
+  {
+    "speaker": "PRISIONER",
+    "dialogue": " Praise be!",
+    "line_number": 236
+  },
+  {
+    "speaker": "PRISONER",
+    "dialogue": " My sympathies, friend -- you've no manner of luck at all!",
+    "line_number": 237
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " It's all right, doggie... come here, boy. Come here, Spot. Rover. Fido?",
+    "line_number": 238
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " What's the matter, boy?",
+    "line_number": 239
+  },
+  {
+    "speaker": "TWIGG",
+    "dialogue": " This isn't the armory.",
+    "line_number": 240
+  },
+  {
+    "speaker": "KOEHLER",
+    "dialogue": " Well, well... Look what we have here, Twigg. It's Captain Sparrow.",
+    "line_number": 241
+  },
+  {
+    "speaker": "TWIGG",
+    "dialogue": " Huh. Last time I saw you, you were all alone on a God-forsaken island, shrinking into the distance. I'd heard you'd gotten off, but I didn't believe it.",
+    "line_number": 242
+  },
+  {
+    "speaker": "KOEHLER",
+    "dialogue": " Did you sprout little wings and flyaway?",
+    "line_number": 243
+  },
+  {
+    "speaker": "TWIGG",
+    "dialogue": " His fortunes aren't improved much.",
+    "line_number": 244
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Worry about your own fortunes. The lowest circle of hell is reserved for betrayers... and mutineers.",
+    "line_number": 245
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You are cursed.",
+    "line_number": 246
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The stories are true.",
+    "line_number": 247
+  },
+  {
+    "speaker": "KOEHLER",
+    "dialogue": " You know nothing of hell.",
+    "line_number": 248
+  },
+  {
+    "speaker": "BOSUN",
+    "dialogue": " I didn't know we was taking captives.",
+    "line_number": 249
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " She's invoked the right of parlay... with Captain Barbossa.",
+    "line_number": 250
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I am here to --",
+    "line_number": 251
+  },
+  {
+    "speaker": "BOSUN",
+    "dialogue": " You'll speak when spoken to!",
+    "line_number": 252
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " And you'll not lay a hand on those under the protection of parlay!",
+    "line_number": 253
+  },
+  {
+    "speaker": "BOSUN",
+    "dialogue": " Aye, sir.",
+    "line_number": 254
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " My apologies, miss. As you were saying, before you were so rudely interrupted?",
+    "line_number": 255
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Captain Barbossa... I have come to negotiate the cessation of hostilities against Port Royal.",
+    "line_number": 256
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " There was a lot of long words in there, miss, and we're not but humble pirates. What is it you want?",
+    "line_number": 257
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I want you to leave. And never come back.",
+    "line_number": 258
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " I am disinclined to acquiesce to your request. Means 'no.'",
+    "line_number": 259
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Very well.",
+    "line_number": 260
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I'll drop it!",
+    "line_number": 261
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " My holds are bursting with swag. That bit of shine matters to me... Why?",
+    "line_number": 262
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Because it's what you're searching for. You've been searching for it for years. I recognize this ship. I saw it eight years ago, when we made the crossing from England.",
+    "line_number": 263
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Did you, now?",
+    "line_number": 264
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Fine. I suppose if this is worthless, there's no reason to keep it.",
+    "line_number": 265
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " NO!",
+    "line_number": 266
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You have a name, missy?",
+    "line_number": 267
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Elizabeth -- Turner. I'm a maid in the governor's household.",
+    "line_number": 268
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You've got sand, for a maid.",
+    "line_number": 269
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Thank you, sir.",
+    "line_number": 270
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " And how does a maid come to own a trinket such as that? A family heirloom, perhaps?",
+    "line_number": 271
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Of course. I didn't steal it, if that's what you mean.",
+    "line_number": 272
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " No, no, nothing like that. Very well. You hand that over, we'll put your town to our rudder and ne'er return.",
+    "line_number": 273
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Can I trust you?",
+    "line_number": 274
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " It's you who invoked the parlay! Believe me, Miss, you'd best hand it over, now... or these be the last friendly words you'll hear!",
+    "line_number": 275
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Our bargain...?",
+    "line_number": 276
+  },
+  {
+    "speaker": "BOSUN",
+    "dialogue": " Still the guns, and stow 'em! Signal the men, set the flags, and make good to clear port!",
+    "line_number": 277
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Wait! You must return me to shore! According to the rules of the Order of the Brethren --",
+    "line_number": 278
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " First. Your return to shore was not part of our negotiations nor our agreement, and so I 'must' do nothing. Secondly: you must be a pirate for the pirate's code to apply. And you're not. And thirdly... The code is more what you'd call guidelines than actual rules. Welcome aboard the Black Pearl, Miss Turner.",
+    "line_number": 279
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Miss Swann! Elizabeth!",
+    "line_number": 280
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " They've taken her! They've taken Elizabeth!",
+    "line_number": 281
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " We're aware of the situation.",
+    "line_number": 282
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " We have to hunt them down -- and save her!",
+    "line_number": 283
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Where do you propose we start? If you have any information that concerns my daughter, then share it! If anyone does, tell me! Leave, Mr. Turner.",
+    "line_number": 284
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " That Jack Sparrow... he talked about the Black Pearl.",
+    "line_number": 285
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " Mentioned it, is more what he did.",
+    "line_number": 286
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " Still --",
+    "line_number": 287
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " We can ask him where it is -- maybe he can lead us to it!",
+    "line_number": 288
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " That pirate tried to kill my daughter. We could never trust a word he said!",
+    "line_number": 289
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " We could strike a bargain --",
+    "line_number": 290
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " No. The pirates who invaded this fort left Sparrow locked in his cell. Ergo, he is not their ally, and therefore of no value. We will determine their most likely course, and launch a search mission that sails with the tide.",
+    "line_number": 291
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " That's not good enough. This is Elizabeth's life!",
+    "line_number": 292
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Mr. Turner, this is not the time for rash actions. Do not make the mistake of thinking you are the only man here who loves Elizabeth. Now, go home.",
+    "line_number": 293
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Are you familiar with that ship? The Black Pearl?",
+    "line_number": 294
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Somewhat.",
+    "line_number": 295
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Where does it make berth?",
+    "line_number": 296
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Surely you've heard the stories? The Black Pearl sails from the dreaded Isla de Mureta... an island that cannot be found -- except by those who already know where it is.",
+    "line_number": 297
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " The ship's real enough. So its anchorage must be a real place. Where is it?",
+    "line_number": 298
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Why ask me?",
+    "line_number": 299
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Because you're a pirate.",
+    "line_number": 300
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " And you want to turn pirate yourself?",
+    "line_number": 301
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Never. They took Miss Swann.",
+    "line_number": 302
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " So it is that you found a girl. Well, if you're intending to brave all and hasten to her rescue and so win fair lady's heart, you'll have to do it alone. I see no profit in it for me.",
+    "line_number": 303
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I can get you out of here.",
+    "line_number": 304
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " How? The key's run off.",
+    "line_number": 305
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I helped build these cells. Those are hook-and-ring hinges. The proper application of strength, the door'll lift free. Just calls for the right lever and fulcrum...",
+    "line_number": 306
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Your name is Turner.",
+    "line_number": 307
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Yes. Will Turner.",
+    "line_number": 308
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Will Turner... I'll tell you what, Mr. Turner. I've changed my mind. You spring me from this cell, and on pain of death, I'll get you to the Black Pearl. Do we have an accord?",
+    "line_number": 309
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Agreed.",
+    "line_number": 310
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Agreed!",
+    "line_number": 311
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Someone will have heard that. Hurry.",
+    "line_number": 312
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Not without my effects.",
+    "line_number": 313
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " We need to go!",
+    "line_number": 314
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Why are you bothering with that?",
+    "line_number": 315
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " My business, Will. As for your business -- one question, or there's no use going. This girl -- what does she mean to you? How far are you willing to go to save her?",
+    "line_number": 316
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I'd die for her.",
+    "line_number": 317
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Good.",
+    "line_number": 318
+  },
+  {
+    "speaker": "JACK (O.S.)",
+    "dialogue": " Ah, now there's a lovely sight!",
+    "line_number": 319
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I knew the Harbormaster wouldn't report her. Honest men are slaves to their conscience, and there's no predicting 'em. But you can always trust a dishonest man to stay that way...",
+    "line_number": 320
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Come aboard.",
+    "line_number": 321
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I haven't set foot off dry land I was twelve, when the ship I was on exploded. It's been a sound policy.",
+    "line_number": 322
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " No worries there. She's far more likely to rot out from under us.",
+    "line_number": 323
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Besides, we are about to better our prospects considerably.",
+    "line_number": 324
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " We're going to steal a ship? That ship?",
+    "line_number": 325
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Commandeer. We're going to commandeer a ship. Nautical term.",
+    "line_number": 326
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " It's still against the law.",
+    "line_number": 327
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " So's breaking a man out of jail. Face it, Will: you may say you'll never be a pirate, but you're off to a rip-roaring start. My advice -- smile and enjoy it.",
+    "line_number": 328
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " This is either crazy, or brilliant.",
+    "line_number": 329
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Remarkable how often those two traits coincide.",
+    "line_number": 330
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Everybody stay calm. We're taking over the ship!",
+    "line_number": 331
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Aye! Avast!",
+    "line_number": 332
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " You're serious about this.",
+    "line_number": 333
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Dead serious.",
+    "line_number": 334
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " You understand this ship cannot be crewed by only two men. You'll never make it out of the bay.",
+    "line_number": 335
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " We'll see about that.",
+    "line_number": 336
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " Sir, I'll not see any of my men killed or wounded in this foolish enterprise.",
+    "line_number": 337
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Fine by me. We brought you a nice little boat, so you can all get back to shore, safe and sound.",
+    "line_number": 338
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " Agreed. You have the momentary advantage, sir. But I will see you smile from the yard arm sir.",
+    "line_number": 339
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " As likely as not. Will, short up the anchor, we've got ourselves a ship!",
+    "line_number": 340
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " A little help?",
+    "line_number": 341
+  },
+  {
+    "speaker": "MURTOGG",
+    "dialogue": " I can't believe he's doing this.",
+    "line_number": 342
+  },
+  {
+    "speaker": "MULLROY",
+    "dialogue": " You didn't believe he was telling the truth, either.",
+    "line_number": 343
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " Do you have any idea, boy, what you're doing?",
+    "line_number": 344
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " No.",
+    "line_number": 345
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Lookee there, mate! We're underway!",
+    "line_number": 346
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Commodore --",
+    "line_number": 347
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " A moment.",
+    "line_number": 348
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " But --",
+    "line_number": 349
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Please.",
+    "line_number": 350
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " Dammit, man, it appears someone is stealing your ship!",
+    "line_number": 351
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Rash, Turner, too rash.",
+    "line_number": 352
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " That is, without doubt, the worst pirate I have ever seen.",
+    "line_number": 353
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " They're coming!",
+    "line_number": 354
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Search every cabin, every hold, down to the bilges!",
+    "line_number": 355
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Can you swim? Can. You. Swim?",
+    "line_number": 356
+  },
+  {
+    "speaker": "SENTRY",
+    "dialogue": " Of course, sir. Like a fish. I grew up summers living in Dover, with my uncle --",
+    "line_number": 357
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Good.",
+    "line_number": 358
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Sailors! Back to the Interceptor!",
+    "line_number": 359
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Thank you, Commodore, for getting our ship ready to make way! We'd've had a hard time of it by ourselves!",
+    "line_number": 360
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Raise the sails.",
+    "line_number": 361
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " The wind is quarter from astern... by the time we're underway, we'll never catch them.",
+    "line_number": 362
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " We need only to come about, to put them in range of the long nines.",
+    "line_number": 363
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " Hands! Come about! Jackets off the cannons! We are to fire on our own ship?",
+    "line_number": 364
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Better to see it at the bottom of the sea than in the hands of a pirate.",
+    "line_number": 365
+  },
+  {
+    "speaker": "STEERSMAN",
+    "dialogue": " Captain, there's a problem.",
+    "line_number": 366
+  },
+  {
+    "speaker": "STEERSMAN",
+    "dialogue": " He's disabled the rudder chain, sir.",
+    "line_number": 367
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " So it would seem.",
+    "line_number": 368
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " He's got to be the best pirate I've ever seen.",
+    "line_number": 369
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " So it would seem.",
+    "line_number": 370
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " You'll be dining with the Captain, and he requests you wear this.",
+    "line_number": 371
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Tell the captain that I am disinclined to acquiesce to his request.",
+    "line_number": 372
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " He said you say that! He also said if that be the case, you'll be dining with the crew, and you'll be naked.",
+    "line_number": 373
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Fine.",
+    "line_number": 374
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Maid or not, it fits you.",
+    "line_number": 375
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Dare I ask the fate of its previous owner?",
+    "line_number": 376
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Now, none of that. Please dig in.",
+    "line_number": 377
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " No need to stand on ceremony, and no call to impress anyone. You must be hungry.",
+    "line_number": 378
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Try the wine.",
+    "line_number": 379
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " And the apples -- one of those next.",
+    "line_number": 380
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " It's poisoned!",
+    "line_number": 381
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Oh, there would be no sense in killing you, Miss Turner.",
+    "line_number": 382
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Then why aren't you eating?",
+    "line_number": 383
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Would that I could.",
+    "line_number": 384
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Do you not know what this is, then?",
+    "line_number": 385
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " It's a pirate medallion.",
+    "line_number": 386
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " It's a piece of the treasure of Isla de Muerta.",
+    "line_number": 387
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Ah, so you don't know as much as you pretend. Back when Cortes was cutting a great bloody swath through the New World, a high priest gave him all the gold they had, with one condition: that he spare the people's lives. Of course, Cortes being Cortes, he didn't. He'd've made a great pirate, that one.",
+    "line_number": 388
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " So the priest, with his dying breath, called on the power of the blood of his people, and put on the gold a curse. If anyone took so much as a single piece, as he was compelled by greed, by greed he would be consumed.",
+    "line_number": 389
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Within a day of leaving port for Spain, the treasure ship carrying the gold... something went wrong. The ship run aground, every man aboard dead, save one. He survived long enough to hide the gold ashore. Over time, the dark magic of the curse seeped into the place, making it a cursed island. An island of death. Isla de Muerta.",
+    "line_number": 390
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " That's all very interesting, but I hardly believe in ghost stories any more.",
+    "line_number": 391
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You idiot girl! It's no make-believe! My crew and I, we found the gold, and we did more than take one piece, we took it all. Rich men we were and we spent it and traded it and gave it away in exchange for drink and food and pleasant company. But we found out: the drink could not sate us, and the food turned to ashes in our mouths, and no amount of pleasant company could ease our torment. We are cursed men, Miss Turner, condemned, to be forever consumed by our own greed. Gold calls to US, always, and we are driven, always, to find more, and add it to the treasure.",
+    "line_number": 392
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " There is but one way to remove the curse. All of the scattered pieces of the treasure must be restored in full, and the blood repaid. We've recovered every piece -- save for this. And as for the blood... that's what we have you for. And that's why there's no sense in killing you. Yet.",
+    "line_number": 393
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Apple?",
+    "line_number": 394
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " I'm curious -- after killing me, what is it you were planning to do next?",
+    "line_number": 395
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Look! LOOK! The moonlight shows us for what we really are! We are not among the living and so we cannot die --",
+    "line_number": 396
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " -- but neither are we dead! We have all the desires of the living, but cannot satisfy them! Ten years I have been parched of thirst, and unable to quench it! Ten years, I have been starving to death -- and haven't died! And I have not felt anything for ten years... Not the wind on my face, nor the spray of the sea... ...nor the flesh of a woman...",
+    "line_number": 397
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You'd best start believing in ghost stories, Miss Turner. Because now you're in one.",
+    "line_number": 398
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " For a man whose made an industry of avoiding boats, you're a quick study.",
+    "line_number": 399
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I worked passage from England as a cabin boy. After my mother passed, I came out here... looking for my father.",
+    "line_number": 400
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Is that so?",
+    "line_number": 401
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " My father. William Turner?",
+    "line_number": 402
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I'm not a simpleton. At the jail -- it was only after you learned my name that you agreed to help. Since that's what I wanted, I didn't press the matter. But now -- accusation you knew my father.",
+    "line_number": 403
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I knew him. Probably one of the few who knew him as William Turner. Most everyone just called him Bill, or 'Bootstrap' Bill.",
+    "line_number": 404
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " 'Bootstrap?'",
+    "line_number": 405
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Good man. Good pirate. And clever. I never met anyone with as clever a mind and hands as him. When you were puzzling out that cell door, it was like seeing his twin.",
+    "line_number": 406
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " That's not true.",
+    "line_number": 407
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I swear, you look just like him.",
+    "line_number": 408
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " It's not true that my father was a pirate.",
+    "line_number": 409
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Figured you wouldn't want to hear it.",
+    "line_number": 410
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " He was a merchant marine! He was a respectable man who obeyed the law, and followed the rules--",
+    "line_number": 411
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You think your father is the only man who ever lived the Glasgow life, telling folk one thing, and then going off to do another? There's quite a few who come here, hoping to amass enough swag to ease the burdens of respectable life. And they're all 'merchant marines.'",
+    "line_number": 412
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " My father did not think of my mother -- his family -- as a burden.",
+    "line_number": 413
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Sure -- because he could always go pirating.",
+    "line_number": 414
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " My father -- was not -- a pirate!",
+    "line_number": 415
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Put it away, Will. It's not worth getting beat again.",
+    "line_number": 416
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You didn't beat me. You ignored the rules of engagement. In a fair fight, I'd kill you.",
+    "line_number": 417
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Then that's not much incentive for me to fight fair, is it?",
+    "line_number": 418
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " As long as you're just hanging there, pay attention. Must, Should, do, don't, shall, shall not -- those are just suggestions. There are only two absolute rules. What a man can do. And what a man can't do.",
+    "line_number": 419
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " For instance: you can accept that your father was a pirate and still a good man... or you can't. Now me, I can sail this ship to Tortuga, by myself... But I can't just let you drown.",
+    "line_number": 420
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Tortuga?",
+    "line_number": 421
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Oh -- did I forget to mention that?",
+    "line_number": 422
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " We need a crew. We can manage the ship between islands, but the open sea, that's another matter --",
+    "line_number": 423
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Just do it quickly.",
+    "line_number": 424
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Don't worry. I've already got my Quartermaster -- there!",
+    "line_number": 425
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " You stole my boat.",
+    "line_number": 426
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " AnaMaria! Have you seen Gibbs? I need to put together --",
+    "line_number": 427
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Borrowed. Borrowed your boat. Without permission.",
+    "line_number": 428
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " My dory. The Jolly Mon. Where is it?",
+    "line_number": 429
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Safe! At Port Royal. With the Royal Navy.",
+    "line_number": 430
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " That boat is my livelihood!",
+    "line_number": 431
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You'll get it back. Or one better.",
+    "line_number": 432
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " I will.",
+    "line_number": 433
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Jack! Over here!",
+    "line_number": 434
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " He knows Gibbs.",
+    "line_number": 435
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Curse you for breathing, you slack- jawed idiot Mother's love, Jack, you know better than to wake a man when he's sleeping. It's bad luck!",
+    "line_number": 436
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Well, fortunately, I know how to counter it. The man who did the waking buys the man who was sleeping a drink, and the man who was sleeping it drinks it while listening to a proposition.",
+    "line_number": 437
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Aye, that'll about do it.",
+    "line_number": 438
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Blast it, I'm already awake!",
+    "line_number": 439
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I know. That was for the smell.",
+    "line_number": 440
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Just the one.",
+    "line_number": 441
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Make it last, then. Now, what's the nature of this venture of yours?",
+    "line_number": 442
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " First -- have you found me a crew?",
+    "line_number": 443
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Oh, there's a hard tale, Jack. Most of the decent pirates in town won't sail with you -- seem to think you're a jinx.",
+    "line_number": 444
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Now where, I wonder, would they have gotten that idea?",
+    "line_number": 445
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'm going after the Black Pearl.",
+    "line_number": 446
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Say again?",
+    "line_number": 447
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'm going after the Black Pearl. I know where its going to be, and I'm going to take it.",
+    "line_number": 448
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Jack, it's a fool's errand: You've heard the tales they tell about the Pearl.",
+    "line_number": 449
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Aye, and that's why I know where it's going to be, and that's why I know what Barbossa is up to. All I need is a crew.",
+    "line_number": 450
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " A fool's errand.",
+    "line_number": 451
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Not if the fool has something Barbossa wants. Something he needs.",
+    "line_number": 452
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " And you've got that, have you?",
+    "line_number": 453
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Back there, guarding the door is the son of old Bootstrap Bill Turner.",
+    "line_number": 454
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Well, lookee there. I'll allow you may be onto something, Jack. There's bound to be sailors on this rock crazy as you. I'll find some men.",
+    "line_number": 455
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Kid's a bit of a stick, isn't he?",
+    "line_number": 456
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That he is.",
+    "line_number": 457
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Feast your eyes, Cap'n. All of 'em good sea-faring men, faithful hands before the mast, every one worth his salt -- -- and crazy, to boot.",
+    "line_number": 458
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " You owe me a boat.",
+    "line_number": 459
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Cotton here is mute, sir. Poor devil had his tongue cut out --",
+    "line_number": 460
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " -- so he went and trained the parrot to do the talking for him, nobody knows how. Nobody knows the parrot's name, neither, so we just call it 'Cotton's parrot.'",
+    "line_number": 461
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Mr. Cotton. Do you have the courage and fortitude to follow orders and stay true, in the face danger, and almost certain death?",
+    "line_number": 462
+  },
+  {
+    "speaker": "COTTON'S PARROT",
+    "dialogue": " Wind in your SAILS! Wind in your SAILS!",
+    "line_number": 463
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Mostly, that seem to mean 'yes.'",
+    "line_number": 464
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That goes for the rest of you! Danger and near certain death. For we are to sail for the Isla de Muerta, to rescue the daughter of Governor Swann. An equal share of the reward shall be --",
+    "line_number": 465
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Shut up, before you lose them all!",
+    "line_number": 466
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " These are the only ones worth having. And we're going to need them --",
+    "line_number": 467
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " That fool will have us lose the canvas, and the masts besides!",
+    "line_number": 468
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " We'd best drop canvas, sir!",
+    "line_number": 469
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " She can hold a bit longer.",
+    "line_number": 470
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " What's in your head to put you in such a fine mood?",
+    "line_number": 471
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " We're catching up!",
+    "line_number": 472
+  },
+  {
+    "speaker": "TWIGG",
+    "dialogue": " Isla de Muerta! Isla de Muerta, off the port bow!",
+    "line_number": 473
+  },
+  {
+    "speaker": "JACOBY",
+    "dialogue": " Orders, Captain?",
+    "line_number": 474
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Bring her in, not too close. I won't brave the reef, not until high tide. We lay anchor before dark.",
+    "line_number": 475
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " ...that is, if it first doesn't sink back down to hell from where it came.",
+    "line_number": 476
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Bear three points starboard.",
+    "line_number": 477
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Six points port!",
+    "line_number": 478
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Left handed-ropes are coiled against the sun, or it's bad luck! Anty-clockwise.",
+    "line_number": 479
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " How do we expect to find an island no one can find -- with a compass that doesn't work?",
+    "line_number": 480
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Now, lad, just because it don't point north don't mean it don't work. That compass gives bearings to the Isla de Muerta, wherever it may lie.",
+    "line_number": 481
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Really? So... what's the story on the pistol?",
+    "line_number": 482
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " I'll tell you. Now, Jack Sparrow has an honest streak in him, and that's where the whole problem starts. This was when he was Captain of the Black Pearl --",
+    "line_number": 483
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " What? He never told me that.",
+    "line_number": 484
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Ah -- he's learned, then. Plays things more close to the vest. See, Jack was a cartographer, back in Old England. Somehow he came by the money to commission the Pearl. Hired himself a crew, promised each man an equal share. So, they're forty days out, and the First Mate says, everything's an equal share, that should mean the location of the island, too. So Jack gave up the bearings. That night, there was mutiny.",
+    "line_number": 485
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Jack gave hisself up for the sake of his loyal crewmen. He was marooned on an island, left there to die.",
+    "line_number": 486
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " How did he get off the island?",
+    "line_number": 487
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I didn't!",
+    "line_number": 488
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " My body's still there, rotting away, and I am but a ghost!",
+    "line_number": 489
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " How did you get off the island?",
+    "line_number": 490
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Ah, that's a dark and unpleasant tale, best left untold.",
+    "line_number": 491
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Wait -- what about the pistol?",
+    "line_number": 492
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The pistol. When a pirate is marooned, Will, he's given a pistol with a single shot. No good for hunting, or surviving, really. But after three weeks of starvation and thirst -- the option of that pistol begins to look good.",
+    "line_number": 493
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " But I survived. And I still have that single shot. It's meant for one man. My mutinous first mate --",
+    "line_number": 494
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Barbossa.",
+    "line_number": 495
+  },
+  {
+    "speaker": "KOEHLER",
+    "dialogue": " Moonrise, Captain! First night of full.",
+    "line_number": 496
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Hah! Be mindful of pits and crevasses. Stay together.",
+    "line_number": 497
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Careful, mate. Fall down there, you'd die and miss Judgement Day -- for not even the Lord himself'll come look for you here.",
+    "line_number": 498
+  },
+  {
+    "speaker": "COTTON'S PARROT",
+    "dialogue": " Land HO! Land HO! LAND ho! LAND ho!",
+    "line_number": 499
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " How does he do that?",
+    "line_number": 500
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " They'll be anchored on the lee side. Haul your wind, and keep to the weather of the island --",
+    "line_number": 501
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " The curse drove you to gather this?",
+    "line_number": 502
+  },
+  {
+    "speaker": "BARBOSSA (O.S.)",
+    "dialogue": " Aye. And not a bit of it any use to us, only hoarded. But it will drive us no longer.",
+    "line_number": 503
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " What's that?",
+    "line_number": 504
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Depends.",
+    "line_number": 505
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " On what?",
+    "line_number": 506
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " On whether the stories are all true. If they are, that's a waterfall that spills over at high tide, with a short drop to an underground lagoon. If not --",
+    "line_number": 507
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " -- well, too late.",
+    "line_number": 508
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Chalk one up for the stories.",
+    "line_number": 509
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Here we stand before the cursed treasure of Cortez himself. Won by blood, it demands blood in return.",
+    "line_number": 510
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " What did you expect? We're all gentlemen here, right and proper.",
+    "line_number": 511
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You know the first thing I'm going to do after the curse is lifted? Eat a whole bushel of apples.",
+    "line_number": 512
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " What was begun by blood, let blood now end!",
+    "line_number": 513
+  },
+  {
+    "speaker": "KOEHLER",
+    "dialogue": " Did it work?",
+    "line_number": 514
+  },
+  {
+    "speaker": "DEADEYE",
+    "dialogue": " I don't feel no different.",
+    "line_number": 515
+  },
+  {
+    "speaker": "JACOBY",
+    "dialogue": " How do we tell?",
+    "line_number": 516
+  },
+  {
+    "speaker": "KOEHLER",
+    "dialogue": " You're not dead.",
+    "line_number": 517
+  },
+  {
+    "speaker": "JACOBY",
+    "dialogue": " No. He shot me!",
+    "line_number": 518
+  },
+  {
+    "speaker": "TWIGG",
+    "dialogue": " It didn't work! The curse is still upon us!",
+    "line_number": 519
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You. Maid. Your father. What was his name?! Was your father William Turner?!",
+    "line_number": 520
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " No.",
+    "line_number": 521
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Where's his child? The child that sailed from England eight years ago, the child who is the real owner of that medallion, the child in whose veins flows the blood of William Turner?! Where?",
+    "line_number": 522
+  },
+  {
+    "speaker": "JACOBY",
+    "dialogue": " You brought us the wrong person!",
+    "line_number": 523
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " She had the medallion! She's the right age. She said her name was Turner!",
+    "line_number": 524
+  },
+  {
+    "speaker": "TWIGG",
+    "dialogue": " You brought us here for nothing?",
+    "line_number": 525
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " If you had sailed with Morgan for ten years like I have, you'd know not to question me!",
+    "line_number": 526
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " If any coward here dare challenge me, let him speak! Any more talk, I'll chain ye to a cannon and send ye to the watery depths!",
+    "line_number": 527
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You?!",
+    "line_number": 528
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Me!",
+    "line_number": 529
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You're in league with Barbossa!",
+    "line_number": 530
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " No, I'm -- rescuing you.",
+    "line_number": 531
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You?!",
+    "line_number": 532
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Miss Swann! We're here to rescue you! It's going badly!",
+    "line_number": 533
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " This way!",
+    "line_number": 534
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I'm glad we got here in time.",
+    "line_number": 535
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Truthfully -- you were a bit late.",
+    "line_number": 536
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The trick isn't getting here, it's getting away.",
+    "line_number": 537
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Come on!",
+    "line_number": 538
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " No. This won't work. I'll stay behind, and fight them. You go on.",
+    "line_number": 539
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " No.",
+    "line_number": 540
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'll lead them away.",
+    "line_number": 541
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Go to the opposite end of the island, and signal the ship. I'll keep 'em busy.",
+    "line_number": 542
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Are you sure? Jack -- this is not something you have to do.",
+    "line_number": 543
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'm sure. When you've led the kind of life I have, there are debts that must be paid. Maybe I can balance the scales a little.",
+    "line_number": 544
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I invoke the right of parlay, according to the Code of the Brethren, set down by the pirates Morgan and Bartholomew...",
+    "line_number": 545
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " I'm inclined to kill you now, Jack Sparrow, without so much as a word, if you don't lose that grin from your face.",
+    "line_number": 546
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The woman's blood didn't work, did it?",
+    "line_number": 547
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I know who's blood you need, to end the curse.",
+    "line_number": 548
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Say the name, or I slit your throat.",
+    "line_number": 549
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " No you won't.",
+    "line_number": 550
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Now?",
+    "line_number": 551
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Now. No, don't kill him.",
+    "line_number": 552
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Allow me the humor of listening to your terms.",
+    "line_number": 553
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Simple. I have something you want more than anything. The way to free you from the curse of the treasure. You have something I want -- more than anything.",
+    "line_number": 554
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " The Pearl? Oh, that's fine. And just how do you expect this to work?",
+    "line_number": 555
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You give me the Pearl. Then I tell you who you need.",
+    "line_number": 556
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " That's your offer? You, sailing away nice and pretty with the Black Pearl, and all I have is a name?",
+    "line_number": 557
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That's right.",
+    "line_number": 558
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " I'm supposed to... trust you?",
+    "line_number": 559
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'm a man of my word.",
+    "line_number": 560
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You see, I've got this honest streak in me -- in its own way, a sort of curse. Oh, and there's the fact that you have no choice.",
+    "line_number": 561
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " I'll torture it out of you.",
+    "line_number": 562
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You left me on a desert island -- what worse can you do?",
+    "line_number": 563
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Blast you! I'll throw you in prison.",
+    "line_number": 564
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Wait as long as you like.",
+    "line_number": 565
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You're setting me up for a double cross, you with the ship, and me with nothing more than your word!",
+    "line_number": 566
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Let's say I tell you the wrong person. What would you do?",
+    "line_number": 567
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Track you down and --",
+    "line_number": 568
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " And if I tell you the truth, you become mortal, and you won't come near me because you know I'd kill you.",
+    "line_number": 569
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Jack, I don't trust you, and that's a fact. Never trust a smiling man, you can lay to that.",
+    "line_number": 570
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " See, that's where we're different. I trust you... to do what it takes to get what you want.",
+    "line_number": 571
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You're playing this as close to the edge as any man, I'll give you that. We might just have to sign articles, you and I. Jack, you're a pirate at heart, that's certain.",
+    "line_number": 572
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Pintel... set sail. If this fool plan is to work, we'll need the medallion, and that means catching the ship which brought 'em here.",
+    "line_number": 573
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " What -- you don't have the medallion?",
+    "line_number": 574
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " That fool woman took it. You be careful around her, Jack -- she's pretty enough, she'll steal your heart -- but pure evil inside.",
+    "line_number": 575
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'll watch my back.",
+    "line_number": 576
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Bosun! Set up Mr. Sparrow's quarters, nice and fine... in the brig. Meaning no disrespect, of course.",
+    "line_number": 577
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Two women on board? A man don't have to be superstitious to know that's trouble.",
+    "line_number": 578
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " ...you were in danger... so I took the medallion. And I've kept it ever since. They thought I was you, that they needed my blood. And it didn't work.",
+    "line_number": 579
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Why would my father send this to me?",
+    "line_number": 580
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " To keep it away from them? No pirate would sail to London, for fear of Execution Dock.",
+    "line_number": 581
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " If I had known --",
+    "line_number": 582
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " -- then we never would have met.",
+    "line_number": 583
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " I can't believe he would make such a sacrifice for us.",
+    "line_number": 584
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I guess you can never truly know someone else's heart.",
+    "line_number": 585
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Shift your heading, steer clear of that island. Fifteen degrees starboard.",
+    "line_number": 586
+  },
+  {
+    "speaker": "COTTON'S PARROT",
+    "dialogue": " Dead men tell NO tales! Dead men tell NO tales! Dead men tell NO tales!",
+    "line_number": 587
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " Can we outrun them?",
+    "line_number": 588
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Not a chance. Make for the reef.",
+    "line_number": 589
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " What's he doing? Is he going to run her aground?",
+    "line_number": 590
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Drop the forward anchor!",
+    "line_number": 591
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " All hands! Prepare to come about!",
+    "line_number": 592
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Don't hit my ship! I mean, kill the lying scoundrel -- I'm a little conflicted, here.",
+    "line_number": 593
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Strike your colors, you bloody cockroaches!",
+    "line_number": 594
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " Looks like they mean to send us under.",
+    "line_number": 595
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " There -- she's raised the Jolly Roger, upside down.",
+    "line_number": 596
+  },
+  {
+    "speaker": "GIBBS (CONT 'D)",
+    "dialogue": " It's a signal. If we resist, it won't just be death. There'll be torture as well.",
+    "line_number": 597
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " We're not going to just surrender!",
+    "line_number": 598
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " That we are.",
+    "line_number": 599
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " We can at least fight -- we might be able to kill a few --",
+    "line_number": 600
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Will -- it'll go worse for us -- for Elizabeth, especially -- if we fight.",
+    "line_number": 601
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Welcome back, Miss. Last time on board, you played me right clever, make pretending and all. I hope your stay this time is more pleasant. Boys, show her some hospitality!",
+    "line_number": 602
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " She goes free!",
+    "line_number": 603
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " What's in your head, boy?",
+    "line_number": 604
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " She. Goes. Free.",
+    "line_number": 605
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You've got one shot -- and we can't die.",
+    "line_number": 606
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You can't. I can.",
+    "line_number": 607
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " No!",
+    "line_number": 608
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Will -- don't do anything stupid! Don't say anything stupid --",
+    "line_number": 609
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " My name is Will Turner, the son of Bootstrap Bill Turner. His blood runs in my veins. You need my blood. And on my word I will pull this trigger, and sink all the way down to Davy Jones' Locker!",
+    "line_number": 610
+  },
+  {
+    "speaker": "TWIGG",
+    "dialogue": " It's true -- he's the spittin' image of old Bootstrap. Even talks the same!",
+    "line_number": 611
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Looks like you're back to having nothing to offer.",
+    "line_number": 612
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " And he's got Old Bill's courage. A curse on him, and you!",
+    "line_number": 613
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Enough of that! Name your terms.",
+    "line_number": 614
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Elizabeth goes free!",
+    "line_number": 615
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " We got that part. Anything else?",
+    "line_number": 616
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " And Jack. And the crew. Free and unharmed. If you agree... then... I will remain with you.",
+    "line_number": 617
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Agreed. You have my word, as a gentleman of fortune --",
+    "line_number": 618
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Will -- you can't trust him.",
+    "line_number": 619
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You must swear by the Holy Bible.",
+    "line_number": 620
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Eh? You have my word, then -- on the Good Book, I do swear, and the Lord spare my worthless soul.",
+    "line_number": 621
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Boatswain! Take your captives below decks. Chain them in the galley, and teach 'em how to row.",
+    "line_number": 622
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Hah. Look there. That's the very same island we made Jack governor of on our last trip. When you sail the open sea as long as I, you learn to trust the signs fate sends your way.",
+    "line_number": 623
+  },
+  {
+    "speaker": "GIBBS",
+    "dialogue": " Amen to that...",
+    "line_number": 624
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Jack, Elizabeth... I'm a man of my word and you're to be set free, right quick. Men, break out the plank!",
+    "line_number": 625
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " No! You gave your word!",
+    "line_number": 626
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Quiet, boy, or you'll lose your tongue. Those as know me know I wouldn't cross my word, and bring down bad luck on the ship. I agreed to set them free. I didn't say when... nor where.",
+    "line_number": 627
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " It's pure evil to make a Captain walk the plank of his own ship, twice in one lifetime. No good can come of it.",
+    "line_number": 628
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Now, Jack. That reef is less than a league distant. It's a square deal all around, and you can't hope for better.",
+    "line_number": 629
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Someone needs to cut these bonds, then.",
+    "line_number": 630
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You'd best take a swim, Jack.",
+    "line_number": 631
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The last time you did this, you left me a pistol, with one shot.",
+    "line_number": 632
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " That's proper, sir, according to the code.",
+    "line_number": 633
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " By the Powers, you're right! Where's Jack's pistol? Who's got it? Bring it forward!",
+    "line_number": 634
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " A gentleman might give us two pistols, seeing as there are two of us, this time.",
+    "line_number": 635
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Tell you what. I'll give you one pistol, and let you be the gentleman, an' shoot the lady, and starve to death yourself! That is, presuming you're not both drownded.",
+    "line_number": 636
+  },
+  {
+    "speaker": "BARBOSSA (CONTID)",
+    "dialogue": " So how did you get off that island, anyway?",
+    "line_number": 637
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You can go to your grave not knowing.",
+    "line_number": 638
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " That's fair.",
+    "line_number": 639
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " The lady's next. But first, I'll be wanting that dress back, if you please.",
+    "line_number": 640
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Here -- it will go well with your black heart !",
+    "line_number": 641
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I will not walk into the ocean. You'll have to throw me in!",
+    "line_number": 642
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Have at her, lads!",
+    "line_number": 643
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You went back for that? We need to head for the reef!",
+    "line_number": 644
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That's the second time I've had to watch that man sail away with my ship.",
+    "line_number": 645
+  },
+  {
+    "speaker": "JACK (O.S.)",
+    "dialogue": " Not all that big, is it?",
+    "line_number": 646
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Has it changed since the last time you were here?",
+    "line_number": 647
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The trees are taller.",
+    "line_number": 648
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " I hope you have no intention of using that.",
+    "line_number": 649
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Not yet. Ask me again in a few weeks.",
+    "line_number": 650
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Captain Sparrow! We have to get off this island -- immediately!",
+    "line_number": 651
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Don't be thinking I'm not already working on it.",
+    "line_number": 652
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " What is that? Is there a boat under there?",
+    "line_number": 653
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " What? What's wrong? How will this help us get off the island?",
+    "line_number": 654
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " It won't. It won't, and so we won't.",
+    "line_number": 655
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " But... you did it before! Last time --",
+    "line_number": 656
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Last time, I was here a grand total of three days. Last time, the rumrunners who used this island as a cache came by, and I bartered passage off.",
+    "line_number": 657
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " But from the looks of this, they've long been out of business, and so that won't be happening again. We probably have your friend Norrington to thank for that.",
+    "line_number": 658
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " So that's it? That's the secret grand adventure of the infamous Jack Sparrow? You spent three days on the beach drinking rum?",
+    "line_number": 659
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Welcome to the Caribbean, love.",
+    "line_number": 660
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You should look at our contretemps this way: we've got shade trees, thank the Lord. We've got some food on the trees, thank the Lord again. And we've got rum, praise the Lord. We can stay alive a month, maybe more. Keep a weather eye open for passing ships, and our chances are fair.",
+    "line_number": 661
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " A month? Will doesn't have a month! We've got to do something to help him!",
+    "line_number": 662
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You're right. Here's luck to you, Will Turner.",
+    "line_number": 663
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Don't be thinking I'm happy about this, Elizabeth. But I see no use in wailing and gnashing my teeth over that which I can do nothing about.",
+    "line_number": 664
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Not when you can drink instead, at least.",
+    "line_number": 665
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Try it. It goes down rough, but it goes down -- and the second swig goes down easier.",
+    "line_number": 666
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " And you will call me Miss Swann.",
+    "line_number": 667
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Drink up me hearties, yo ho...",
+    "line_number": 668
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " What? What was that? Something funny, Miss Swann? share. PLEASE.",
+    "line_number": 669
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Nothing... it's nothing. Just... I'm reminded of a song I learned as a child. A song about pirates.",
+    "line_number": 670
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I know a lot of songs about pirates, but none I'd teach a child. Let's hear it.",
+    "line_number": 671
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Oh, no... it's silly. Back in England we didn't know a thing about pirates, really. They seemed so romantic and daring --",
+    "line_number": 672
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " That was before I met one, of course.",
+    "line_number": 673
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Now I must hear this song. An authentic pirate song. Have at it.",
+    "line_number": 674
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Well, perhaps... with a bit more to drink, I might...",
+    "line_number": 675
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " More to drink!",
+    "line_number": 676
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Well?",
+    "line_number": 677
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " We pillage, we plunder, we rifle, we loot, Drink up me hearties, yo ho.",
+    "line_number": 678
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " We kidnap and ravage and we don't give a hoot, Drink up me hearties, yo ho --",
+    "line_number": 679
+  },
+  {
+    "speaker": "JACK / ELIZABETH",
+    "dialogue": " Yo ho, yo ho, a pirate's life for me! Yo ho, yo ho, it's a pirates life for me!",
+    "line_number": 680
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I LOVE this song! Yo ho, yo ho, a pirate's life for me! We're beggars and blighters, ne'er do well cads, Drink up me hearties, yo ho! Aye but we're loved by our mums and our dads. Drink up me hearties, yo ho!",
+    "line_number": 681
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " When I get the Black Pearl back, I'm going to teach it to the whole crew, and we'll sing it all the time!",
+    "line_number": 682
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You'll be positively the most fearsome pirates to sail the Spanish Main.",
+    "line_number": 683
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Not just the Spanish Main. The whole ocean... the whole world. Wherever we want to go, we go. That's what a ship is, you know. Not just a keel and a hull and a deck and sails. That's what a ship need... but what a ship is -- what the Black Pearl really is... is freedom.",
+    "line_number": 684
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Jack, it must be so terrible for you, to be trapped here on this island, all over again.",
+    "line_number": 685
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Ah, well... the company is better than last time. And the scenery has definitely improved.",
+    "line_number": 686
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Mr. Sparrow! I'm not sure I've had enough rum to allow that kind of talk.",
+    "line_number": 687
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " We've got a few bottles left... and we've yet to tap the kegs.",
+    "line_number": 688
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " To freedom.",
+    "line_number": 689
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " To the Black Pearl.",
+    "line_number": 690
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " What are you doing? You've burned our food, the shade -- the rum!",
+    "line_number": 691
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Yes, the rum is gone.",
+    "line_number": 692
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Why?",
+    "line_number": 693
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " One, because it is a vile drink that turns even the most respectable men into scoundrels. Two --",
+    "line_number": 694
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " That signal is over a thousand feet high, which means it can be seen for two hundred leagues in every direction.",
+    "line_number": 695
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You -- you burned up the island, for a one-time chance at being spotted?",
+    "line_number": 696
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Exactly.",
+    "line_number": 697
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Just you wait, Captain. In an hour, maybe two, keep a 'weather eye open' and you'll be seeing white sails on that horizon!",
+    "line_number": 698
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " They'll be no living with her after this.",
+    "line_number": 699
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Elizabeth, I'm relieved you're safe. Clap him in irons. And behind his back this time.",
+    "line_number": 700
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Commodore, you can't do that!",
+    "line_number": 701
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " You're speaking up for him again?",
+    "line_number": 702
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " He can locate Isla de Muerta -- but I doubt he'll be willing to help us from the brig.",
+    "line_number": 703
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " We had time to get to know each other.",
+    "line_number": 704
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " We are bound for Port Royal, not Isla de Muerta.",
+    "line_number": 705
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " No. The pirates have taken Will --",
+    "line_number": 706
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Your father is frantic with worry. Our mission was to rescue you and return home. That is what we shall do. Mr. Turner's fate is regrettable. But so was his decision to engage in piracy.",
+    "line_number": 707
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Commodore, please!",
+    "line_number": 708
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Norrington, think about it... the Black Pearl, its captain and crew... the last pirate threat in the Caribbean. How can you pass that up?",
+    "line_number": 709
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " By remembering that I serve others, not only myself.",
+    "line_number": 710
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Commodore, I beg you -- please do this... for me. As a wedding gift.",
+    "line_number": 711
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I am to understand that you will accept my marriage proposal on the condition I rescue Mr. Turner?",
+    "line_number": 712
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Not as a condition -- a request.",
+    "line_number": 713
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Free Mister Sparrow, and prepare to come about. He'll give you our heading.",
+    "line_number": 714
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Congratulations, sir.",
+    "line_number": 715
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Elizabeth, I hereby withdraw my proposal.",
+    "line_number": 716
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " What?",
+    "line_number": 717
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I know now where your heart truly lies.",
+    "line_number": 718
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " And now I know... where yours does, as well.",
+    "line_number": 719
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " You may seclude yourself in my cabin. I'm afraid we do not have any ladies' clothing aboard.",
+    "line_number": 720
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Then I can wear men's clothing.",
+    "line_number": 721
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " That would hardly be proper.",
+    "line_number": 722
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Well, I am not going to stay hidden in a some cabin. I suppose it's going to be heaving bosoms and bare ankles for the remainder of the voyage!",
+    "line_number": 723
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Murtogg, take our guest below, and find her some trousers, and a shirt.",
+    "line_number": 724
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " That ain't going to work. That's the gun deck above yea.",
+    "line_number": 725
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " What happened to William Turner?",
+    "line_number": 726
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Ah, William Turner. Stupid blighter. He threw in with us after we relieved Jack Sparrow of his captaincy, but turned out, it never sat well with him particularly after we found Cortes' treasure, and its peculiar condition. He thought we deserved to be cursed, for leaving ol' Jack to the fate we did. That's why he sent off a piece of the treasure -- to you, as it were: so it would never be recovered, and so cursed we remain.",
+    "line_number": 727
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " And then he ran. And he's hiding out someplace where you haven't been able to find him.",
+    "line_number": 728
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " That's a nice thought, to be sure, and I wager your da wishes he'd thought it hisself. But, no. See, what he'd done, didn't sit too well with Captain Barbossa... so he chained a cannon to his legs and dumped him over.",
+    "line_number": 729
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Yep, last I saw of Bootstrap Bill, was his face looking up, as he sank down to the crushing black oblivion of Davy Jones' locker. It was only after, we found out we needed his blood to solve the curse. That's what you call ironic.",
+    "line_number": 730
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Bring him.",
+    "line_number": 731
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You didn't tell Commodore Norrington everything.",
+    "line_number": 732
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Nor did you, I noticed.",
+    "line_number": 733
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " He might delay the rescue... and that would be too late.",
+    "line_number": 734
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Exactly.",
+    "line_number": 735
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " These men will be facing an enemy that seemingly cannot be killed.",
+    "line_number": 736
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I have a plan. If it succeeds, then any battle will be decidedly brief... and one-sided.",
+    "line_number": 737
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " What's your plan?",
+    "line_number": 738
+  },
+  {
+    "speaker": "LOOKOUT (O.S.)",
+    "dialogue": " LAND HO!",
+    "line_number": 739
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Elizabeth -- below decks. I will not compromise your safety.",
+    "line_number": 740
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Lieutenant, escort Elizabeth to my quarters, and make sure she stays there.",
+    "line_number": 741
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I don't like the situation, mister Sparrow. The island is riddled with caves. I will not put my men at a disadvantage.",
+    "line_number": 742
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Funny, I was thinking along those lines. How about you let me go in alone, and while you're setting up an ambush, I'll trick the pirates out to you.",
+    "line_number": 743
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " You would do that?",
+    "line_number": 744
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " They left me stranded. Twice. What have you got to lose?",
+    "line_number": 745
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Nothing I wouldn't be pleased to be rid of.",
+    "line_number": 746
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I knew you'd listen to reason!",
+    "line_number": 747
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " That chart I drew up'll get you past the reefs. If you're steersman's good enough, that is.",
+    "line_number": 748
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I'll be at the wheel myself.",
+    "line_number": 749
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I'll slip in, talk them into to coming out, and you'll be free to blow holy high heaven the whole lot of them.",
+    "line_number": 750
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " No reason to fret. It's just a prick of the finger and a few drops of blood.",
+    "line_number": 751
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Turner blood doesn't flow pure in his veins. Best play it safe, and spill it all.",
+    "line_number": 752
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " I guess there is a reason to fret.",
+    "line_number": 753
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Careful, now. You could fall in and still be wonder'n when you'll hit dirt.",
+    "line_number": 754
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You deserve to be cursed -- and remain cursed!",
+    "line_number": 755
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Blast him! A pox on him, and his father, and the whole damnable line! Fan out! Find him!",
+    "line_number": 756
+  },
+  {
+    "speaker": "COTTON'S PARROT",
+    "dialogue": " Drink UP me hearties yo ho! Drink UP me hearties yo ho!",
+    "line_number": 757
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Do you have any idea where you're going?",
+    "line_number": 758
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Jack!",
+    "line_number": 759
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Don't talk. These caves magnify sound. Just follow me.",
+    "line_number": 760
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Are you certain this is the right way?",
+    "line_number": 761
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " It's the right way.",
+    "line_number": 762
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Thank you, Jack Sparrow.",
+    "line_number": 763
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You couldn't have led him back more directly if you knew exactly where you were going.",
+    "line_number": 764
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You did know where you were going! You did lead us directly to them! Why?",
+    "line_number": 765
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " What was begun by blood, let blood now end!",
+    "line_number": 766
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You don't want to be doing that.",
+    "line_number": 767
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " No, I really think I do.",
+    "line_number": 768
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " All right then.",
+    "line_number": 769
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Why don't I want to do this?",
+    "line_number": 770
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Because, right about now, the H.M.S. Dauntless is lying in wait in the harbor.",
+    "line_number": 771
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Jack!",
+    "line_number": 772
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " -- and its guns and crew will cut you and your men to pieces the moment you step outside these caves.",
+    "line_number": 773
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Do you believe him?",
+    "line_number": 774
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " No. But him I believe. He is genuinely angry.",
+    "line_number": 775
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " You've no hope of surviving Norrington's attack... that is, if you're mortal.",
+    "line_number": 776
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " What're you suggesting?",
+    "line_number": 777
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Simple. Don't kill the boy yet. Wait for a more opportune moment.",
+    "line_number": 778
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Like after you've killed... Every... Last... One... of Norrington's men.",
+    "line_number": 779
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " I can't help wondering, Jack, why you're being so helpful and all? Last time you did that, it didn't end well for you.",
+    "line_number": 780
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The situation has changed.",
+    "line_number": 781
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " That so?",
+    "line_number": 782
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Aye. See, after you're done with the Royal Navy, you'll have a bit of a problem: the H.M.S. Dauntless. There you'll be, with two lovely ships on your hands, and what to do? Of course you'll decide you deserve the bigger one, and who's to argue? The Dauntless a first-rate ship-of-line, and with it, you can rule the seas. But if you're Captain of the Dauntless, who's left for the Black Pearl?",
+    "line_number": 783
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " I sail for you as part of your fleet, I give you fifteen percent of my plunder, and you get to introduce yourself at tea parties and brothels as 'Commodore Barbossa.' Do we have an accord?",
+    "line_number": 784
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Now, you can take care of the Dauntless, right?",
+    "line_number": 785
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Men! Are you up for it?",
+    "line_number": 786
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Mr. Pintel, select five men to stay here. Take the rest of the men out... not through the caves.",
+    "line_number": 787
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " There's... another exit?",
+    "line_number": 788
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Aye, for us there is.",
+    "line_number": 789
+  },
+  {
+    "speaker": "TALL SAILOR",
+    "dialogue": " Ship rats. Big ones.",
+    "line_number": 790
+  },
+  {
+    "speaker": "SHORT SAILOR",
+    "dialogue": " Hate those things.",
+    "line_number": 791
+  },
+  {
+    "speaker": "SHORT SAILOR",
+    "dialogue": " Taste all right, though.",
+    "line_number": 792
+  },
+  {
+    "speaker": "TALL SAILOR",
+    "dialogue": " That they do.",
+    "line_number": 793
+  },
+  {
+    "speaker": "PINTEL",
+    "dialogue": " Be quick, now. Train the starboard guns on the beach, and set your aim. Wait for my signal, we don't want to spook them.",
+    "line_number": 794
+  },
+  {
+    "speaker": "SKINNY",
+    "dialogue": " Which would you prefer first, good sir -- rum, or wine?",
+    "line_number": 795
+  },
+  {
+    "speaker": "BIG-BONES",
+    "dialogue": " I believe I'll have a spot o' rum, if you don't mind, and thank'ee kind sir!",
+    "line_number": 796
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " All the men in place, sir. Ready to fire.",
+    "line_number": 797
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Wait for my order -- what the blazes is that?",
+    "line_number": 798
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Men! Take cover!",
+    "line_number": 799
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " You've been planning this from the beginning. Since you learned my name.",
+    "line_number": 800
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Oh, please -- do I really seem that clever?",
+    "line_number": 801
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Use it well.",
+    "line_number": 802
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Confound it, Jack -- I was actually beginning to like you!",
+    "line_number": 803
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " Steady, men! Remember -- we're the Navy!",
+    "line_number": 804
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " What is happening out there?",
+    "line_number": 805
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " They're on our side! Take heart, men!",
+    "line_number": 806
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Just so you know, Jack -- I don't think you're that clever. I think you're a fool. A mortal fool.",
+    "line_number": 807
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Remarkable how often those two traits coincide.",
+    "line_number": 808
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " You can't beat me, Jack.",
+    "line_number": 809
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Jack!",
+    "line_number": 810
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Well, isn't that interesting.",
+    "line_number": 811
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " They're so pretty, I just couldn't resist stealing one. It's a curse, I guess.",
+    "line_number": 812
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " So what now, Jack Sparrow? Are we to be two immortals, locked in epic battle until the trumpets of Judgment Day?",
+    "line_number": 813
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Or you could surrender.",
+    "line_number": 814
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Or I could chain you to a cannonball and drop you in the deepest part of the ocean, where you can contemplate your folly forever.",
+    "line_number": 815
+  },
+  {
+    "speaker": "BARBOSSA",
+    "dialogue": " Hah. Ten years you carried that pistol, and you end up wasting your shot.",
+    "line_number": 816
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " He didn't waste it.",
+    "line_number": 817
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Well, you're the worst pirate I've ever heard of. You're a man who can be trusted, who can be counted on, and who can not betray his friends. What kind of pirate is that?",
+    "line_number": 818
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " The worst. On the other hand, maybe I'm a man who can't pass up a chance for revenge against the black-hearted bastard who stole my ship and left me to die in the middle of the ocean -- twice! -- and who knows how to get what he wants. Now that's a great pirate.",
+    "line_number": 819
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Let's get out of here.",
+    "line_number": 820
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " You're all right!",
+    "line_number": 821
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Miss Swann -- are you wearing trousers? And how did you get off the island?",
+    "line_number": 822
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " Yes, I am wearing trousers. And as for how we got off the island -- ah, that's a grand adventure, but now is not the time to talk about it.",
+    "line_number": 823
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " There. And don't you dare tell me that wasn't a proper kiss!",
+    "line_number": 824
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " Elizabeth, I think it doesn't matter that we are of a different class --",
+    "line_number": 825
+  },
+  {
+    "speaker": "ELIZABETH",
+    "dialogue": " It doesn't!",
+    "line_number": 826
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " -- but that was not a proper kiss.",
+    "line_number": 827
+  },
+  {
+    "speaker": "WILL",
+    "dialogue": " This is a proper kiss.",
+    "line_number": 828
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Tough luck. I was rooting for you.",
+    "line_number": 829
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " ...and though I do say so with regret, the law is clear. The penalty for piracy is death by hanging.",
+    "line_number": 830
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " By your leave, I wish to speak on behalf of the boy. It is clear that these deeds were performed out of a sincere desire to do good, at great personal risk. It seems to me, that in the rare occasion where the right course is committing an act of piracy, then an act of piracy is the right course! So in my capacity as Governor, I intend to grant a pardon to --",
+    "line_number": 831
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " Sir!",
+    "line_number": 832
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " Jack and his crew have escaped! There was no damage to the cell... They must have been set free.",
+    "line_number": 833
+  },
+  {
+    "speaker": "SWANN",
+    "dialogue": " The Black Pearl!",
+    "line_number": 834
+  },
+  {
+    "speaker": "GILLETTE",
+    "dialogue": " Sir! Shall I break out the cannons?",
+    "line_number": 835
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " I don't think that will be necessary.",
+    "line_number": 836
+  },
+  {
+    "speaker": "NORRINGTON",
+    "dialogue": " A day's head start. That's all he gets.",
+    "line_number": 837
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " Captain Sparrow -- the Black Pearl is yours!",
+    "line_number": 838
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " AnaMaria, trim the mainsail!",
+    "line_number": 839
+  },
+  {
+    "speaker": "ANAMARIA",
+    "dialogue": " Aye, aye, sir!",
+    "line_number": 840
+  },
+  {
+    "speaker": "JACK",
+    "dialogue": " Mr. Gibbs, organize a cleaning detail -- you and Cotton. I want every inch of the Pearl spic-and-span and ship- shape!",
+    "line_number": 841
+  }
+]
