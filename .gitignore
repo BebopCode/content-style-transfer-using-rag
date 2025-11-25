@@ -12,6 +12,8 @@ __pycache__/
 
 #Email
 *.eml
+# Database
+*.db
 
 # Distribution / packaging
 .Python
