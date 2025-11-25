@@ -1,0 +1,31 @@
+# Stage 1: Build the app
+FROM node:20-alpine AS builder 
+WORKDIR /app
+
+# 1. CHANGE: Copy package.json and package-lock.json (for npm)
+COPY package.json package-lock.json ./ 
+# 2. CHANGE: Use npm install instead of yarn install
+RUN npm install 
+# Copy application files
+COPY . .
+# Run the build script
+RUN npm run build 
+
+# --- STAGE 2: FINAL LIGHTWEIGHT RUNNER IMAGE ---
+FROM node:20-alpine AS runner 
+WORKDIR /app
+
+# 3. ADDITION: Create a non-root user (nextjs) for security best practice
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+USER nextjs
+
+# Next.js copies only necessary files when using 'standalone' output
+# 4. CHANGE: Add user ownership to copied files for the non-root user
+COPY --from=builder --chown=nextjs:nodejs /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+EXPOSE 3000
+# Start the application using the standalone server file
+CMD ["node", "server.js"]

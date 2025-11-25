@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  # 1. FASTAPI BACKEND SERVICE
+  backend:
+    build:
+      context: ./backend             # Path to your FastAPI application directory
+      dockerfile: Dockerfile.backend
+    container_name: fastapi_backend
+    restart: always                  # Always restart the container if it fails
+    ports:
+      - "8000:8000"                  # Publish port 8000 on the host (for external access/testing)
+    environment:
+      # Example: Use a variable from the host's .env file (if available)
+      - GEMINI_API_KEY=${GEMINI_API_KEY} 
+      # Set non-secret, default environment variables here
+      - API_PORT=8000
+
+  # 2. NEXT.JS FRONTEND SERVICE
+  frontend:
+    build:
+      context: ./frontend            # Path to your Next.js application directory
+      dockerfile: Dockerfile.frontend
+    container_name: nextjs_frontend
+    restart: always
+    ports:
+      - "3000:3000"                  # Publish port 3000 on the host
+    environment:
+      # CRITICAL: This allows the Next.js container to talk to the FastAPI container
+      # The service name 'backend' is automatically resolved within the Docker network.
+      - NEXT_PUBLIC_API_URL=http://backend:8000 
+      - PASSWORD=${PASSWORD}
+      - PORT=3000
+    depends_on:
+      - backend

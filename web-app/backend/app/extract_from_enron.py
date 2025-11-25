@@ -4,7 +4,7 @@ import re
 from .database import Base, engine, get_db, create_database_tables
 from sqlalchemy.orm import Session
 from .models import EmailDB
-from .utils import embedding_to_blob, emb
+# from .utils import embedding_to_blob, emb
 
 
 create_database_tables()
@@ -127,7 +127,7 @@ def insert_to_db(df: pd.DataFrame):
                 subject=row['Subject'],
                 content=row['text'],
                 sent_at=row['date'],
-                embedding=blob
+                # embedding=blob
                 # You can also add other recipients to the content or notes field if available
             )
             new_records.append(email_record)

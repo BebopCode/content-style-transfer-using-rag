@@ -3,7 +3,7 @@ import numpy as np
 from .database import Base, engine, get_db, create_database_tables
 from sqlalchemy.orm import Session
 from .models import EmailDB
-from .utils import embedding_to_blob, emb
+# from .utils import embedding_to_blob, emb
 import os
 import glob
 from datetime import datetime
@@ -79,7 +79,7 @@ def parse_eml_file(filepath):
         "subject": subject,
         "content": content,
         "sent_at": sent_at,
-        "embedding": None # Placeholder
+        # "embedding": None # Placeholder
     }
 
 def ingest_folder(folder_path):
@@ -129,7 +129,7 @@ def ingest_folder(folder_path):
                 subject=data['subject'],
                 content=data['content'],
                 sent_at=data['sent_at'],
-                embedding=data['embedding']
+               # embedding=data['embedding']
             )
             db.add(email_obj)
             count += 1
@@ -174,7 +174,6 @@ def view_first_10_emails():
                 "Receiver": email.receiver,
                 "Subject": email.subject,
                 "Sent At": email.sent_at,
-                "Has Embedding?": "Yes" if email.embedding else "No",
                 
                 # Truncate content to 200 chars so your terminal stays readable.
                 # Remove the [:200] if you really want to see the whole body.

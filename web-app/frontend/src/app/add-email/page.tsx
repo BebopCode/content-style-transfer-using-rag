@@ -4,7 +4,7 @@
 import { useState, ChangeEvent, FormEvent } from 'react';
 // Assuming you created the interface in types/email.ts
 import { EmailTemplate } from '@/types/email'; 
-
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 const AddEmailPage: React.FC = () => {
   const [formData, setFormData] = useState<EmailTemplate>({
     sender: '',
@@ -33,7 +33,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
       sent_at: isoDate,
     };
 
-    const response = await fetch('http://localhost:8000/api/add-email', {
+    const response = await fetch(`${API_BASE_URL}/api/add-email`,{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

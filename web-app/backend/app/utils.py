@@ -1,3 +1,4 @@
+'''
 import numpy as np
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
@@ -9,4 +10,4 @@ def blob_to_embedding(blob):
 
 emb = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
-)
+)'''

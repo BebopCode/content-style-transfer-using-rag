@@ -5,6 +5,8 @@ import { useState, ChangeEvent, FormEvent } from 'react';
 // Assuming you created the interface in types/generate.ts
 import { GenerateInput } from '@/types/generate'; 
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+
 const GeneratePage: React.FC = () => {
   const [formData, setFormData] = useState<GenerateInput>({
     incomingMail: '',
@@ -45,7 +47,7 @@ const GeneratePage: React.FC = () => {
     };
     try {
       // 1. Define the API endpoint (e.g., a Next.js API route)
-      const apiEndpoint = 'http://localhost:8000/api/generate'; 
+      const apiEndpoint = `${API_BASE_URL}/api/generate`; 
       
       // 2. Make the API call
       const response = await fetch(apiEndpoint, {
