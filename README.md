@@ -44,7 +44,7 @@ The application will process these emails during startup.
 
 From the root directory, run:
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 This command will build the Docker images and start all containers.
