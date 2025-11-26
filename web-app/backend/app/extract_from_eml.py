@@ -11,6 +11,7 @@ from email import policy
 from email.parser import BytesParser
 from email.utils import parsedate_to_datetime, parseaddr
 import pprint
+import os
 # Import your database setup
 # Adjust these imports based on your actual folder structure
 
@@ -191,6 +192,8 @@ def view_first_10_emails():
 
 if __name__ == "__main__":
     # REPLACE THIS WITH YOUR FOLDER PATH
-    MY_EML_FOLDER = "./backend/data_emails" 
-    ingest_folder(MY_EML_FOLDER)
+    MY_EML_FOLDER = "./app/data_emails" 
+    abs_path = os.path.abspath(MY_EML_FOLDER)
+    print("Checking folder:", abs_path)
+    ingest_folder(abs_path)
     view_first_10_emails()

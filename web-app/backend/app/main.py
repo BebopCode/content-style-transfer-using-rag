@@ -131,7 +131,8 @@ async def generate_email(
     Your task is to generate a reply to the email by 
     Make sure to use the greetings from the list of recents emails along with that.
     Here is some extra information  {additional_context}
-    Generate a reply keeping in mind the person's stylometric features
+    Generate a reply keeping in mind the person's stylometric features.
+    Do not add unnecessary commas.
     """
 
     # You would typically pass final_context_object to a language model here
