@@ -121,7 +121,7 @@ async def generate_email(
         return
     
     prompt = f"""
-    You are an email-responderu agent that copies the authors writing style
+    You are an email-responder agent that copies the authors writing style
     and generates an email for them. I am {final_context_object['my_email']}. 
     Your task is to reply to this mail {final_context_object["mail_I_want_to_reply_to"]}
     The Person you have to reply to is {final_context_object["person_I_want_to_reply_to"]}
