@@ -9,7 +9,7 @@ Prerequisites
 ### 1. Clone the Repository
 ```bash
 git clone 
-cd 
+cd content-style-transfer-using-rag
 ```
 
 ### 2. Environment Configuration
