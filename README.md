@@ -26,7 +26,6 @@ PASSWORD=sample_password
 
 Create a `.env.local` file in the `web-app/frontend/` directory:
 ```
-PASSWORD=password!123
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
