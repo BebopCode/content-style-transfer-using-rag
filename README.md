@@ -52,9 +52,9 @@ This command will build the Docker images and start all containers.
 
 ### Monitoring Database Generation
 
-To view the logs of the database generation process, use:
+To view the logs of the database generation process, us/e:
 ```bash
-docker logs <container-id>
+docker logs <container-id-of-backend>
 ```
 
 ## Accessing the Application
