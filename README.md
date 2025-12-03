@@ -9,7 +9,7 @@ Prerequisites
 ### 1. Clone the Repository
 ```bash
 git clone 
-cd 
+cd content-style-transfer-using-rag
 ```
 
 ### 2. Environment Configuration
@@ -26,7 +26,6 @@ PASSWORD=sample_password
 
 Create a `.env.local` file in the `web-app/frontend/` directory:
 ```
-PASSWORD=password!123
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
@@ -45,16 +44,16 @@ The application will process these emails during startup.
 
 From the root directory, run:
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 This command will build the Docker images and start all containers.
 
 ### Monitoring Database Generation
 
-To view the logs of the database generation process, use:
+To view the logs of the database generation process, us/e:
 ```bash
-docker logs <container-id>
+docker logs <container-id-of-backend>
 ```
 
 ## Accessing the Application
