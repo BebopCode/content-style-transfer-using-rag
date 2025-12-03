@@ -40,9 +40,31 @@ def get_highest_receiver():
         # 3. Close the session
         db_generator.close()
 
+from sqlalchemy import and_
+
+def print_non_empty_references():
+    db_generator = get_db()
+    db = next(db_generator)
+
+    try:
+        emails = db.query(EmailDB).filter(
+            and_(
+                EmailDB.references.isnot(None),
+                EmailDB.references != []
+            )
+        ).all()
+
+        for email in emails:
+            print(email.references)
+
+    finally:
+        db_generator.close()
+
+
 if __name__ == "__main__":
     # Ensure your database setup and insertion script (if needed) are run first
     # Example call:
-    highest_receiver = get_highest_receiver()
-    print(highest_receiver)
+    #highest_receiver = get_highest_receiver()
+    #print(highest_receiver)
+    print_non_empty_references()
     pass

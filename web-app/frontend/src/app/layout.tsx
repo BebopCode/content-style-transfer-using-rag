@@ -34,7 +34,10 @@ export default function RootLayout({
             Add Email
           </Link>
           <Link href="/generate" className="hover:underline">
-            Generate
+            Generate response with custom text
+          </Link>
+          <Link href="/eml-reply" className="hover:underline">
+            Generate response to EML file
           </Link>
         </nav>
 

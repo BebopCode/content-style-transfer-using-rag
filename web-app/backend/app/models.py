@@ -6,7 +6,7 @@ class EmailDB(Base):
     __tablename__ = "email_templates"
 
     id = Column(Integer, primary_key=True, index=True)
-    message_id = Column(Integer, unique=True, nullable=True)
+    message_id = Column(String, unique=True, nullable=True)
     parent_message_id = Column(String, nullable=True)
     references = Column(JSON, nullable=True)
     sender = Column(String, index=True)
@@ -14,7 +14,6 @@ class EmailDB(Base):
     content = Column(String)
     subject = Column(String)
     sent_at = Column(DateTime)
-    embedding = Column(LargeBinary, nullable=True)
 
     def __repr__(self):
         return f"EmailDB(id={self.id}, Message ID={self.message_id}, Parent Message={self.parent_message_id}, references={self.references} sender='{self.sender}', receiver='{self.receiver}' subject='{self.subject} date={self.sent_at})"

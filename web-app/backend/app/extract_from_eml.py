@@ -14,7 +14,8 @@ import pprint
 import os
 # Import your database setup
 # Adjust these imports based on your actual folder structure
-
+from .chroma import EmailEmbeddingStore
+email_embedding_store = EmailEmbeddingStore()
 def parse_eml_file(filepath):
     """
     Reads a .eml file and returns a dictionary ready for the database.
@@ -113,6 +114,7 @@ def ingest_folder(folder_path):
     print("Inserting into database...")
     
     count = 0
+    chroma_count = 0
     for data in parsed_emails:
         # Check if exists to avoid duplicates
         exists = db.query(EmailDB).filter_by(message_id=data['message_id']).first()
@@ -130,17 +132,28 @@ def ingest_folder(folder_path):
                 subject=data['subject'],
                 content=data['content'],
                 sent_at=data['sent_at'],
-               # embedding=data['embedding']
             )
+            try:
+                email_embedding_store.add_email(email_obj)
+                chroma_count += 1
+            except Exception as e:
+                    # Note: ChromaDB errors are separate from DB errors.
+                    # You might choose to log this error and skip the DB add, 
+                    # or continue with the DB add and handle the missing embedding later.
+                print(f"ChromaDB Error for message_id {data['message_id']}: {e}")
+                    # We'll continue to add to the relational DB for robustness,
+                    # assuming the primary data is more critical than the embedding.
+                    
+                # 3. Add the email object to the SQLAlchemy session
             db.add(email_obj)
             count += 1
-    
+
     try:
         db.commit()
-        print(f"Successfully inserted {count} emails.")
+        print(f"Successfully inserted {count} emails into DB and {chroma_count} embeddings into Chroma.")
     except Exception as e:
         db.rollback()
-        print(f"Database Error: {e}")
+        print(f"Database Commit Error: {e}. SQLite changes rolled back.")
     finally:
         db.close()
 
