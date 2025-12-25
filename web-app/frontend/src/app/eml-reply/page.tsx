@@ -1,170 +1,203 @@
-'use client'
-import { useState, ChangeEvent } from 'react';
+'use client';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
+import { useState, useEffect } from 'react';
 
-const UploadEmlPage = () => {
-  const [selectedFile, setSelectedFile] = useState<File | null>(null);
-  const [context, setContext] = useState<string>('');
-  const [query, setQuery] = useState<string>('');
-  const [generatedResponse, setGeneratedResponse] = useState<string>('');
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [error, setError] = useState<string | null>(null);
+interface Recipient {
+  email: string;
+  count: number;
+}
 
-  const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
+interface Email {
+  message_id: string;
+  subject: string;
+  sender: string;
+  receiver: string;
+  sent_at: string;
+}
+
+export default function EmailSearch() {
+  const [myEmail, setMyEmail] = useState('');
+  const [recipients, setRecipients] = useState<Recipient[]>([]);
+  const [selectedRecipient, setSelectedRecipient] = useState('');
+  const [emails, setEmails] = useState<Email[]>([]);
+  const [selectedEmailId, setSelectedEmailId] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [loadingEmails, setLoadingEmails] = useState(false);
+
+  const handleEmailSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
     
-    // Validate file type
-    if (!file.name.endsWith('.eml')) {
-      setError('Please upload a valid .eml file');
-      setSelectedFile(null);
-      return;
-    }
-    
-    setSelectedFile(file);
-    setError(null);
-    setGeneratedResponse('');
-  };
-
-  const handleGenerate = async () => {
-    if (!selectedFile) {
-      setError('Please select an .eml file first');
+    if (!myEmail.trim()) {
+      alert('Please enter your email address');
       return;
     }
 
-    if (!context.trim() || !query.trim()) {
-      setError('Please fill in both context and query fields');
-      return;
-    }
-
-    setIsLoading(true);
-    setGeneratedResponse('');
-    setError(null);
+    setLoading(true);
+    setRecipients([]);
+    setSelectedRecipient('');
+    setEmails([]);
+    setSelectedEmailId('');
 
     try {
-      // Create FormData to send the file and additional parameters
-      const formData = new FormData();
-      formData.append('file', selectedFile);
-      formData.append('context', context);
-      formData.append('query', query);
-
-      const apiEndpoint = `${API_BASE_URL}/api/upload-eml`;
-      
-      const response = await fetch(apiEndpoint, {
-        method: 'POST',
-        body: formData,
-      });
+      const response = await fetch(
+        `http://localhost:8000/recipients/${encodeURIComponent(myEmail)}`
+      );
 
       if (!response.ok) {
-        throw new Error(`API call failed with status: ${response.status}`);
+        throw new Error('Failed to fetch recipients');
       }
-      
+
       const data = await response.json();
-      console.log(data);
-      const replyContent = data;
-      
-      setGeneratedResponse(replyContent);
-      
-    } catch (err) {
-      console.error('Generation Error:', err);
-      setError(`Failed to generate email: ${err instanceof Error ? err.message : 'Unknown error'}`);
+      setRecipients(data);
+
+      if (data.length === 0) {
+        alert('No recipients found for this email address');
+      }
+    } catch (error) {
+      console.error('Error fetching recipients:', error);
+      alert('Error fetching recipients. Please try again.');
     } finally {
-      setIsLoading(false);
+      setLoading(false);
     }
   };
 
-  const inputClasses = "w-full px-3 py-2 border border-black bg-white focus:outline-none focus:ring-1 focus:ring-black disabled:bg-gray-100 disabled:text-gray-500";
-  const labelClasses = "block text-sm font-medium mb-2";
-  const buttonClasses = "w-full py-2 mt-6 border border-black bg-black text-white font-semibold transition duration-150";
-  const disabledButtonClasses = "w-full py-2 mt-6 border border-gray-400 bg-gray-400 text-gray-700 font-semibold cursor-not-allowed";
+  const fetchEmails = async (recipient: string) => {
+    setLoadingEmails(true);
+    
+    try {
+      const response = await fetch(
+        `http://localhost:8000/emails/conversation/${encodeURIComponent(myEmail)}/${encodeURIComponent(recipient)}`
+      );
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch emails');
+      }
+
+      const data = await response.json();
+      
+      // Filter out replies (subjects starting with "Re: ")
+      const filteredEmails = data.filter((email: Email) => 
+        email.subject && !email.subject.trim().startsWith('Re:')
+      );
+      
+      setEmails(filteredEmails);
+
+      if (filteredEmails.length === 0) {
+        alert('No non-reply emails found in this conversation');
+      }
+    } catch (error) {
+      console.error('Error fetching emails:', error);
+      alert('Error fetching emails. Please try again.');
+    } finally {
+      setLoadingEmails(false);
+    }
+  };
 
   return (
-    <div className="max-w-lg mx-auto p-6 border border-black shadow-lg">
-      <h1 className="text-2xl font-bold mb-6 text-center">Upload EML</h1>
-      
-      {/* File Upload Section */}
-      <div className="mb-4">
-        <label className={labelClasses}>
-          Select .eml file of the email you want to reply to.
-        </label>
-        <input
-          type="file"
-          accept=".eml"
-          onChange={handleFileChange}
-          disabled={isLoading}
-          className="w-full px-3 py-2 border border-black bg-white focus:outline-none focus:ring-1 focus:ring-black disabled:bg-gray-100 file:mr-4 file:py-2 file:px-4 file:border-0 file:bg-black file:text-white file:font-semibold hover:file:bg-gray-800"
-        />
-        {selectedFile && (
-          <p className="text-sm text-gray-700 mt-2">
-            Selected: <span className="font-medium">{selectedFile.name}</span>
-          </p>
+    <div className="min-h-screen bg-white p-8">
+      <div className="max-w-md mx-auto">
+        <h1 className="text-3xl font-bold text-black mb-8">Email Search</h1>
+
+        {/* Email Input Form */}
+        <form onSubmit={handleEmailSubmit} className="mb-8">
+          <label htmlFor="my-email" className="block text-sm font-medium text-black mb-2">
+            Your Email Address
+          </label>
+          <input
+            id="my-email"
+            type="email"
+            value={myEmail}
+            onChange={(e) => setMyEmail(e.target.value)}
+            placeholder="your.email@example.com"
+            className="w-full px-4 py-2 border-2 border-black rounded-md
+              focus:outline-none focus:ring-2 focus:ring-black
+              text-black placeholder-gray-400"
+            required
+          />
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full mt-4 bg-black text-white py-2 px-4 rounded-md
+              hover:bg-gray-800 disabled:bg-gray-300 disabled:text-gray-500
+              disabled:cursor-not-allowed transition-colors font-medium"
+          >
+            {loading ? 'Searching...' : 'Find Recipients'}
+          </button>
+        </form>
+
+        {/* Recipients Dropdown */}
+        {recipients.length > 0 && (
+          <div>
+            <label htmlFor="recipient-select" className="block text-sm font-medium text-black mb-2">
+              Select Recipient ({recipients.length} found)
+            </label>
+            <select
+              id="recipient-select"
+              value={selectedRecipient}
+              onChange={(e) => {
+                setSelectedRecipient(e.target.value);
+                setEmails([]);
+                setSelectedEmailId('');
+                if (e.target.value) {
+                  fetchEmails(e.target.value);
+                }
+              }}
+              className="w-full px-4 py-2 border-2 border-black rounded-md
+                focus:outline-none focus:ring-2 focus:ring-black
+                text-black bg-white"
+            >
+              <option value="">-- Select a recipient --</option>
+              {recipients.map((recipient, idx) => (
+                <option key={idx} value={recipient.email}>
+                  {recipient.email} ({recipient.count} email{recipient.count !== 1 ? 's' : ''})
+                </option>
+              ))}
+            </select>
+
+            {selectedRecipient && (
+              <div className="mt-6 p-4 border-2 border-black rounded-md bg-white">
+                <p className="text-sm text-black mb-4">
+                  <span className="font-medium">Selected:</span> {selectedRecipient}
+                </p>
+
+                {loadingEmails ? (
+                  <p className="text-sm text-black">Loading emails...</p>
+                ) : emails.length > 0 ? (
+                  <>
+                    <label htmlFor="email-select" className="block text-sm font-medium text-black mb-2">
+                      Select Email Thread ({emails.length} found)
+                    </label>
+                    <select
+                      id="email-select"
+                      value={selectedEmailId}
+                      onChange={(e) => setSelectedEmailId(e.target.value)}
+                      className="w-full px-4 py-2 border-2 border-black rounded-md
+                        focus:outline-none focus:ring-2 focus:ring-black
+                        text-black bg-white"
+                    >
+                      <option value="">-- Select Thread --</option>
+                      {emails.map((email) => (
+                        <option key={email.message_id} value={email.message_id}>
+                          {email.subject || '(No Subject)'}
+                        </option>
+                      ))}
+                    </select>
+                  </>
+                ) : (
+                  <p className="text-sm text-black">No non-reply emails found</p>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Empty State */}
+        {!loading && recipients.length === 0 && myEmail && (
+          <div className="text-center p-8 border-2 border-black rounded-md">
+            <p className="text-black">No recipients found. Try a different email address.</p>
+          </div>
         )}
       </div>
-
-      {/* Context Input */}
-      <div className="mb-4">
-        <label htmlFor="context" className={labelClasses}>
-          Additional Context on how you want to generate the reply
-        </label>
-        <textarea
-          id="context"
-          rows={4}
-          placeholder="e.g. I am free for a meeting at 16:00 tomorrow"
-          value={context}
-          onChange={(e) => setContext(e.target.value)}
-          disabled={isLoading}
-          className={`${inputClasses} resize-none`}
-        />
-      </div>
-
-      {/* Query Input */}
-      <div className="mb-4">
-        <label htmlFor="query" className={labelClasses}>
-          Semantic keywords for past email look up
-        </label>
-        <input
-          id="query"
-          type="text"
-          placeholder="e.g. amazon order status"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          disabled={isLoading}
-          className={inputClasses}
-        />
-      </div>
-
-      {/* Generate Button */}
-      <button 
-        onClick={handleGenerate}
-        className={isLoading || !selectedFile || !context.trim() || !query.trim() ? disabledButtonClasses : buttonClasses + " hover:bg-gray-800"}
-        disabled={isLoading || !selectedFile || !context.trim() || !query.trim()}
-      >
-        {isLoading ? 'Generating reply...' : 'Generate reply'}
-      </button>
-
-      {/* Error Display */}
-      {error && (
-        <div className="mt-6 p-3 text-red-700 bg-red-100 border border-red-700 font-semibold">
-          Error: {error}
-        </div>
-      )}
-
-      {/* Response Display Section */}
-      {generatedResponse && (
-        <div className="mt-6 pt-6 border-t border-black">
-          <h2 className="text-xl font-bold mb-3">Generated Response</h2>
-          <textarea
-            readOnly
-            rows={12}
-            value={generatedResponse}
-            className={`${inputClasses} bg-gray-50 font-mono resize-none`}
-            placeholder="Your generated email reply will appear here..."
-          />
-        </div>
-      )}
     </div>
   );
 }
-
-export default UploadEmlPage;

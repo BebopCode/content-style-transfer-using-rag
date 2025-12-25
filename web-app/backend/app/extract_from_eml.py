@@ -11,7 +11,7 @@ from email import policy
 from email.parser import BytesParser
 from email.utils import parsedate_to_datetime, parseaddr
 import pprint
-import os
+import io
 # Import your database setup
 # Adjust these imports based on your actual folder structure
 from .chroma import EmailEmbeddingStore
@@ -83,6 +83,67 @@ def parse_eml_file(filepath):
         "sent_at": sent_at,
         # "embedding": None # Placeholder
     }
+
+def parse_eml_bytes(file_content: bytes):
+    """
+    Parses .eml file content and returns a dictionary ready for the database.
+    """
+    msg = BytesParser(policy=policy.default).parse(io.BytesIO(file_content))
+    
+    def extract_email(header_value):
+        """Extract email address from header."""
+        if not header_value:
+            return ""
+        name, email_address = parseaddr(header_value)
+        return email_address
+    
+    # Basic Headers
+    subject = msg.get('subject', '')
+    sender_raw = msg.get('from', '')
+    sender = extract_email(sender_raw)
+    
+    receiver_raw = msg.get('to', '')
+    receiver = extract_email(receiver_raw)
+    msg_id = msg.get('message-id', '').strip()
+    
+    # Threading Headers
+    in_reply_to = msg.get('in-reply-to', None)
+    if in_reply_to:
+        in_reply_to = in_reply_to.strip()
+        
+    # Handle References
+    references_raw = msg.get('references', '')
+    references_list = references_raw.split() if references_raw else []
+    
+    # Date Parsing
+    date_str = msg.get('date')
+    sent_at = None
+    if date_str:
+        try:
+            sent_at = parsedate_to_datetime(date_str)
+        except Exception:
+            sent_at = datetime.now()
+    
+    # Body Extraction
+    content = ""
+    body = msg.get_body(preferencelist=('plain', 'html'))
+    if body:
+        try:
+            content = body.get_content()
+        except Exception:
+            content = "[Could not decode content]"
+    
+    return {
+        "message_id": msg_id,
+        "parent_message_id": in_reply_to,
+        "references": references_list,
+        "sender": sender,
+        "receiver": receiver,
+        "subject": subject,
+        "content": content,
+        "sent_at": sent_at,
+    }
+
 
 def ingest_folder(folder_path):
     db_generator = get_db()

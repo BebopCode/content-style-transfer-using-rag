@@ -119,16 +119,13 @@ def insert_to_db(df: pd.DataFrame):
             # NOTE: We assume 'content' column holds the message body 
             # after your initial cleaning (before feature extraction). 
             # If the body is in a different column, adjust 'row['content']'.
-            vector = emb.embed_query(row['text'])
-            blob = embedding_to_blob(vector)
+
             email_record = EmailDB(
                 sender=row['sender'],
                 receiver=row['recipient1'],  # Using recipient1 as the primary receiver
                 subject=row['Subject'],
                 content=row['text'],
                 sent_at=row['date'],
-                # embedding=blob
-                # You can also add other recipients to the content or notes field if available
             )
             new_records.append(email_record)
             if(index%100 == 0):

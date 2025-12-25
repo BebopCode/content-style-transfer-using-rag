@@ -30,14 +30,15 @@ export default function RootLayout({
       >
         {/* 🌐 Navigation Bar */}
         <nav className="w-full bg-black font-bold text-white px-6 py-4 flex gap-6 mx-auto justify-center">
-          <Link href="/add-email" className="hover:underline">
-            Add Email
+          <Link href="/upload-email" className="hover:underline">
+            Upload Emails
           </Link>
-          <Link href="/generate" className="hover:underline">
+          {/*           <Link href="/generate" className="hover:underline">
             Generate response with custom text
-          </Link>
+          </Link> */}
+
           <Link href="/eml-reply" className="hover:underline">
-            Generate response to EML file
+              Find Thread and reply  
           </Link>
         </nav>
 

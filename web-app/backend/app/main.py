@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Depends, UploadFile, File, HTTPException
 from sqlalchemy.orm import Session
+from sqlalchemy import func, or_, and_
 from fastapi.middleware.cors import CORSMiddleware
 from .database import get_db, Base, engine
 from . import models # schemas are Pydantic models for request/response
@@ -15,6 +16,7 @@ from email.utils import parseaddr, parsedate_to_datetime
 from datetime import datetime
 from fastapi import Form
 from .chroma import EmailEmbeddingStore
+from .extract_from_eml import parse_eml_bytes
 
 Base.metadata.create_all(bind=engine)
 app = FastAPI()
@@ -30,23 +32,152 @@ app.add_middleware(
 )
 
 # Example Pydantic Schema for input validation
+@app.get("/recipients/{sender_email}")
+async def get_recipients(
+    sender_email: str,
+    db: Session = Depends(get_db)
+):
+    """
+    Get all unique recipients that a sender has sent emails to.
+    """
+    recipients = db.query(
+        EmailDB.receiver,
+        func.count(EmailDB.receiver).label('count')
+    ).filter(
+        EmailDB.sender == sender_email
+    ).group_by(
+        EmailDB.receiver
+    ).order_by(
+        func.count(EmailDB.receiver).desc()
+    ).all()
+    
+    return [
+        {"email": recipient[0], "count": recipient[1]} 
+        for recipient in recipients if recipient[0]
+    ]
 
     
-@app.post("/api/add-email")
-def create_email_template(email: EmailCreate, db: Session = Depends(get_db)):
-    # Create a new database object
-    db_email = models.EmailDB(
-        sender=email.sender, 
-        receiver=email.receiver, 
-        content=email.content
-    )
+
+@app.post("/upload-emails/")
+async def upload_emails(
+    files: List[UploadFile] = File(...),
+    db: Session = Depends(get_db)
+):
+    """
+    Upload multiple .eml files and store them in the database.
+    """
+    results = {
+        "success": [],
+        "failed": [],
+        "skipped": []
+    }
+    email_embedding_store = EmailEmbeddingStore()
+    for file in files:
+        # Check if file is .eml
+        if not file.filename.endswith('.eml'):
+            results["failed"].append({
+                "filename": file.filename,
+                "error": "Not an .eml file"
+            })
+            continue
+        
+        try:
+            # Read file content
+            content = await file.read()
+            
+            # Parse the .eml file
+            email_data = parse_eml_bytes(content)
+            
+            # Check if message_id exists
+            if not email_data["message_id"]:
+                results["failed"].append({
+                    "filename": file.filename,
+                    "error": "No message ID found"
+                })
+                continue
+            
+            # Check if email already exists in database
+            existing_email = db.query(EmailDB).filter(
+                EmailDB.message_id == email_data["message_id"]
+            ).first()
+            
+            if existing_email:
+                results["skipped"].append({
+                    "filename": file.filename,
+                    "message_id": email_data["message_id"],
+                    "reason": "Already exists in database"
+                })
+                continue
+            
+            # Create new email record
+            new_email = EmailDB(**email_data)
+            try:
+                email_embedding_store.add_email(new_email)
+                
+            except Exception as e:
+                    # Note: ChromaDB errors are separate from DB errors.
+                    # You might choose to log this error and skip the DB add, 
+                    # or continue with the DB add and handle the missing embedding later.
+                print(f"ChromaDB Error for message_id {new_email['message_id']}: {e}")
+                    # We'll continue to add to the relational DB for robustness,
+                    # assuming the primary data is more critical than the embedding.
+                    
+                # 3. Add the email object to the SQLAlchemy session
+
+            db.add(new_email)
+            db.commit()
+            
+            results["success"].append({
+                "filename": file.filename,
+                "message_id": email_data["message_id"],
+                "subject": email_data["subject"]
+            })
+            
+        except Exception as e:
+            db.rollback()
+            results["failed"].append({
+                "filename": file.filename,
+                "error": str(e)
+            })
     
-    # Add, commit, and refresh to get the ID
-    db.add(db_email)
-    db.commit()
-    db.refresh(db_email)
+    return {
+        "total_files": len(files),
+        "successful": len(results["success"]),
+        "failed": len(results["failed"]),
+        "skipped": len(results["skipped"]),
+        "details": results
+    }
+
+@app.get("/emails/conversation/{sender}/{receiver}")
+async def get_conversation(
+    sender: str,
+    receiver: str,
+    db: Session = Depends(get_db)
+):
+    """
+    Get all emails between two people (bidirectional).
+    """
+    emails = db.query(EmailDB).filter(
+        or_(
+            and_(EmailDB.sender == sender, EmailDB.receiver == receiver),
+        )
+    ).order_by(EmailDB.sent_at.desc()).all()
     
-    return db_email
+    # Convert to dict for JSON serialization
+    result = []
+    for email in emails:
+        result.append({
+            "message_id": email.message_id,
+            "parent_message_id": email.parent_message_id,
+            "references": email.references,
+            "sender": email.sender,
+            "receiver": email.receiver,
+            "subject": email.subject,
+            "content": email.content,
+            "sent_at": email.sent_at.isoformat() if email.sent_at else None
+        })
+    
+    return result
 
 def get_historical_content(db: Session, sender: str, receiver: str) -> Tuple[str, List[str]]:
     """

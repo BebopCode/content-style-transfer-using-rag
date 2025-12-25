@@ -42,6 +42,7 @@ class EmailEmbeddingStore:
                 documents=[content],
                 metadatas=[metadata]  # <-- New: Include the metadata
             )
+            print(f"added mail with mail ID {EmailDB.message_id} to Embedding store")
     
     def add_emails_batch(self, email_db_objects: list['EmailDB']):
             """
