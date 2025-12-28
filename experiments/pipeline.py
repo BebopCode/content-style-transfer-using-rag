@@ -173,7 +173,7 @@ def print_summary(results: List[Dict]):
 # Main execution
 if __name__ == "__main__":
     # Example usage: Extract contexts for a single sender
-    sender_email = "vince.kaminski@enron.com"
+    sender_email = "vince.kaminski@enron.co"
     
     print("Starting Email Context Extraction Pipeline")
     print("="*60)
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     # Run extraction
     results = extract_contexts_for_sender(
         sender=sender_email,
-        limit=10,
+        limit=30,
         model_name="ministral-3:8b",
         save_to_file=True
     )

@@ -9,161 +9,74 @@ import torch
 
 class EmailEmbeddingStore:
     def __init__(self, persist_directory="./experiments/chroma_db"):
-        """
-        Initializes the EmailEmbeddingStore with automatic device detection.
-        Prefers GPU (CUDA/ROCm) if available, falls back to CPU.
-        """
         self.client = chromadb.PersistentClient(path=persist_directory)
         
-        # Detect available device
-        if torch.cuda.is_available():
-            self.device = "cuda"
-            print(f"✓ Using GPU: {torch.cuda.get_device_name(0)}")
-            print(f"  PyTorch version: {torch.__version__}")
-            print(f"  CUDA/ROCm available: {torch.cuda.is_available()}")
-            print(f"  Number of GPUs: {torch.cuda.device_count()}")
-        else:
-            self.device = "cpu"
-            print("⚠ GPU not available, using CPU")
-            print(f"  PyTorch version: {torch.__version__}")
+        # Device detection
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
         
-        # Load model with detected device
-        self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2', device=self.device)
+        # Load an asymmetric model (E5 is a top performer for this)
+        # We use 'small' to keep it fast, but 'base' or 'large' are available
+        self.model_name = 'intfloat/e5-small-v2'
+        self.embedding_model = SentenceTransformer(self.model_name, device=self.device)
         
-        # Verify the model is on the correct device
-        model_device = next(self.embedding_model.parameters()).device
-        print(f"✓ Model loaded on device: {model_device}")
+        print(f"✓ Model {self.model_name} loaded on: {self.device}")
         
         self.collection = self.client.get_or_create_collection(
-            name="email_embeddings"
+            name="email_embeddings_asymmetric"
         )
-    
-    def add_email(self, email_db_object: EmailDB):
-            """
-            Add a single email embedding to ChromaDB by extracting 
-            message_id, content, and sender from the EmailDB object.
-            """
-            # --- Extraction: message_id, content, and sender are used ---
-            message_id = str(email_db_object.id)
-            content = email_db_object.content
-            sender = email_db_object.sender  # <-- New: Extract sender
-            # --------------------------------------------------------
 
-            # Generate embedding
-            embedding = self.embedding_model.encode(content).tolist()
-            
-            # Prepare metadata dictionary
-            metadata = {
-                "sender": sender
-            }
-            
-            # Add to collection
-            self.collection.add(
-                ids=[message_id],
-                embeddings=[embedding],
-                documents=[content],
-                metadatas=[metadata]  # <-- New: Include the metadata
-            )
-            print(f"added mail with mail ID {EmailDB.message_id} to Embedding store")
-    
-    def add_emails_batch(self, email_db_objects: list['EmailDB'], batch_size=100):
-        """
-        Add multiple emails in batches with progress tracking.
-        Processes emails in smaller batches to provide progress updates and manage memory.
-        
-        Args:
-            email_db_objects: List of EmailDB objects to add
-            batch_size: Number of emails to process in each batch (default: 100)
-        """
+    def add_emails_batch(self, email_db_objects: list, batch_size=100):
         total_emails = len(email_db_objects)
-        print(f"Starting to add {total_emails} emails to ChromaDB in batches of {batch_size}...")
         
-        # Process in batches
-        for i in tqdm(range(0, total_emails, batch_size), desc="Adding email batches"):
+        for i in tqdm(range(0, total_emails, batch_size), desc="Indexing Emails"):
             batch = email_db_objects[i:i + batch_size]
             
-            ids = []
-            contents = []
-            metadatas = []
+            ids = [str(e.id) for e in batch]
+            # ASYMMETRIC STEP: Add "passage: " prefix to documents
+            contents_to_embed = [f"passage: {e.content}" for e in batch]
+            raw_contents = [e.content for e in batch] # Keep original for Chroma storage
             
-            for email_db_object in batch:
-                ids.append(str(email_db_object.id))
-                contents.append(email_db_object.content)
-                metadatas.append({
-                    "sender": email_db_object.sender
-                })
+            metadatas = [{"sender": e.sender} for e in batch]
             
-            # Generate embeddings in batch
-            print(f"  Encoding batch {i//batch_size + 1}/{(total_emails + batch_size - 1)//batch_size}...", end=" ")
+            # Generate embeddings
             embeddings = self.embedding_model.encode(
-                contents,
+                contents_to_embed,
                 show_progress_bar=False,
-                batch_size=32  # SentenceTransformer internal batch size
+                batch_size=32
             ).tolist()
-            print("✓")
             
-            # Add to collection
-            print(f"  Adding to ChromaDB...", end=" ")
             self.collection.add(
                 ids=ids,
                 embeddings=embeddings,
-                documents=contents,
+                documents=raw_contents, 
                 metadatas=metadatas
             )
-            print("✓")
-        
-        print(f"✓ Successfully added all {total_emails} emails to ChromaDB")
-    
+
     def search_similar_emails(self, query: str, n_results: int = 5, sender_filter: str = None) -> list[dict]:
-            """
-            Searches for emails semantically similar to the query string, 
-            with an optional filter for the sender.
-
-            Args:
-                query (str): The search string.
-                n_results (int): The number of top similar results to return.
-                sender_filter (str, optional): The exact sender's email address to filter by. 
-                                            Defaults to None (no filter).
-
-            Returns:
-                list[dict]: A list of dictionaries with message_id, content, distance, and sender.
-            """
-            # 1. Generate query embedding
-            query_embedding = self.embedding_model.encode(query).tolist()
-            
-            # 2. Prepare the WHERE clause for filtering
-            where_clause = {}
-            if sender_filter:
-                # ChromaDB filters require the metadata key (sender) and the value to match
-                where_clause["sender"] = sender_filter
-            
-            # 3. Search the Chroma collection
-            results = self.collection.query(
-                query_embeddings=[query_embedding],
-                n_results=n_results,
-                where=where_clause, # <-- NEW: Apply the sender filter here
-                include=['documents', 'distances', 'metadatas'] 
-            )
-            
-            # 4. Format the results for easy use
-            formatted_results = []
-            
-            # Chroma returns lists of results (one list per query embedding)
-            if results['ids']:
-                result_ids = results['ids'][0]
-                result_documents = results['documents'][0]
-                result_distances = results['distances'][0]
-                result_metadatas = results['metadatas'][0]
-                
-                for i in range(len(result_ids)):
-                    formatted_results.append({
-                        'message_id': result_ids[i],
-                        'content': result_documents[i],
-                        'distance': result_distances[i],
-                        'sender': result_metadatas[i]['sender']
-                    })
+        # ASYMMETRIC STEP: Add "query: " prefix to the user's search string
+        query_with_prefix = f"query: {query}"
+        query_embedding = self.embedding_model.encode(query_with_prefix).tolist()
+        
+        where_clause = {"sender": sender_filter} if sender_filter else {}
+        
+        results = self.collection.query(
+            query_embeddings=[query_embedding],
+            n_results=n_results,
+            where=where_clause,
+            include=['documents', 'distances', 'metadatas'] 
+        )
+        
+        formatted_results = []
+        if results['ids']:
+            for i in range(len(results['ids'][0])):
+                formatted_results.append({
+                    'message_id': results['ids'][0][i],
+                    'content': results['documents'][0][i],
+                    'distance': results['distances'][0][i],
+                    'sender': results['metadatas'][0][i]['sender']
+                })
                     
-            return formatted_results
+        return formatted_results
     
     def update_email(self, message_id: str, content: str):
         """Update an existing email embedding"""
@@ -215,3 +128,28 @@ class EmailEmbeddingStore:
         
         # Convert the set (for uniqueness) back to a list
         return sorted(list(unique_senders))
+    
+if __name__ == "__main__":
+    # 1. Initialize your store
+    store = EmailEmbeddingStore()
+
+    # 2. Define the test parameters
+    test_query = "legal document"
+    target_sender = "kay.mann@enron.co"
+
+    print(f"--- Searching emails from {target_sender} ---")
+    
+    # 3. Call your function
+    results = store.search_similar_emails(
+        query=test_query, 
+        n_results=50, 
+        sender_filter=target_sender
+    )
+
+    # 4. Print the results
+    if not results:
+        print("No matches found.")
+    for res in results:
+        print(f"\nDistance: {res['distance']:.4f}")
+        print(f"Content: {res['content']}...") # Print first 200 chars
+        print("-" * 30)
