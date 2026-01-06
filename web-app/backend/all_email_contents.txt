@@ -1,0 +1,2874 @@
+All Email Contents Export
+Total Emails: 47
+================================================================================
+
+================================================================================
+EMAIL #1
+================================================================================
+ID:         7
+Message ID: <BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>
+Parent ID:  None
+References: []
+From:       ashwath.rao@manipal.edu
+To:         
+Subject:    something +ve
+Date:       2025-10-11 07:55:18
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Dear Aaryan and Abhinav,
+
+                 As you know, you have worked on Tooth image classification earlier. The paper was submitted to a journal and got rejected. The same paper was sent to Polish journal. The editors have reviewed the paper and they have sent review comments. We need to address. Please find attached the section writeup and reviewer's comments.
+
+               Let us have a online meeting sometime soon to discuss. One of you create the meeting link and share. Mean time you can prepare the responses to reviewer's comments.
+
+
+Regards,
+Ashwath Rao B, Ph.D.
+Assistant Professor(Selection Grade),
+School of Computer Engineering,
+Manipal Institute of Technology,
+Manipal Academy of Higher Education,
+Manipal - 576 104
+
+Ph : 98454 03148
+
+Email : ashwath.rao@manipal.edu
+
+Web : https://mitcse.manipal.edu
+
+________________________________
+
+Disclaimer: This email and any files transmitted with it are privileged and confidential material of Manipal Academy of Higher Education (MAHE). They are intended to named recipient(s) only. If you are not the intended recipient of this message, please contact the sender and delete the message. This Email message including attachment(s), if any, is believed to be free of any virus. However, it is the responsibility of the recipient to ensure that it is virus-free, and MAHE accepts no liability for any loss or damage arising in any way from its use. Please consider the environment before printing this email.
+
+
+================================================================================
+EMAIL #2
+================================================================================
+ID:         6
+Message ID: <CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>
+Parent ID:  <BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>']
+From:       bhandariaaryan16@gmail.com
+To:         ashwath.rao@manipal.edu
+Subject:    Re: something +ve
+Date:       2025-10-11 11:08:22
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Ashwath Sir,
+Thank you for all the time you put into this. I will fill in the review
+comments but unfortunately I am not available for a meeting this week but I
+will send the review comments soon and let me know if there's anything else
+I can do
+Regards,
+Aaryan
+
+
+================================================================================
+EMAIL #3
+================================================================================
+ID:         4
+Message ID: <BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>
+Parent ID:  <CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>', '<CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>']
+From:       ashwath.rao@manipal.edu
+To:         
+Subject:    Re: something +ve
+Date:       2025-10-12 04:17:26
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+No, nothing in particular. We need to complete and submit review comments at the earliest. Hope Aaryan and you will complete.
+
+Regards,
+Ashwath Rao B,
+Assistant Professor(Selection Grade),
+CSE Dept.,
+M.I.T. Manipal - 576 104
+Ph: 98454 03148
+________________________________
+From: Abhinav Mittra <me.abhinav.mittra@gmail.com>
+Sent: Sunday, October 12, 2025 9:43:05 AM
+To: Aaryan Bhandari <bhandariaaryan16@gmail.com>
+Cc: Ashwath Rao B [MAHE-MIT] <ashwath.rao@manipal.edu>
+Subject: Re: something +ve
+
+Hello Ashwath sir, if there is anything to be communicated we can meet next week to review the information that we put together. I should be able to connect if needed.
+
+Best regards,
+Abhinav
+
+
+================================================================================
+EMAIL #4
+================================================================================
+ID:         5
+Message ID: <CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>
+Parent ID:  <CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>']
+From:       me.abhinav.mittra@gmail.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: something +ve
+Date:       2025-10-12 09:43:05
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hello Ashwath sir, if there is anything to be communicated we can meet next
+week to review the information that we put together. I should be able to
+connect if needed.
+
+Best regards,
+Abhinav
+
+
+================================================================================
+EMAIL #5
+================================================================================
+ID:         3
+Message ID: <CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>
+Parent ID:  <BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>', '<CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>', '<BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>']
+From:       me.abhinav.mittra@gmail.com
+To:         ashwath.rao@manipal.edu
+Subject:    Re: something +ve
+Date:       2025-10-12 10:12:02
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Yes we should be able to do so soon.
+We will get back to you as soon as possible
+
+
+================================================================================
+EMAIL #6
+================================================================================
+ID:         2
+Message ID: <CAG_QVktpVwdd+LDr_vE2jrBk=ESP0CUh_CL4HnqBywezSWdH5Q@mail.gmail.com>
+Parent ID:  <CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>', '<CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>', '<BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>']
+From:       bhandariaaryan16@gmail.com
+To:         me.abhinav.mittra@gmail.com
+Subject:    Re: something +ve
+Date:       2025-10-13 16:57:54
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Ashwath Sir and Abhinav,
+
+I have added the information in the response. I have also added the table
+for the last comment and added a paragraph explaining the Architecture. Let
+me know if any more information is needed.
+
+@Abhinav Mittra <me.abhinav.mittra@gmail.com> Let me know if I forgot
+anything.
+
+Also I think we should mention this paper in references
+https://dergipark.org.tr/en/download/article-file/1817118 as the dataset
+and masking logic was taken from this.
+
+Regards
+Aaryan Bhandari
+
+
+================================================================================
+EMAIL #7
+================================================================================
+ID:         1
+Message ID: <BN6PR0101MB294608F9E147C88C30C832E7F4EBA@BN6PR0101MB2946.prod.exchangelabs.com>
+Parent ID:  <CAG_QVktpVwdd+LDr_vE2jrBk=ESP0CUh_CL4HnqBywezSWdH5Q@mail.gmail.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>', '<CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>', '<BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>', '<CAG_QVktpVwdd+LDr_vE2jrBk=ESP0CUh_CL4HnqBywezSWdH5Q@mail.gmail.com>']
+From:       ashwath.rao@manipal.edu
+To:         
+Subject:    Re: something +ve
+Date:       2025-10-14 03:36:59
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Please update the section of the paper as well and send both. Hope it is clear.
+
+Regards,
+Ashwath Rao B,
+Assistant Professor(Selection Grade),
+CSE Dept.,
+M.I.T. Manipal - 576 104
+Ph: 98454 03148
+________________________________
+From: Aaryan Bhandari <bhandariaaryan16@gmail.com>
+Sent: Monday, October 13, 2025 8:27:54 PM
+To: Abhinav Mittra <me.abhinav.mittra@gmail.com>
+Cc: Ashwath Rao B [MAHE-MIT] <ashwath.rao@manipal.edu>
+Subject: Re: something +ve
+
+Hi Ashwath Sir and Abhinav,
+
+I have added the information in the response. I have also added the table for the last comment and added a paragraph explaining the Architecture. Let me know if any more information is needed.
+
+@Abhinav Mittra<mailto:me.abhinav.mittra@gmail.com> Let me know if I forgot anything.
+
+Also I think we should mention this paper in references https://dergipark.org.tr/en/download/article-file/1817118 as the dataset and masking logic was taken from this.
+
+Regards
+Aaryan Bhandari
+
+
+================================================================================
+EMAIL #8
+================================================================================
+ID:         10
+Message ID: <BN6PR0101MB2946D3A18E2745217D14F30DF4FCA@BN6PR0101MB2946.prod.exchangelabs.com>
+Parent ID:  <CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>', '<CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>', '<BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>']
+From:       ashwath.rao@manipal.edu
+To:         
+Subject:    URGENT: section, address comments
+Date:       2025-10-27 05:02:51
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Dear Aaryan and Abhinav,
+
+               Please send the updated section of the paper and addressal to review comments. Today I got a call from MCHP as the deadline is today. Please treat this as urgent.
+
+
+Regards,
+Ashwath Rao B, Ph.D.
+Assistant Professor-Selection Grade,
+School of Computer Engineering,
+Manipal Institute of Technology,
+Manipal Academy of Higher Education,
+Manipal - 576 104
+
+Ph : 98454 03148
+
+Email : ashwath.rao@manipal.edu
+
+Web : https://mitcse.manipal.edu
+________________________________
+From: Abhinav Mittra <me.abhinav.mittra@gmail.com>
+Sent: Sunday, October 12, 2025 10:12 AM
+To: Ashwath Rao B [MAHE-MIT] <ashwath.rao@manipal.edu>
+Cc: Aaryan Bhandari <bhandariaaryan16@gmail.com>
+Subject: Re: something +ve
+
+Yes we should be able to do so soon.
+We will get back to you as soon as possible
+
+
+================================================================================
+EMAIL #9
+================================================================================
+ID:         9
+Message ID: <CAG_QVksbWi6NyAnBckOQ-x7pvjOdXDzHjbcdkr6+9dS=CiMLXA@mail.gmail.com>
+Parent ID:  <BN6PR0101MB2946D3A18E2745217D14F30DF4FCA@BN6PR0101MB2946.prod.exchangelabs.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>', '<CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>', '<BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>', '<BN6PR0101MB2946D3A18E2745217D14F30DF4FCA@BN6PR0101MB2946.prod.exchangelabs.com>']
+From:       bhandariaaryan16@gmail.com
+To:         ashwath.rao@manipal.edu
+Subject:    Re: URGENT: section, address comments
+Date:       2025-10-27 10:36:15
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Sir, I have added the table and changed the U-Net architecture
+paragraph. I believe the rest of the document is correct.
+
+Thanks,
+Aaryan
+
+
+================================================================================
+EMAIL #10
+================================================================================
+ID:         8
+Message ID: <BN6PR0101MB2946FA5D496D8DE1AEAA3A9BF4FCA@BN6PR0101MB2946.prod.exchangelabs.com>
+Parent ID:  <CAG_QVksbWi6NyAnBckOQ-x7pvjOdXDzHjbcdkr6+9dS=CiMLXA@mail.gmail.com>
+References: ['<BN6PR0101MB2946117EAD4F08A7185B0B77F4ECA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVktTQSruY5UVAkB+fwUrd5BKhAYcedPd4QAdMPd6YgF9aA@mail.gmail.com>', '<CAMDXFY+naWnnmhPMO0Tiv8OqJ-XH9AfK-Pazrw78QFaFq0Zvbw@mail.gmail.com>', '<BN6PR0101MB29468E3567881750355D8971F4EDA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAMDXFYKUJsycR3K0+fVpCk7D=WsyTxh0p9RyO3XQARCfigJ_Bw@mail.gmail.com>', '<BN6PR0101MB2946D3A18E2745217D14F30DF4FCA@BN6PR0101MB2946.prod.exchangelabs.com>', '<CAG_QVksbWi6NyAnBckOQ-x7pvjOdXDzHjbcdkr6+9dS=CiMLXA@mail.gmail.com>']
+From:       ashwath.rao@manipal.edu
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: URGENT: section, address comments
+Date:       2025-10-27 10:41:05
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Thank you.
+
+
+Regards,
+Ashwath Rao B, Ph.D.
+Assistant Professor-Selection Grade,
+School of Computer Engineering,
+Manipal Institute of Technology,
+Manipal Academy of Higher Education,
+Manipal - 576 104
+
+Ph : 98454 03148
+
+Email : ashwath.rao@manipal.edu
+
+Web : https://mitcse.manipal.edu
+________________________________
+From: Aaryan Bhandari <bhandariaaryan16@gmail.com>
+Sent: Monday, October 27, 2025 3:06 PM
+To: Ashwath Rao B [MAHE-MIT] <ashwath.rao@manipal.edu>
+Subject: Re: URGENT: section, address comments
+
+Hi Sir, I have added the table and changed the U-Net architecture paragraph. I believe the rest of the document is correct.
+
+Thanks,
+Aaryan
+
+
+================================================================================
+EMAIL #11
+================================================================================
+ID:         11
+Message ID: <CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>
+Parent ID:  None
+References: []
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Removed function calling
+Date:       2025-11-13 11:35:41
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hey hey, I just removed the function calls and gave it another try. The
+slow responses are still there and I am guessing it's because the LLM needs
+some time to think about it and generate a response but I will try to check
+again. If this is the case then we can try using a lower level model for
+the conversation as they have lesser parameters and require less compute
+time but let's test it out and see .
+
+Also the llm that creates the project item for the database has a different
+prompt. I have tried to keep it simple but let me know if we want to tweak
+that as well. I can add it to another google doc like I have done it
+for the conversation.
+
+
+================================================================================
+EMAIL #12
+================================================================================
+ID:         12
+Message ID: <19a7de0d5fc.ba8c4150451033.5975434848311574106@justduly.com>
+Parent ID:  <CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 16:41:18
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+I tested a couple of rounds and created some observations in our dev. backlog
+
+
+Firstly, I can confirm that the model indeed is still cutting off and not responding - I experienced this 2-3 times. Moreover, It seems that the model also is slow as you mentioned. I was wondering if this could be due to the frames provided, quality of the image etc. 
+
+
+I wanted to add that the speed and latency settings provided in Elevenlabs make it pretty easy to adjust incrementally in: speed vs quality output. I dont know if gemini has thes kind of settings.
+Would a lower model impact the quality of the dialogue and reasoning?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 13 Nov 2025 11:35:41 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ---
+
+
+
+Hey hey, I just removed the function calls and gave it another try. The slow responses are still there and I am guessing it's because the LLM needs some time to think about it and generate a response but I will try to check again. If this is the case then we can try using a lower level model for the conversation as they have lesser parameters and require less compute time but let's test it out and see . 
+
+Also the llm that creates the project item for the database has a different prompt. I have tried to keep it simple but let me know if we want to tweak that as well. I can add it to another google doc like I have done it for the conversation.
+
+
+================================================================================
+EMAIL #13
+================================================================================
+ID:         13
+Message ID: <19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>
+Parent ID:  <CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 16:43:49
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Could the function call for the items in the database be the root cause of the latency issue?
+
+
+Yes, please provide the google drive. While writing now, I thought: could it be the google doc set-up that is causing a potential delay in the response time?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 13 Nov 2025 11:35:41 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ---
+
+
+
+Hey hey, I just removed the function calls and gave it another try. The slow responses are still there and I am guessing it's because the LLM needs some time to think about it and generate a response but I will try to check again. If this is the case then we can try using a lower level model for the conversation as they have lesser parameters and require less compute time but let's test it out and see . 
+
+Also the llm that creates the project item for the database has a different prompt. I have tried to keep it simple but let me know if we want to tweak that as well. I can add it to another google doc like I have done it for the conversation.
+
+
+================================================================================
+EMAIL #14
+================================================================================
+ID:         14
+Message ID: <CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>
+Parent ID:  <19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>', '<19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 18:07:03
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Sure, I will add that to the google doc. The voice cutting is not because
+of the google doc, because it only reads the prompt once and stores in the
+process memory when the call starts. The google doc is causing delayed LLM
+initiation and welcome message but I don't believe it's responsible for the
+slow replies. Also there are no function calls anymore and the database
+entry only happens after the user has disconnected. I think the reasons for
+the delay could be -
+
+ - Image resolution
+ - Frames per second
+- Gemini's internal Speech to text is slower(STT)
+- Gemini's internal (TTS) is slower.
+- I read up on some conversational agents and we may need to add a custom
+turn analyzer and Voice activity Detection. There is one that livekit
+provides but I will have to play around different parameters and test it to
+see if it helps.
+- Gemini 2.5 compute time
+
+*The solutions I want to try out are -*
+- First I want to try out ElevenLabs to see if Gemini STT/TTS is causing
+the problem.
+- Starting with the lowest possible resolution and low FPS to see if it's
+too many frames in communication
+- Try a lower level model for conversation ( It might be completely okay to
+use for the conversation but the ultimate project creation should be done
+by Gemini Flash 2.5 as that is the most important step to create a Project
+that makes sense )
+- Researching Turn Analyzer for Pipecat
+
+Let me know if you have any thoughts about it.
+
+
+================================================================================
+EMAIL #15
+================================================================================
+ID:         15
+Message ID: <19a7e37a179.8125af8d89664.3559246090296357525@justduly.com>
+Parent ID:  <CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>', '<19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>,<19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>', '<CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 18:16:06
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Seems like a solid root cause analysis,
+I think it is worth a try.
+
+
+I will see if we can book a short session with the guy from office.
+
+
+If we include elevenlabs, what happens to our multi modality model, since Elevenlabs is not supporting live multimodals?
+
+
+I think you are right that the solution is within the configurations in livekit! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 13 Nov 2025 18:07:03 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ----
+
+
+
+Sure, I will add that to the google doc. The voice cutting is not because of the google doc, because it only reads the prompt once and stores in the process memory when the call starts. The google doc is causing delayed LLM initiation and welcome message but I don't believe it's responsible for the slow replies. Also there are no function calls anymore and the database entry only happens after the user has disconnected. I think the reasons for the delay could be - 
+ - Image resolution
+
+ - Frames per second 
+
+- Gemini's internal Speech to text is slower(STT)
+
+- Gemini's internal (TTS) is slower.
+
+- I read up on some conversational agents and we may need to add a custom turn analyzer and Voice activity Detection. There is one that livekit provides but I will have to play around different parameters and test it to see if it helps.
+
+- Gemini 2.5 compute time
+
+
+
+The solutions I want to try out are -
+
+- First I want to try out ElevenLabs to see if Gemini STT/TTS is causing the problem.
+
+- Starting with the lowest possible resolution and low FPS to see if it's too many frames in communication
+
+- Try a lower level model for conversation ( It might be completely okay to use for the conversation but the ultimate project creation should be done by Gemini Flash 2.5 as that is the most important step to create a Project that makes sense ) 
+
+- Researching Turn Analyzer for Pipecat
+
+
+
+Let me know if you have any thoughts about it.
+
+
+================================================================================
+EMAIL #16
+================================================================================
+ID:         16
+Message ID: <19a7e381f1c.143177a189490.771167108464761215@justduly.com>
+Parent ID:  <CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>', '<19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>', '<CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 18:16:38
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+And very interesting with the dialogue turn analyzer- I haven’t heard about that before! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 13 Nov 2025 18:07:03 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ----
+
+
+
+Sure, I will add that to the google doc. The voice cutting is not because of the google doc, because it only reads the prompt once and stores in the process memory when the call starts. The google doc is causing delayed LLM initiation and welcome message but I don't believe it's responsible for the slow replies. Also there are no function calls anymore and the database entry only happens after the user has disconnected. I think the reasons for the delay could be - 
+ - Image resolution
+
+ - Frames per second 
+
+- Gemini's internal Speech to text is slower(STT)
+
+- Gemini's internal (TTS) is slower.
+
+- I read up on some conversational agents and we may need to add a custom turn analyzer and Voice activity Detection. There is one that livekit provides but I will have to play around different parameters and test it to see if it helps.
+
+- Gemini 2.5 compute time
+
+
+
+The solutions I want to try out are -
+
+- First I want to try out ElevenLabs to see if Gemini STT/TTS is causing the problem.
+
+- Starting with the lowest possible resolution and low FPS to see if it's too many frames in communication
+
+- Try a lower level model for conversation ( It might be completely okay to use for the conversation but the ultimate project creation should be done by Gemini Flash 2.5 as that is the most important step to create a Project that makes sense ) 
+
+- Researching Turn Analyzer for Pipecat
+
+
+
+Let me know if you have any thoughts about it.
+
+
+================================================================================
+EMAIL #17
+================================================================================
+ID:         17
+Message ID: <19a7e7899ea.102ff89b2467715.6633526025665978370@justduly.com>
+Parent ID:  <19a7e381f1c.143177a189490.771167108464761215@justduly.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>', '<19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>', '<CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>', '<19a7e381f1c.143177a189490.771167108464761215@justduly.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 19:27:04
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+I just wrote with the guy from office, and he is willing to take a round with us, to see if he can help.
+
+
+
+He (Christian) said that, first step is to set up OpenTelemetry, and he suggested langfuse. This should enable us to better understand exactly where the latency is comming from 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 13 Nov 2025 18:16:38 +0100 Nikolai <nikolai@justduly.com> wrote ---
+
+
+
+And very interesting with the dialogue turn analyzer- I haven’t heard about that before! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 13 Nov 2025 18:07:03 +0100 Aaryan Bhandari < mailto:bhandariaaryan16@gmail.com > wrote ----
+
+
+
+Sure, I will add that to the google doc. The voice cutting is not because of the google doc, because it only reads the prompt once and stores in the process memory when the call starts. The google doc is causing delayed LLM initiation and welcome message but I don't believe it's responsible for the slow replies. Also there are no function calls anymore and the database entry only happens after the user has disconnected. I think the reasons for the delay could be - 
+
+
+
+ - Image resolution
+
+ - Frames per second 
+
+- Gemini's internal Speech to text is slower(STT)
+
+- Gemini's internal (TTS) is slower.
+
+- I read up on some conversational agents and we may need to add a custom turn analyzer and Voice activity Detection. There is one that livekit provides but I will have to play around different parameters and test it to see if it helps.
+
+- Gemini 2.5 compute time
+
+
+
+The solutions I want to try out are -
+
+- First I want to try out ElevenLabs to see if Gemini STT/TTS is causing the problem.
+
+- Starting with the lowest possible resolution and low FPS to see if it's too many frames in communication
+
+- Try a lower level model for conversation ( It might be completely okay to use for the conversation but the ultimate project creation should be done by Gemini Flash 2.5 as that is the most important step to create a Project that makes sense ) 
+
+- Researching Turn Analyzer for Pipecat
+
+
+
+Let me know if you have any thoughts about it.
+
+
+================================================================================
+EMAIL #18
+================================================================================
+ID:         18
+Message ID: <CAG_QVkvtCwgyKco6JPKkqcVk3f7CeCU7AsmVS6EJ_P7unwrpAQ@mail.gmail.com>
+Parent ID:  <19a7e8b200b.10f94a547468908.7090514417936831961@justduly.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>', '<19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>', '<CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>', '<19a7e381f1c.143177a189490.771167108464761215@justduly.com>', '<19a7e7899ea.102ff89b2467715.6633526025665978370@justduly.com>', '<19a7e8b200b.10f94a547468908.7090514417936831961@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 20:54:43
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Nice ! Thanks for sharing. Open telemetry and langfuse seem like good
+solutions but the pipeline you sent feels like a lot of development work, I
+will make something simpler more fitting to our use case otherwise it will
+increase the development cycle tremendously.
+
+
+================================================================================
+EMAIL #19
+================================================================================
+ID:         19
+Message ID: <19a7ecf84b6.7264cf2592362.2025852673290141366@justduly.com>
+Parent ID:  <CAG_QVkvtCwgyKco6JPKkqcVk3f7CeCU7AsmVS6EJ_P7unwrpAQ@mail.gmail.com>
+References: ['<CAG_QVksiQ-dYPnuL7oXtUH+5tvqFuzcF_x8ppzqCkE2C1CdoGg@mail.gmail.com>', '<19a7de325cd.123bd7af4451441.3342198048253660679@justduly.com>', '<CAG_QVkse7TYOJ0Qtf3GX-65YrAA0np0sSsF-YwR+h7-AYqgr3g@mail.gmail.com>', '<19a7e381f1c.143177a189490.771167108464761215@justduly.com>', '<19a7e7899ea.102ff89b2467715.6633526025665978370@justduly.com>', '<19a7e8b200b.10f94a547468908.7090514417936831961@justduly.com>', '<CAG_QVkvtCwgyKco6JPKkqcVk3f7CeCU7AsmVS6EJ_P7unwrpAQ@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Removed function calling
+Date:       2025-11-13 21:02:00
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Yes absolutely, I trust your judgment - just tried to help using ChatGPT 😅
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 13 Nov 2025 20:54:43 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ----
+
+
+
+Nice ! Thanks for sharing. Open telemetry and langfuse seem like good solutions but the pipeline you sent feels like a lot of development work, I will make something simpler more fitting to our use case otherwise it will increase the development cycle tremendously.
+
+
+================================================================================
+EMAIL #20
+================================================================================
+ID:         45
+Message ID: <19a868caeb8.7883e79b7799.6227073132637839360@justduly.com>
+Parent ID:  
+References: []
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Elevenlabs
+Date:       2025-11-15 09:05:58
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan,
+
+
+Just realized that it is elevenlabs that you switched on :)
+
+
+Wanted to let you know that it does not create projects etc. but I guess you did not turn on the tool calling?
+
+
+But I am surprised that it is working with video, how did you manage to do that 💪
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com
+
+
+================================================================================
+EMAIL #21
+================================================================================
+ID:         47
+Message ID: <CAG_QVkvGvizs+9d9b1ihtM6rFdvhWHKG+=d9Yvg5_KcZvVo5zA@mail.gmail.com>
+Parent ID:  <19a868caeb8.7883e79b7799.6227073132637839360@justduly.com>
+References: ['<19a868caeb8.7883e79b7799.6227073132637839360@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Elevenlabs
+Date:       2025-11-17 10:59:54
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+HI Nikolai, I still haven't added ELeven Labs to the production, even
+though I was able to add it to the local development and I am testing it
+now. Will let you know as soon as I am done with it. The reason the
+production model feels a bit different is because I started using a newer
+Gemini Model which google claims has better TTS and STT. But because we
+want to use ElevenLabs we will have to use the normal Gemini models. I have
+added a screenshot of the model that is currently in production.
+
+
+================================================================================
+EMAIL #22
+================================================================================
+ID:         46
+Message ID: <CAG_QVksZ4Rn_orVBW2UVZG6b+nzRUTHaXMbFezW0v-j-_ZVYmA@mail.gmail.com>
+Parent ID:  <19a914702f6.788f249127637.3809814256660764292@justduly.com>
+References: ['<19a868caeb8.7883e79b7799.6227073132637839360@justduly.com>', '<CAG_QVkvGvizs+9d9b1ihtM6rFdvhWHKG+=d9Yvg5_KcZvVo5zA@mail.gmail.com>', '<19a914702f6.788f249127637.3809814256660764292@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Elevenlabs
+Date:       2025-11-17 18:06:36
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Nice to hear that! I also forgot to mention that I had also added the turn
+analyzer which might have helped out with the conversation problems. Also
+saw your other email with the future idea, will look into it soon.
+
+Also just wanted to let you know I have a lot of tasks for my Master Thesis
+till wednesday and after that I will be able to give more time to Duly
+again but feel free to share anything that you feel is important.
+
+Bests,
+Aaryan
+
+
+================================================================================
+EMAIL #23
+================================================================================
+ID:         44
+Message ID: <19a92fae667.bb32a281224912.3500883525758237242@justduly.com>
+Parent ID:  <CAG_QVksZ4Rn_orVBW2UVZG6b+nzRUTHaXMbFezW0v-j-_ZVYmA@mail.gmail.com>
+References: ['<19a868caeb8.7883e79b7799.6227073132637839360@justduly.com>', '<CAG_QVkvGvizs+9d9b1ihtM6rFdvhWHKG+=d9Yvg5_KcZvVo5zA@mail.gmail.com>', '<19a914702f6.788f249127637.3809814256660764292@justduly.com>', '<CAG_QVksZ4Rn_orVBW2UVZG6b+nzRUTHaXMbFezW0v-j-_ZVYmA@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Elevenlabs
+Date:       2025-11-17 19:01:47
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Oh thats interesting! Was that done through pipet, or did you need to implement it to our code?
+Anyways, seems like it did some improvement!
+
+
+Super fine Aaryan, I hope you are making good progress on your Thesis! I will do some more testing while you have your Thesis work the coming days.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Mon, 17 Nov 2025 18:06:36 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ---
+
+
+
+Nice to hear that! I also forgot to mention that I had also added the turn analyzer which might have helped out with the conversation problems. Also saw your other email with the future idea, will look into it soon.
+
+
+
+Also just wanted to let you know I have a lot of tasks for my Master Thesis till wednesday and after that I will be able to give more time to Duly again but feel free to share anything that you feel is important.
+
+
+
+Bests,
+
+Aaryan
+
+
+================================================================================
+EMAIL #24
+================================================================================
+ID:         20
+Message ID: <19aa8044efc.ef7036b5224093.726675991469059357@justduly.com>
+Parent ID:  
+References: []
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Landing-page
+Date:       2025-11-21 21:04:06
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan,
+
+
+I have share a folder with you named: Tech. In this folder, I have placed the front-end landing page in a zip file. The code is Tailwinds, but, it is not dynamic, will see if this can be done.
+Link:  https://drive.google.com/file/d/1jet3ueDioQtPCc6AEc40LgKkpeGUFQBF/view?usp=share_link 
+
+
+
+Also, In one week: 27th of November, I have signed up for a start-up pitch for Duly. Its held here in SOHO (my office) where 4-5  business people and board members will give feedback to company pitches. How likely do you think we are to get going with some front-end work, so the app is a bit more beautyfied ;)?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com
+
+
+================================================================================
+EMAIL #25
+================================================================================
+ID:         21
+Message ID: <CAG_QVkvTGZXGyT3Yv_FOU8DKSkRabRscYL+Ok6JxrS4mi6cRMA@mail.gmail.com>
+Parent ID:  <19aa8044efc.ef7036b5224093.726675991469059357@justduly.com>
+References: ['<19aa8044efc.ef7036b5224093.726675991469059357@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Landing-page
+Date:       2025-11-22 12:30:34
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Great, thanks for sharing! I will check the landing page code soon. I am
+already working on danish UI and using deepl to translate. Hopefully it's
+the correct translation. Will push today evening or tomorrow.
+
+
+================================================================================
+EMAIL #26
+================================================================================
+ID:         22
+Message ID: <CAG_QVkssW6M+enesbjgZJy80hf9iC9T-GG-e7TYOx3i7HPTJfw@mail.gmail.com>
+Parent ID:  <CAG_QVkvTGZXGyT3Yv_FOU8DKSkRabRscYL+Ok6JxrS4mi6cRMA@mail.gmail.com>
+References: ['<19aa8044efc.ef7036b5224093.726675991469059357@justduly.com>', '<CAG_QVkvTGZXGyT3Yv_FOU8DKSkRabRscYL+Ok6JxrS4mi6cRMA@mail.gmail.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Landing-page
+Date:       2025-11-22 15:08:57
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Also discovered another bug, when the user does not talk for a long time,
+pipeline assumes the User is not available anymore and closes the pipeline.
+I have increased the idle time out to 10 minutes now because even if the
+user is not connected the pipeline will disconnect after 10 minutes and the
+create the project anyway.
+
+
+================================================================================
+EMAIL #27
+================================================================================
+ID:         23
+Message ID: <19aabeecbc6.eb570e050841.9036305579405229434@justduly.com>
+Parent ID:  <CAG_QVkssW6M+enesbjgZJy80hf9iC9T-GG-e7TYOx3i7HPTJfw@mail.gmail.com>
+References: ['<19aa8044efc.ef7036b5224093.726675991469059357@justduly.com>', '<CAG_QVkvTGZXGyT3Yv_FOU8DKSkRabRscYL+Ok6JxrS4mi6cRMA@mail.gmail.com>,<CAG_QVkvTGZXGyT3Yv_FOU8DKSkRabRscYL+Ok6JxrS4mi6cRMA@mail.gmail.com>', '<CAG_QVkssW6M+enesbjgZJy80hf9iC9T-GG-e7TYOx3i7HPTJfw@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Landing-page
+Date:       2025-11-22 15:19:05
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Awesome finding Aaryan!! Is that why there sometimes is a timeout, og user needs to repeat to get a response?
+
+
+Looking forward to the UI release, I will test when you are ready :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Sat, 22 Nov 2025 15:08:57 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ----
+
+
+
+Also discovered another bug, when the user does not talk for a long time, pipeline assumes the User is not available anymore and closes the pipeline. I have increased the idle time out to 10 minutes now because even if the user is not connected the pipeline will disconnect after 10 minutes and the create the project anyway.
+
+
+================================================================================
+EMAIL #28
+================================================================================
+ID:         24
+Message ID: <19ab278665e.bc28a579298457.6729895609720339909@justduly.com>
+Parent ID:  
+References: []
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    System instruction improvements and missing development
+Date:       2025-11-23 21:47:06
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan, I have made multiple improvements to our model and summary creation prompts and played a lot with the prompt structure. E.g. I tried various XML formatting, but it is not very good. Natural language is performing way better.
+
+
+I am currently struggling with the initiation or intro, since the model starts the dialogue instantly. I think it would be nice with an early overlay in the UI that states: "Say Hi" / "Sig Hej" - which would trigger the model to start its welcome ceremony. However, this is quite difficult to control in a system prompt. We could move the whole prompt down in the developer prompt, and then make a simple system_instruction. But GPT suggested an: option 3 - actually doing the work in the right way:
+
+
+
+
+Got it. Let’s stop trying to “parent” the model with prompts and just take control at the client layer.
+
+Below is a CTO-facing spec for Option 3: client-side gating of assistant speech for Gemini Live, with concrete TypeScript/React examples that fit your existing architecture (React SPA + LiveClient wrapper + backend).
+
+
+1. Problem Restated (for context)
+
+Gemini Live wants to behave like a normal chat assistant: it will often send a greeting as soon as the stream is up, regardless of prompt text.
+
+
+Prompt-only strategies (“wait until user says hej”) are not reliable. The model will sometimes ignore them.
+
+
+We need hard control over when the user hears the model, regardless of what the model tries to output.
+
+
+
+Core idea for Option 3
+
+
+We don’t fight the model.
+
+We just ignore / drop its early outputs until we decide it’s allowed to speak.
+
+
+Concretely:
+
+The client connects to Gemini Live as usual.
+
+
+Gemini may start generating responses immediately.
+
+
+We do not send those responses to TTS or the UI until an “activation condition” is met (e.g. user says “hej” / “hello”).
+
+
+Once activated, we start forwarding assistant output normally.
+
+
+
+This is a simple mute-until-activated gate at the client.
+
+
+2. High-Level Design
+
+States on the client
+
+We introduce a simple state machine in the frontend:
+
+assistantState = "waiting" (initial)
+
+
+assistantState = "active" (after user greets / wake condition met)
+
+
+
+Behavior:
+
+In "waiting":
+
+Ignore all assistant messages (don’t speak, don’t show in UI).
+
+
+Keep listening to user transcripts to detect a greeting.
+
+
+
+
+When greeting detected:
+
+Flip to "active".
+
+
+From that point on, forward assistant messages to TTS + UI.
+
+
+Optionally inject the one-time intro message yourself (instead of relying on the model to greet).
+
+
+
+
+
+The model can still “think” and generate text, but the user hears nothing until we allow it.
+
+Data we rely on
+
+From Gemini Live (or your STT stack), we get:
+
+Streaming transcripts of user speech (or final user utterances).
+
+
+Streaming assistant responses.
+
+
+
+We don’t need to modify the backend for this; all gating can happen in the SPA in the LiveClient / Live component.
+
+
+3. Frontend Requirements
+
+3.1 Extend the LiveClient wrapper
+
+Assuming you have something like this already (based on your scaffold):
+
+
+
+
+
+// spa/src/lib/liveClient.ts
+export type LiveCallbacks = {
+  onAssistantText?: (text: string) => void;
+  onUserTranscript?: (text: string) => void; // NEW: to observe user speech
+};
+
+export class LiveClient {
+  private token?: string;
+  private connected = false;
+
+  constructor(private cbs: LiveCallbacks = {}) {}
+
+  async connect(token: string) {
+    this.token = token;
+    // TODO: connect to Gemini Live over WebSocket/WebRTC
+    this.connected = true;
+  }
+
+  async sendUserText(text: string) {
+    if (!this.connected) return;
+    // TODO: send to provider
+  }
+
+  async disconnect() {
+    this.connected = false;
+  }
+}
+
+
+
+
+We need to:
+
+Add assistant gating state inside the LiveClient or in the React component.
+
+
+Provide callbacks for:
+
+User transcripts (onUserTranscript)
+
+
+Assistant messages (onAssistantText)
+
+
+
+
+Make sure that Gemini events are parsed and classified as either:
+
+user transcript events
+
+
+assistant output events
+
+
+
+
+
+Here’s an extended skeleton with gating in the React layer (simpler and clearer):
+
+
+3.2 React-level gating (recommended)
+
+
+
+
+
+// spa/src/pages/Live.tsx
+import { useEffect, useRef, useState } from "react";
+import { api } from "../lib/api";
+import { LiveClient, LiveCallbacks } from "../lib/liveClient";
+
+type AssistantState = "waiting" | "active";
+
+export default function Live() {
+  const [client, setClient] = useState<LiveClient | null>(null);
+  const [assistantState, setAssistantState] = useState<AssistantState>("waiting");
+  const [assistantMessages, setAssistantMessages] = useState<string[]>([]);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  useEffect(() => {
+    (async () => {
+      const session_id = sessionStorage.getItem("session_id");
+      if (!session_id) return;
+
+      const { token } = await api.mintToken(session_id);
+
+      const callbacks: LiveCallbacks = {
+        // Called whenever Gemini Live emits an assistant message (text)
+        onAssistantText: (text) => {
+          // HARD GATE:
+          if (assistantState === "waiting") {
+            // Drop early messages silently
+            return;
+          }
+          // Once active, render assistant text in UI
+          setAssistantMessages((prev) => [...prev, text]);
+          // TODO: send text to TTS/ElevenLabs here
+        },
+
+        // Called whenever we get a user transcript (from Gemini or local STT)
+        onUserTranscript: (text) => {
+          // Simple wake-logic: if user greets, we activate
+          const normalized = text.toLowerCase();
+
+          const isGreeting =
+            normalized.includes("hej") ||
+            normalized.includes("hejsa") ||
+            normalized.includes("hey") ||
+            normalized.includes("hello") ||
+            normalized.includes("hi") ||
+            normalized.includes("hallo") ||
+            normalized.includes("goddag");
+
+          if (assistantState === "waiting" && isGreeting) {
+            setAssistantState("active");
+
+            // Optionally, push your fixed intro message yourself:
+            const intro =
+              "Hej, jeg er Morten, din AI-assisterede byggerådgiver – hvilket gør-det-selv projekt kan jeg hjælpe dig med?";
+            setAssistantMessages((prev) => [...prev, intro]);
+            // TODO: Speak intro via TTS here as well
+          }
+        },
+      };
+
+      const lc = new LiveClient(callbacks);
+      setClient(lc);
+      await lc.connect(token);
+
+      // Setup camera
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: true,
+        audio: true,
+      });
+      if (videoRef.current) videoRef.current.srcObject = stream;
+
+      // TODO: send stream tracks to Gemini Live connection in LiveClient.connect()
+    })();
+  }, [assistantState]);
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+      <div className="md:col-span-2">
+        <video ref={videoRef} autoPlay playsInline className="w-full rounded-2xl shadow" />
+      </div>
+      <div className="space-y-3">
+        <h2 className="text-xl font-semibold">Morten</h2>
+        <div className="h-64 overflow-auto p-3 rounded-xl border">
+          {assistantMessages.map((t, i) => (
+            <p key={i} className="text-sm mb-2">
+              {t}
+            </p>
+          ))}
+        </div>
+        {/* controls for debug, etc. */}
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+Key point:
+
+The assistant can scream into the void as much as it wants — the user will not see or hear it until assistantState === "active".
+
+
+
+3.3 LiveClient integration with Gemini Live events
+
+Inside LiveClient, we now need to actually wire up Gemini’s streaming API and route events into the callbacks.
+
+Pseudocode (you’ll adapt to the actual Gemini SDK / WebSocket protocol):
+
+
+
+
+
+// spa/src/lib/liveClient.ts
+export type LiveCallbacks = {
+  onAssistantText?: (text: string) => void;
+  onUserTranscript?: (text: string) => void;
+};
+
+export class LiveClient {
+  private ws?: WebSocket;
+  private connected = false;
+
+  constructor(private cbs: LiveCallbacks = {}) {}
+
+  async connect(token: string) {
+    // Replace with actual Gemini Live URL and auth
+    this.ws = new WebSocket(`wss:// http://gemini.live/stream?token= ${token}`);
+
+    this.ws.onopen = () => {
+      this.connected = true;
+      // Optionally send initial config message if needed
+    };
+
+    this.ws.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+
+      // You’ll need to adjust to real Gemini event schema, e.g.:
+      // { type: "assistant_output", text: "..." }
+      // { type: "user_input_transcript", text: "..." }
+
+      if (data.type === "assistant_output" && data.text) {
+        this.cbs.onAssistantText?.(data.text);
+      }
+
+      if (data.type === "user_input_transcript" && data.text) {
+        this.cbs.onUserTranscript?.(data.text);
+      }
+    };
+
+    this.ws.onclose = () => {
+      this.connected = false;
+    };
+  }
+
+  async sendUserText(text: string) {
+    if (!this.connected || !this.ws) return;
+    this.ws.send(
+      JSON.stringify({
+        type: "user_input_text",
+        text,
+      }),
+    );
+  }
+
+  async disconnect() {
+    if (this.ws && this.connected) {
+      this.ws.close();
+    }
+    this.connected = false;
+  }
+}
+
+
+
+
+You’ll replace type / field names with whatever Google actually uses in their Live API, but the gating pattern stays exactly the same.
+
+
+4. Backend Requirements
+
+Minimal to none.
+
+The backend (FastAPI) can keep doing what it already does:
+
+POST /v1/session → create a session, log consent
+
+
+POST /v1/session/{id}/ephemeral-token → mint provider token (Gemini Live)
+
+
+
+
+No change to DB schema required.
+
+
+No change to PDF/export logic.
+
+
+All the “wait until hej” logic lives entirely in the SPA.
+
+
+
+Optional backend enhancement (not required):
+
+Log assistant activation time (first greeting) as an event for analytics:
+
+Time from session start to activation
+
+
+Helpful for UX tuning.
+
+
+
+
+
+
+5. UX & Edge Cases
+
+User never greets, just starts explaining
+
+Our greeting detection already covers “Er du der?”, “Hallo?”, “Hello?”, etc.
+
+
+We can treat any first coherent sentence that is addressed to the assistant as activation too (onUserTranscript length > N, etc.).
+
+
+
+
+User says “Hej” while mic isn’t yet usable
+
+We rely on the transcript stream; if the model didn’t hear “Hej”, there’s nothing we can do.
+
+
+In practice, we can add an on-screen hint: “Say ‘Hej’ when you’re ready to start”.
+
+
+
+
+Assistant spams internally before activation
+
+We don’t care. We’re not rendering or voicing anything in "waiting" state.
+
+
+
+
+User refreshes the page mid-session
+
+assistantState resets to "waiting".
+
+
+They’ll have to greet again. That’s acceptable.
+
+
+
+
+
+
+6. Summary for your CTO
+
+Prompt-level control is unreliable for Gemini Live; it will often talk immediately.
+
+
+Robust solution: client-side gating of assistant output:
+
+Let Gemini Live run.
+
+
+Keep assistant “muted” in the UI & TTS until we detect a greeting from the user.
+
+
+
+
+Implementation cost:
+
+Extend LiveClient to expose onUserTranscript and onAssistantText.
+
+
+Add a small state machine in the React Live page (assistantState: "waiting" | "active").
+
+
+In "waiting": drop assistant messages silently.
+
+
+================================================================================
+EMAIL #29
+================================================================================
+ID:         25
+Message ID: <CAG_QVku3aF_LTT42jSSQRotox7cCg4tpoMv3E5tfe6UcXpZKFw@mail.gmail.com>
+Parent ID:  <19ab278665e.bc28a579298457.6729895609720339909@justduly.com>
+References: ['<19ab278665e.bc28a579298457.6729895609720339909@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: System instruction improvements and missing development
+Date:       2025-11-23 22:47:20
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Great thanks for sharing. There are probably simpler ways for the bot to
+remain quiet through pipecat. Will look into it and let you know and I
+wanted to let you know I am still working on the UI. Also doing a little
+bit of code clean up. Will push changes soon. Couldn't complete it by today
+
+Aaryan
+
+
+================================================================================
+EMAIL #30
+================================================================================
+ID:         26
+Message ID: <19ab511aa34.bc0c7cdf335316.1073871891184789111@justduly.com>
+Parent ID:  <CAG_QVku3aF_LTT42jSSQRotox7cCg4tpoMv3E5tfe6UcXpZKFw@mail.gmail.com>
+References: ['<19ab278665e.bc28a579298457.6729895609720339909@justduly.com>', '<CAG_QVku3aF_LTT42jSSQRotox7cCg4tpoMv3E5tfe6UcXpZKFw@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: System instruction improvements and missing development
+Date:       2025-11-24 09:53:45
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan,
+No worries, unforseen obstacles always hinders targets. I will mange on Thursday if we do not reach the goal.
+
+
+Also, There are some wierd bugs: 
+1. Multiple instances of project creation without information (some of these was because I just had a short call, but some was created randomly i believe)
+
+2. A bug where the project was never created again. I put in the time information to the bug. Please be aware that I did some adjustments to our prompt, and perhaps it could have triggered this instance?
+3. I would love if you could help me create a more smooth intro, through pipecat
+
+     -> My collegue at the office says this is the correct way to do it also, or in Livekit using sub-agentsm whereas the agent only have the purpose of managing the intro ceramony. 
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Sun, 23 Nov 2025 22:47:20 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ---
+
+
+
+Great thanks for sharing. There are probably simpler ways for the bot to remain quiet through pipecat. Will look into it and let you know and I wanted to let you know I am still working on the UI. Also doing a little bit of code clean up. Will push changes soon. Couldn't complete it by today
+
+
+
+Aaryan
+
+
+================================================================================
+EMAIL #31
+================================================================================
+ID:         28
+Message ID: <19ab52506a2.af146856339347.7486746344245738169@justduly.com>
+Parent ID:  
+References: []
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Set-by-step structure
+Date:       2025-11-24 10:14:53
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan, 
+
+
+I was wondering if we could do some improvements to the step-by-step structure.
+
+
+My hope is that we can have a more clean and structured step.
+
+
+I tried to do it through the prompt, but I think we need to improve the database and function calling instead. My idea is that we can add a title and more attributes to the step component.
+
+
+E.g. step one would be Title: "Sikkerhedsforanstanltninger og forberedelse" And the below that, we should have sub-steps in bullets. I think I made the prompt make bullets, so I guess we could also explore just formatting the presentation layer, since there is now a * seprator per sub-step. However, using the prompt for this seems to be a bit unstable. Do you have any good suggestions of how to achieve a better structure for our step breakdown?
+
+
+My idea is
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com
+
+
+================================================================================
+EMAIL #32
+================================================================================
+ID:         27
+Message ID: <CAG_QVktvj=nqf-stDbEyFL8JQG1J0cFOfc6P_cDpZzTdf8Zj4A@mail.gmail.com>
+Parent ID:  <19ab511aa34.bc0c7cdf335316.1073871891184789111@justduly.com>
+References: ['<19ab278665e.bc28a579298457.6729895609720339909@justduly.com>', '<CAG_QVku3aF_LTT42jSSQRotox7cCg4tpoMv3E5tfe6UcXpZKFw@mail.gmail.com>', '<19ab511aa34.bc0c7cdf335316.1073871891184789111@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: System instruction improvements and missing development
+Date:       2025-11-24 15:31:39
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Yes, for the multiple instances where teh project is not described we can
+tell the LLM to have a title "N/A" and whenever the code sees N/A it will
+ignore the database creation. Will do that once I am done with the UI.
+2. I am adding extra logging steps to the backend to identify why the
+project was not created, so we can identify it. I have my suspicion that
+the  project creation step is taking more than 20 seconds when the context
+is huge and whenever a task takes more than 20 seconds by default the
+FastAPI workers cancel the task, so I have also changed the async function
+timeout to 60 seconds so that the worker has enough time for the LLM to
+create a response for the project generation step. If this is not the case,
+then I will test it again after pushing the changes and then it will be
+easier to see the logs with more description
+3. Will look into the intro problem soon as well
+
+
+================================================================================
+EMAIL #33
+================================================================================
+ID:         29
+Message ID: <CAG_QVkvWBQYq8gO+7=8njGS8j6eUUr1VnZq8DX9s4pMOzs+eOQ@mail.gmail.com>
+Parent ID:  <19ab52506a2.af146856339347.7486746344245738169@justduly.com>
+References: ['<19ab52506a2.af146856339347.7486746344245738169@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Set-by-step structure
+Date:       2025-11-24 16:16:16
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+I have changed the database so probably the older data will be deleted.
+Each step wll have further substeps. The output that the LLM will create
+will look like this. (Just used a sample conversation to generate this).
+Now just creating the UI to make it look like the Figma design {
+    "title": "Udbedring og maling af vindueskarm",
+    "status": "Planned",
+    "materials": [
+        {
+            "material_type": "Filler",
+            "material": "Spartelmasse",
+            "quantity": 1,
+            "budget": 30
+        },
+        {
+            "material_type": "Abrasive",
+            "material": "Sandpapir",
+            "quantity": 1,
+            "budget": 20
+        },
+        {
+            "material_type": "Cleaner",
+            "material": "Mild sæbe",
+            "quantity": 1,
+            "budget": 20
+        },
+        {
+            "material_type": "Maling",
+            "material": "Hvid satinmaling",
+            "quantity": 1,
+            "budget": 30
+        }
+    ],
+    "steps": [
+        {
+            "description": "Før du begynder udbedringen, er det vigtigt at
+sikre, at overfladen er ren og klar til behandling. Dette sikrer optimal
+vedhæftning for spartelmasse og maling.",
+            "order": 1,
+            "substeps": [
+                {
+                    "description": "Rens området omkring pletten og
+hullerne med en fugtig klud og mild sæbe.",
+                    "order": 1
+                },
+                {
+                    "description": "Sørg for, at området tørrer helt, før
+du fortsætter.",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "description": "Nu hvor overfladen er ren, er det tid til at
+reparere de små huller i vinduesrammen, så overfladen bliver jævn og
+ensartet igen.",
+            "order": 2,
+            "substeps": [
+                {
+                    "description": "Påfør spartelmasse eller filler i
+hullerne. Følg produktets anvisninger for påføring.",
+                    "order": 1
+                },
+                {
+                    "description": "Lad spartelmassen tørre helt i henhold
+til producentens instruktioner. Dette er afgørende for et holdbart
+resultat.",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "description": "Når spartelmassen er hærdet, skal den slibes
+glat, så den falder i ét med den omgivende overflade. Efterfølgende
+rengøring fjerner støv og forbereder til maling.",
+            "order": 3,
+            "substeps": [
+                {
+                    "description": "Slib de spartlede områder glatte, når
+spartelmassen er fuldstændig tør.",
+                    "order": 1
+                },
+                {
+                    "description": "Rengør de slebne områder igen grundigt
+for at fjerne alt slibestøv.",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "description": "Det sidste trin er at male de reparerede
+områder og sikre en ensartet og pæn finish, der matcher den eksisterende
+farve.",
+            "order": 4,
+            "substeps": [
+                {
+                    "description": "Påfør hvid maling med satinfinish på de
+spartlede områder og eventuelt hele vinduesrammen for at sikre et ensartet
+udseende.",
+                    "order": 1
+                },
+                {
+                    "description": "Sørg for jævn dækning og lad malingen
+tørre helt. Gentag processen med en anden omgang maling, hvis det er
+nødvendigt for fuld dækning.",
+                    "order": 2
+                }
+            ]
+        }
+    ],
+    "tools": [
+        "Fugtig klud",
+        "Spartel",
+        "Sandpapir",
+        "Malepensel",
+        "Målebånd"
+    ]
+}
+
+
+================================================================================
+EMAIL #34
+================================================================================
+ID:         30
+Message ID: <19ab77c3713.117e956a1440061.944801063081237607@justduly.com>
+Parent ID:  <CAG_QVkvWBQYq8gO+7=8njGS8j6eUUr1VnZq8DX9s4pMOzs+eOQ@mail.gmail.com>
+References: ['<19ab52506a2.af146856339347.7486746344245738169@justduly.com>', '<CAG_QVkvWBQYq8gO+7=8njGS8j6eUUr1VnZq8DX9s4pMOzs+eOQ@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Set-by-step structure
+Date:       2025-11-24 21:09:22
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Great Aaryan, I can see all my projects has been deleted - I would like a refund of my service with Duly!!! 
+
+
+
+
+
+I was imagining the following structure for a step would make sense, Think we are almost there:
+
+
+[Header of the step]
+
+[Brief description of the step 1-3 lines]
+[Sub-bullets]
+
+
+
+
+Your example:
+
+
+[Header of the step]
+
+Preparing the surface for treatment
+
+
+[Brief description of the step 1-3 lines]
+
+"description": "Før du begynder udbedringen, er det vigtigt at sikre, at overfladen er ren og klar til behandling. Dette sikrer optimal vedhæftning for spartelmasse og maling.",
+
+            
+[Sub-bullets]
+
+"order": 1,
+
+            "substeps": [
+
+                {
+
+                    "description": "Rens området omkring pletten og hullerne med en fugtig klud og mild sæbe.",
+
+                    "order": 1
+
+                },
+
+                {
+
+                    "description": "Sørg for, at området tørrer helt, før du fortsætter.",
+
+                    "order": 2
+
+                }
+
+            ]
+
+        },
+
+ 
+
+
+
+
+
+However, This is not how it is currently structuring the steps now (I don´t know if it is because you are still working :))
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Mon, 24 Nov 2025 16:16:16 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ---
+
+
+
+I have changed the database so probably the older data will be deleted. Each step wll have further substeps. The output that the LLM will create will look like this. (Just used a sample conversation to generate this). Now just creating the UI to make it look like the Figma design {
+    "title": "Udbedring og maling af vindueskarm",
+    "status": "Planned",
+    "materials": [
+        {
+            "material_type": "Filler",
+            "material": "Spartelmasse",
+            "quantity": 1,
+            "budget": 30
+        },
+        {
+            "material_type": "Abrasive",
+            "material": "Sandpapir",
+            "quantity": 1,
+            "budget": 20
+        },
+        {
+            "material_type": "Cleaner",
+            "material": "Mild sæbe",
+            "quantity": 1,
+            "budget": 20
+        },
+        {
+            "material_type": "Maling",
+            "material": "Hvid satinmaling",
+            "quantity": 1,
+            "budget": 30
+        }
+    ],
+    "steps": [
+        {
+            "description": "Før du begynder udbedringen, er det vigtigt at sikre, at overfladen er ren og klar til behandling. Dette sikrer optimal vedhæftning for spartelmasse og maling.",
+            "order": 1,
+            "substeps": [
+                {
+                    "description": "Rens området omkring pletten og hullerne med en fugtig klud og mild sæbe.",
+                    "order": 1
+                },
+                {
+                    "description": "Sørg for, at området tørrer helt, før du fortsætter.",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "description": "Nu hvor overfladen er ren, er det tid til at reparere de små huller i vinduesrammen, så overfladen bliver jævn og ensartet igen.",
+            "order": 2,
+            "substeps": [
+                {
+                    "description": "Påfør spartelmasse eller filler i hullerne. Følg produktets anvisninger for påføring.",
+                    "order": 1
+                },
+                {
+                    "description": "Lad spartelmassen tørre helt i henhold til producentens instruktioner. Dette er afgørende for et holdbart resultat.",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "description": "Når spartelmassen er hærdet, skal den slibes glat, så den falder i ét med den omgivende overflade. Efterfølgende rengøring fjerner støv og forbereder til maling.",
+            "order": 3,
+            "substeps": [
+                {
+                    "description": "Slib de spartlede områder glatte, når spartelmassen er fuldstændig tør.",
+                    "order": 1
+                },
+                {
+                    "description": "Rengør de slebne områder igen grundigt for at fjerne alt slibestøv.",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "description": "Det sidste trin er at male de reparerede områder og sikre en ensartet og pæn finish, der matcher den eksisterende farve.",
+            "order": 4,
+            "substeps": [
+                {
+                    "description": "Påfør hvid maling med satinfinish på de spartlede områder og eventuelt hele vinduesrammen for at sikre et ensartet udseende.",
+                    "order": 1
+                },
+                {
+                    "description": "Sørg for jævn dækning og lad malingen tørre helt. Gentag processen med en anden omgang maling, hvis det er nødvendigt for fuld dækning.",
+                    "order": 2
+                }
+            ]
+        }
+    ],
+    "tools": [
+        "Fugtig klud",
+        "Spartel",
+        "Sandpapir",
+        "Malepensel",
+        "Målebånd"
+    ]
+}
+
+
+================================================================================
+EMAIL #35
+================================================================================
+ID:         31
+Message ID: <CAG_QVkvU4SJxRE9xos0TUU8FxG=oYw9OpLpWC=krDOMDdkZ6uA@mail.gmail.com>
+Parent ID:  <19ab77c3713.117e956a1440061.944801063081237607@justduly.com>
+References: ['<19ab52506a2.af146856339347.7486746344245738169@justduly.com>', '<CAG_QVkvWBQYq8gO+7=8njGS8j6eUUr1VnZq8DX9s4pMOzs+eOQ@mail.gmail.com>', '<19ab77c3713.117e956a1440061.944801063081237607@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Set-by-step structure
+Date:       2025-11-24 23:48:39
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+That was just me checking if themes are working website- wide . It is
+easier to maintain themes when working with websites in the long run.
+
+I have added the new UI and also added the substep creation part with the
+UI . The UI still needs work and is not exactly like the Figma design but I
+am trying to bring it closer to the figma design without spending too much
+time on each element. Will also test it soon to test if the project
+creation problem has gone.  I believe it should be ok now and If the bug
+persists I have added logging at every step project creation which will
+help us pinpoint the problem.
+
+let me know what you think.
+
+Good night,
+Aaryan
+
+
+================================================================================
+EMAIL #36
+================================================================================
+ID:         32
+Message ID: <19ab9cc77dc.49b7713b86577.5337604599947492312@justduly.com>
+Parent ID:  <CAG_QVkvU4SJxRE9xos0TUU8FxG=oYw9OpLpWC=krDOMDdkZ6uA@mail.gmail.com>
+References: ['<19ab52506a2.af146856339347.7486746344245738169@justduly.com>', '<CAG_QVkvWBQYq8gO+7=8njGS8j6eUUr1VnZq8DX9s4pMOzs+eOQ@mail.gmail.com>', '<19ab77c3713.117e956a1440061.944801063081237607@justduly.com>,<19ab77c3713.117e956a1440061.944801063081237607@justduly.com>', '<CAG_QVkvU4SJxRE9xos0TUU8FxG=oYw9OpLpWC=krDOMDdkZ6uA@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Set-by-step structure
+Date:       2025-11-25 07:56:16
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Thanks for letting me know, It was however just a joke with the “get money back” request 🙏
+
+
+What a beautiful piece of work, really good job! 
+Can’t wait to test and very soon present and test with users 👏🏻👏🏻👏🏻👏🏻
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Mon, 24 Nov 2025 23:48:39 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ----
+
+
+
+That was just me checking if themes are working website- wide . It is easier to maintain themes when working with websites in the long run. 
+
+I have added the new UI and also added the substep creation part with the UI . The UI still needs work and is not exactly like the Figma design but I am trying to bring it closer to the figma design without spending too much time on each element. Will also test it soon to test if the project creation problem has gone.  I believe it should be ok now and If the bug persists I have added logging at every step project creation which will help us pinpoint the problem. 
+
+
+
+let me know what you think.
+
+
+
+Good night,
+
+Aaryan
+
+
+================================================================================
+EMAIL #37
+================================================================================
+ID:         33
+Message ID: <CAG_QVkvoHB9e5++MqVy5Ht=_r_86nuO-0VEErE1dAP_ejhqFGg@mail.gmail.com>
+Parent ID:  None
+References: []
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Meeting today?
+Date:       2025-11-28 09:29:21
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Nikolai,
+
+Can we have a meeting sometime after 14 today?
+
+
+================================================================================
+EMAIL #38
+================================================================================
+ID:         34
+Message ID: <19ac99fa287.e49ab8b3145683.576018385914395527@justduly.com>
+Parent ID:  <CAG_QVkvoHB9e5++MqVy5Ht=_r_86nuO-0VEErE1dAP_ejhqFGg@mail.gmail.com>
+References: ['<CAG_QVkvoHB9e5++MqVy5Ht=_r_86nuO-0VEErE1dAP_ejhqFGg@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Meeting today?
+Date:       2025-11-28 09:41:13
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan,
+
+
+Yes absolutely. I do however have another meeting at 14:00-15:00 ish.
+
+
+What's the theme of the meeting, and how long time do we need?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Fri, 28 Nov 2025 09:29:21 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ---
+
+
+
+Hi Nikolai,
+
+Can we have a meeting sometime after 14 today?
+
+
+================================================================================
+EMAIL #39
+================================================================================
+ID:         35
+Message ID: <CAG_QVkt6mL0DROK7cc4Wm-4X=GRNfupK+rE3mHCRnDc6bxiN+w@mail.gmail.com>
+Parent ID:  <19ac99fa287.e49ab8b3145683.576018385914395527@justduly.com>
+References: ['<CAG_QVkvoHB9e5++MqVy5Ht=_r_86nuO-0VEErE1dAP_ejhqFGg@mail.gmail.com>', '<19ac99fa287.e49ab8b3145683.576018385914395527@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Meeting today?
+Date:       2025-11-28 10:26:16
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+I just want to discuss the bugs that we are encountering and what to
+prioritize for this week. Wouldn't be a long meeting 20-25 min.
+
+
+================================================================================
+EMAIL #40
+================================================================================
+ID:         36
+Message ID: <19ad5764aad.3de279ff59925.5609065937039664894@justduly.com>
+Parent ID:  
+References: []
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Brief test
+Date:       2025-11-30 16:51:30
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan,
+
+
+Tested the solution to show a family member, but the project creation failed?
+
+
+Also, the latency was also present and the response error on “Yes” responses happened again.
+
+
+I just observed, while my family member spoke with Morten (AI model)
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com
+
+
+================================================================================
+EMAIL #41
+================================================================================
+ID:         37
+Message ID: <CAG_QVkuVAqNM8HJ17wpVN742qJnBRt9xw_VcQqn2tjtQ=cCefw@mail.gmail.com>
+Parent ID:  <19ad5764aad.3de279ff59925.5609065937039664894@justduly.com>
+References: ['<19ad5764aad.3de279ff59925.5609065937039664894@justduly.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolai@justduly.com
+Subject:    Re: Brief test
+Date:       2025-11-30 16:55:11
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+My bad I should have informed you that I am changing the database to add
+time required and change quantity to descriptive values(e.g. 30 x30cm wood
+block)
+
+ It won't work for now but I will push the changes soon.
+
+
+================================================================================
+EMAIL #42
+================================================================================
+ID:         38
+Message ID: <19ad57b1391.83b3a80259968.3047396588942693984@justduly.com>
+Parent ID:  <CAG_QVkuVAqNM8HJ17wpVN742qJnBRt9xw_VcQqn2tjtQ=cCefw@mail.gmail.com>
+References: ['<19ad5764aad.3de279ff59925.5609065937039664894@justduly.com>', '<CAG_QVkuVAqNM8HJ17wpVN742qJnBRt9xw_VcQqn2tjtQ=cCefw@mail.gmail.com>']
+From:       nikolai@justduly.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Brief test
+Date:       2025-11-30 16:56:44
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Ahh okay - that makes sense 💪
+
+
+See you at 19 👏🏻
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Best regards
+
+
+
+Nikolai Hart
+
+Founder
+
+
+
+Direkte: 60464544
+
+E-mail:   mailto:sara@justduly.com 
+
+Website:  http://justduly.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---- On Sun, 30 Nov 2025 16:55:11 +0100 Aaryan Bhandari <bhandariaaryan16@gmail.com> wrote ----
+
+
+
+My bad I should have informed you that I am changing the database to add time required and change quantity to descriptive values(e.g. 30 x30cm wood block)
+
+ It won't work for now but I will push the changes soon.
+
+
+================================================================================
+EMAIL #43
+================================================================================
+ID:         39
+Message ID: <CAG_QVktU_TcM0SxUx8EFSXji6CP5HJtoqeeD68t1LOE4Vxriug@mail.gmail.com>
+Parent ID:  None
+References: []
+From:       bhandariaaryan16@gmail.com
+To:         nikolaih89@gmail.com
+Subject:    Sent you a langfuse invite + deployed code.
+Date:       2025-12-01 00:01:41
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Finally managed to add langfuse and have sent you the invite to the
+langfuse project so you will be able to monitor everything again.
+
+Used the app again to get a fix for my squeaky cupboard door and it did ask
+me if I want an overview or want live guidance. I think it works well when
+I use Wifi. Will try to use it on complex tasks also.
+
+Also deployed the new code with Time estimation and improved budget
+calculation.
+
+Would be nice if you could test it out on different scenarios with (Wifi
+and no wifi) and also see what exactly is taking time on the dashboard on
+langfuse?
+
+Bests,
+Aaryan
+
+
+================================================================================
+EMAIL #44
+================================================================================
+ID:         40
+Message ID: <CACKuzJPXzn+Wx8bzrWT85LsJO+rp=v8TY6cXRy+XN5Ok9sCg=A@mail.gmail.com>
+Parent ID:  <CAG_QVktU_TcM0SxUx8EFSXji6CP5HJtoqeeD68t1LOE4Vxriug@mail.gmail.com>
+References: ['<CAG_QVktU_TcM0SxUx8EFSXji6CP5HJtoqeeD68t1LOE4Vxriug@mail.gmail.com>']
+From:       nikolaih89@gmail.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Re: Sent you a langfuse invite + deployed code.
+Date:       2025-12-01 19:42:49
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Hi Aaryan,
+
+Awesome work man!! Looking forward to testing it out. Will dig into it
+tomorrow.
+
+Makes sense on the network tests, I will test the initial latency on wifi
+and off wifi tomorrow and wednesday :)
+
+Den man. 1. dec. 2025 kl. 00.01 skrev Aaryan Bhandari <
+bhandariaaryan16@gmail.com>:
+
+> Finally managed to add langfuse and have sent you the invite to the
+> langfuse project so you will be able to monitor everything again.
+>
+> Used the app again to get a fix for my squeaky cupboard door and it did
+> ask me if I want an overview or want live guidance. I think it works well
+> when I use Wifi. Will try to use it on complex tasks also.
+>
+> Also deployed the new code with Time estimation and improved budget
+> calculation.
+>
+> Would be nice if you could test it out on different scenarios with (Wifi
+> and no wifi) and also see what exactly is taking time on the dashboard on
+> langfuse?
+>
+> Bests,
+> Aaryan
+>
+
+
+================================================================================
+EMAIL #45
+================================================================================
+ID:         41
+Message ID: <BB70DA12-AF10-4FCB-959E-DEF54562F395@gmail.com>
+Parent ID:  None
+References: []
+From:       nikolaih89@gmail.com
+To:         bhandariaaryan16@gmail.com
+Subject:    Duly
+Date:       2025-12-02 17:17:19
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+Model calculation failed again
+
+17:10ish
+
+
+================================================================================
+EMAIL #46
+================================================================================
+ID:         42
+Message ID: <CAG_QVku27+PiQmstSSHZa9wrPjhLOAgKOt5osdaTU2W4v68BWQ@mail.gmail.com>
+Parent ID:  <BB70DA12-AF10-4FCB-959E-DEF54562F395@gmail.com>
+References: ['<BB70DA12-AF10-4FCB-959E-DEF54562F395@gmail.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolaih89@gmail.com
+Subject:    Re: Duly
+Date:       2025-12-02 18:23:23
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+This is probably because the project creation prompt has no mention of cost
+calculation. I think there should be a small section explaining the LLM how
+to do the cost calculation.
+The attached schema file has a project model which I give to the llm as
+"response_schema" so that it knows what output it has to create in a
+structured format. We need to use the variables defined in the Project
+model in the prompt to guide the project creation. Also these variables
+have a description. We can also refine the descriptions as they are also
+given to the LLM as context.
+
+Aaryan
+
+
+================================================================================
+EMAIL #47
+================================================================================
+ID:         43
+Message ID: <CAG_QVkuLtnPzntoNasu=7x1iRiY=NKUeeB7utSJN1LXGs3CnSA@mail.gmail.com>
+Parent ID:  <CAG_QVku27+PiQmstSSHZa9wrPjhLOAgKOt5osdaTU2W4v68BWQ@mail.gmail.com>
+References: ['<BB70DA12-AF10-4FCB-959E-DEF54562F395@gmail.com>', '<CAG_QVku27+PiQmstSSHZa9wrPjhLOAgKOt5osdaTU2W4v68BWQ@mail.gmail.com>']
+From:       bhandariaaryan16@gmail.com
+To:         nikolaih89@gmail.com
+Subject:    Re: Duly
+Date:       2025-12-02 21:08:23
+--------------------------------------------------------------------------------
+CONTENT:
+--------------------------------------------------------------------------------
+I think we can go through the prompt on Thursday and we can fix the
+remaining issues. Sadly, I had no time to test langfuse today and
+yesterday because of my master thesis and the current start up work, but
+Thursday we can figure out how to improve the prompt and go through it
+together.
+
+

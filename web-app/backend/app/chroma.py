@@ -11,7 +11,7 @@ class EmailEmbeddingStore:
         Initializes the EmailEmbeddingStore.
         """
         self.client = chromadb.PersistentClient(path=persist_directory)
-        self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+        self.embedding_model = SentenceTransformer('intfloat/e5-small-v2')
         self.collection = self.client.get_or_create_collection(
             name="email_embeddings"
         )

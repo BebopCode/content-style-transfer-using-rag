@@ -20,6 +20,7 @@ from .extract_from_eml import parse_eml_bytes
 
 Base.metadata.create_all(bind=engine)
 app = FastAPI()
+email_embedding_store = EmailEmbeddingStore()
 
 origins = ["*"]
 
@@ -71,7 +72,7 @@ async def upload_emails(
         "failed": [],
         "skipped": []
     }
-    email_embedding_store = EmailEmbeddingStore()
+    
     for file in files:
         # Check if file is .eml
         if not file.filename.endswith('.eml'):
@@ -118,7 +119,7 @@ async def upload_emails(
                     # Note: ChromaDB errors are separate from DB errors.
                     # You might choose to log this error and skip the DB add, 
                     # or continue with the DB add and handle the missing embedding later.
-                print(f"ChromaDB Error for message_id {new_email['message_id']}: {e}")
+                print(f"ChromaDB Error for message_id {new_email.message_id}: {e}")
                     # We'll continue to add to the relational DB for robustness,
                     # assuming the primary data is more critical than the embedding.
                     
@@ -160,10 +161,50 @@ async def get_conversation(
     emails = db.query(EmailDB).filter(
         or_(
             and_(EmailDB.sender == sender, EmailDB.receiver == receiver),
+            and_(EmailDB.sender == receiver, EmailDB.receiver == sender),
         )
     ).order_by(EmailDB.sent_at.desc()).all()
     
     # Convert to dict for JSON serialization
+    result = []
+    for email in emails:
+        result.append({
+            "message_id": email.message_id,
+            "parent_message_id": email.parent_message_id,
+            "references": email.references,
+            "sender": email.sender,
+            "receiver": email.receiver,
+            "subject": email.subject,
+            "content": email.content,
+            "sent_at": email.sent_at.isoformat() if email.sent_at else None
+        })
+    
+    return result
+
+
+@app.get("/emails/thread/{subject:path}")
+async def get_thread_by_subject(
+    subject: str,
+    db: Session = Depends(get_db)
+):
+    """
+    Get all emails in a thread by subject (includes Re: variations).
+    Returns emails in chronological order.
+    """
+    # Strip "Re: " prefix to get base subject
+    base_subject = subject.strip()
+    if base_subject.lower().startswith("re:"):
+        base_subject = base_subject[3:].strip()
+    
+    # Match all emails with this subject regardless of sender/receiver
+    emails = db.query(EmailDB).filter(
+        or_(
+            EmailDB.subject == base_subject,
+            EmailDB.subject.ilike(f"Re: {base_subject}"),
+            EmailDB.subject.ilike(f"Re:{base_subject}"),
+        )
+    ).order_by(EmailDB.sent_at.asc()).all()
+    
     result = []
     for email in emails:
         result.append({

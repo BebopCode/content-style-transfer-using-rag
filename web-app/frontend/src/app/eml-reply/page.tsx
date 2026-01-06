@@ -1,19 +1,16 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-
-interface Recipient {
-  email: string;
-  count: number;
-}
-
-interface Email {
-  message_id: string;
-  subject: string;
-  sender: string;
-  receiver: string;
-  sent_at: string;
-}
+import { useState } from 'react';
+import { 
+  EmailForm, 
+  RecipientSelect, 
+  ThreadSelect, 
+  ThreadView,
+  EmptyState,
+  Recipient,
+  Email,
+  ThreadMessage
+} from './components';
 
 export default function EmailSearch() {
   const [myEmail, setMyEmail] = useState('');
@@ -21,8 +18,10 @@ export default function EmailSearch() {
   const [selectedRecipient, setSelectedRecipient] = useState('');
   const [emails, setEmails] = useState<Email[]>([]);
   const [selectedEmailId, setSelectedEmailId] = useState('');
+  const [threadMessages, setThreadMessages] = useState<ThreadMessage[]>([]);
   const [loading, setLoading] = useState(false);
   const [loadingEmails, setLoadingEmails] = useState(false);
+  const [loadingThread, setLoadingThread] = useState(false);
 
   const handleEmailSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -37,10 +36,11 @@ export default function EmailSearch() {
     setSelectedRecipient('');
     setEmails([]);
     setSelectedEmailId('');
+    setThreadMessages([]);
 
     try {
       const response = await fetch(
-        `http://localhost:8000/recipients/${encodeURIComponent(myEmail)}`
+        `${process.env.NEXT_PUBLIC_API_URL}/recipients/${encodeURIComponent(myEmail)}`
       );
 
       if (!response.ok) {
@@ -66,7 +66,7 @@ export default function EmailSearch() {
     
     try {
       const response = await fetch(
-        `http://localhost:8000/emails/conversation/${encodeURIComponent(myEmail)}/${encodeURIComponent(recipient)}`
+        `${process.env.NEXT_PUBLIC_API_URL}/emails/conversation/${encodeURIComponent(myEmail)}/${encodeURIComponent(recipient)}`
       );
 
       if (!response.ok) {
@@ -75,15 +75,24 @@ export default function EmailSearch() {
 
       const data = await response.json();
       
-      // Filter out replies (subjects starting with "Re: ")
-      const filteredEmails = data.filter((email: Email) => 
-        email.subject && !email.subject.trim().startsWith('Re:')
-      );
-      
-      setEmails(filteredEmails);
+      const getBaseSubject = (subject: string) => {
+        return subject?.trim().replace(/^Re:\s*/i, '') || '';
+      };
 
-      if (filteredEmails.length === 0) {
-        alert('No non-reply emails found in this conversation');
+      const seenSubjects = new Set<string>();
+      const uniqueThreads = data.filter((email: Email) => {
+        const baseSubject = getBaseSubject(email.subject);
+        if (seenSubjects.has(baseSubject)) {
+          return false;
+        }
+        seenSubjects.add(baseSubject);
+        return true;
+      });
+      
+      setEmails(uniqueThreads);
+
+      if (uniqueThreads.length === 0) {
+        alert('No emails found in this conversation');
       }
     } catch (error) {
       console.error('Error fetching emails:', error);
@@ -93,110 +102,95 @@ export default function EmailSearch() {
     }
   };
 
+  const fetchThread = async (subject: string) => {
+    setLoadingThread(true);
+    
+    try {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/emails/thread/${encodeURIComponent(subject)}`
+      );
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch thread');
+      }
+
+      const data = await response.json();
+      setThreadMessages(data);
+
+      if (data.length === 0) {
+        alert('No messages found in this thread');
+      }
+    } catch (error) {
+      console.error('Error fetching thread:', error);
+      alert('Error fetching thread. Please try again.');
+    } finally {
+      setLoadingThread(false);
+    }
+  };
+
+  const handleRecipientSelect = (recipient: string) => {
+    setSelectedRecipient(recipient);
+    setEmails([]);
+    setSelectedEmailId('');
+    setThreadMessages([]);
+    if (recipient) {
+      fetchEmails(recipient);
+    }
+  };
+
+  const handleThreadSelect = (emailId: string) => {
+    setSelectedEmailId(emailId);
+    setThreadMessages([]);
+    
+    if (emailId) {
+      const selectedEmail = emails.find(e => e.message_id === emailId);
+      if (selectedEmail) {
+        fetchThread(selectedEmail.subject);
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white p-8">
-      <div className="max-w-md mx-auto">
+      <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold text-black mb-8">Email Search</h1>
 
-        {/* Email Input Form */}
-        <form onSubmit={handleEmailSubmit} className="mb-8">
-          <label htmlFor="my-email" className="block text-sm font-medium text-black mb-2">
-            Your Email Address
-          </label>
-          <input
-            id="my-email"
-            type="email"
-            value={myEmail}
-            onChange={(e) => setMyEmail(e.target.value)}
-            placeholder="your.email@example.com"
-            className="w-full px-4 py-2 border-2 border-black rounded-md
-              focus:outline-none focus:ring-2 focus:ring-black
-              text-black placeholder-gray-400"
-            required
-          />
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full mt-4 bg-black text-white py-2 px-4 rounded-md
-              hover:bg-gray-800 disabled:bg-gray-300 disabled:text-gray-500
-              disabled:cursor-not-allowed transition-colors font-medium"
-          >
-            {loading ? 'Searching...' : 'Find Recipients'}
-          </button>
-        </form>
+        <EmailForm
+          myEmail={myEmail}
+          setMyEmail={setMyEmail}
+          onSubmit={handleEmailSubmit}
+          loading={loading}
+        />
 
-        {/* Recipients Dropdown */}
         {recipients.length > 0 && (
-          <div>
-            <label htmlFor="recipient-select" className="block text-sm font-medium text-black mb-2">
-              Select Recipient ({recipients.length} found)
-            </label>
-            <select
-              id="recipient-select"
-              value={selectedRecipient}
-              onChange={(e) => {
-                setSelectedRecipient(e.target.value);
-                setEmails([]);
-                setSelectedEmailId('');
-                if (e.target.value) {
-                  fetchEmails(e.target.value);
-                }
-              }}
-              className="w-full px-4 py-2 border-2 border-black rounded-md
-                focus:outline-none focus:ring-2 focus:ring-black
-                text-black bg-white"
-            >
-              <option value="">-- Select a recipient --</option>
-              {recipients.map((recipient, idx) => (
-                <option key={idx} value={recipient.email}>
-                  {recipient.email} ({recipient.count} email{recipient.count !== 1 ? 's' : ''})
-                </option>
-              ))}
-            </select>
+          <>
+            <RecipientSelect
+              recipients={recipients}
+              selectedRecipient={selectedRecipient}
+              onSelect={handleRecipientSelect}
+            />
 
             {selectedRecipient && (
-              <div className="mt-6 p-4 border-2 border-black rounded-md bg-white">
-                <p className="text-sm text-black mb-4">
-                  <span className="font-medium">Selected:</span> {selectedRecipient}
-                </p>
-
-                {loadingEmails ? (
-                  <p className="text-sm text-black">Loading emails...</p>
-                ) : emails.length > 0 ? (
-                  <>
-                    <label htmlFor="email-select" className="block text-sm font-medium text-black mb-2">
-                      Select Email Thread ({emails.length} found)
-                    </label>
-                    <select
-                      id="email-select"
-                      value={selectedEmailId}
-                      onChange={(e) => setSelectedEmailId(e.target.value)}
-                      className="w-full px-4 py-2 border-2 border-black rounded-md
-                        focus:outline-none focus:ring-2 focus:ring-black
-                        text-black bg-white"
-                    >
-                      <option value="">-- Select Thread --</option>
-                      {emails.map((email) => (
-                        <option key={email.message_id} value={email.message_id}>
-                          {email.subject || '(No Subject)'}
-                        </option>
-                      ))}
-                    </select>
-                  </>
-                ) : (
-                  <p className="text-sm text-black">No non-reply emails found</p>
-                )}
-              </div>
+              <ThreadSelect
+                emails={emails}
+                selectedEmailId={selectedEmailId}
+                onSelect={handleThreadSelect}
+                loading={loadingEmails}
+                selectedRecipient={selectedRecipient}
+              />
             )}
-          </div>
+
+            {selectedEmailId && (
+              <ThreadView
+                messages={threadMessages}
+                loading={loadingThread}
+                myEmail={myEmail}
+              />
+            )}
+          </>
         )}
 
-        {/* Empty State */}
-        {!loading && recipients.length === 0 && myEmail && (
-          <div className="text-center p-8 border-2 border-black rounded-md">
-            <p className="text-black">No recipients found. Try a different email address.</p>
-          </div>
-        )}
+        {!loading && recipients.length === 0 && myEmail && <EmptyState />}
       </div>
     </div>
   );

@@ -12,10 +12,27 @@ from email.parser import BytesParser
 from email.utils import parsedate_to_datetime, parseaddr
 import pprint
 import io
+import re
 # Import your database setup
 # Adjust these imports based on your actual folder structure
 from .chroma import EmailEmbeddingStore
 email_embedding_store = EmailEmbeddingStore()
+
+
+
+def clean_email_content(content: str) -> str:
+    """
+    Removes everything from 'On' onwards (including 'On').
+    """
+    # Find newline followed by 'On' and remove everything from there
+    pattern = r'\nOn\s.*'
+    
+    cleaned = re.sub(pattern, '', content, count=1, flags=re.DOTALL)
+    
+    cleaned = cleaned.rstrip()
+    
+    return cleaned
+
 def parse_eml_file(filepath):
     """
     Reads a .eml file and returns a dictionary ready for the database.
@@ -68,7 +85,7 @@ def parse_eml_file(filepath):
     body = msg.get_body(preferencelist=('plain', 'html'))
     if body:
         try:
-            content = body.get_content()
+            content = str(body.get_content())
         except Exception:
             content = "[Could not decode content]"
 
@@ -79,7 +96,7 @@ def parse_eml_file(filepath):
         "sender": sender,
         "receiver": receiver,
         "subject": subject,
-        "content": content,
+        "content": clean_email_content(content),
         "sent_at": sent_at,
         # "embedding": None # Placeholder
     }
@@ -129,7 +146,7 @@ def parse_eml_bytes(file_content: bytes):
     body = msg.get_body(preferencelist=('plain', 'html'))
     if body:
         try:
-            content = body.get_content()
+            content = str(body.get_content())
         except Exception:
             content = "[Could not decode content]"
     
@@ -140,7 +157,7 @@ def parse_eml_bytes(file_content: bytes):
         "sender": sender,
         "receiver": receiver,
         "subject": subject,
-        "content": content,
+        "content": clean_email_content(content),
         "sent_at": sent_at,
     }
 

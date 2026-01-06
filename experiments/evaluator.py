@@ -121,10 +121,10 @@ class StyleTransferEvaluator:
         score = self._extract_score(response, scale_type="1-5")
         return score, response
     
-    def evaluate_content_preservation(self, original: str, recreated: str) -> Tuple[float, str]:
+    def evaluate_content_preservation(self, original: str, recreated: str) -> Tuple[int, str]:
         """
         Evaluate how much content is preserved between original and recreated text.
-        Scale: 0 (completely different topic) to 1 (identical topic)
+        Scale: 0 (content not preserved) or 1 (content preserved)
         
         Args:
             original: Original email text
@@ -134,20 +134,24 @@ class StyleTransferEvaluator:
             Tuple of (score, full_response)
         """
         prompt = f"""Here is the original email E1: {original}
-and reconstructed email E2: {recreated}
+    and reconstructed email E2: {recreated}
 
-How much does E2 preserve the content of E1 on a continuous scale from 0 (completely different topic) to 1 (identical topic)?
+    Does E2 preserve the main content and topic of E1?
 
-Provide your answer as a single number between 0 and 1. You may use decimals (e.g., 0.85)."""
+    Answer with ONLY a single digit:
+    - 0 if the content is NOT preserved (different topic, missing key information, or significantly altered meaning)
+    - 1 if the content IS preserved (same topic and main points, even if wording differs)
+
+    Your answer (0 or 1):"""
 
         response = self._call_ollama(prompt)
-        score = self._extract_score(response, scale_type="0-1")
+        score = self._extract_binary_score(response)
         return score, response
-    
-    def evaluate_naturalness(self, recreated: str) -> Tuple[float, str]:
+
+    def evaluate_naturalness(self, recreated: str) -> Tuple[int, str]:
         """
         Evaluate naturalness/coherence of recreated text.
-        Scale: 1 (low coherence) to 5 (highest coherence)
+        Scale: 0 (unnatural/incoherent) or 1 (natural/coherent)
         
         Args:
             recreated: Recreated/transferred email text
@@ -157,13 +161,42 @@ Provide your answer as a single number between 0 and 1. You may use decimals (e.
         """
         prompt = f"""Here is a reconstructed email E2: {recreated}
 
-How natural is this sentence E2 on a scale from 1 to 5 where 1 (low coherence) and 5 (highest coherence)?
+    Is this email natural and coherent?
 
-Provide your answer as a single number between 1 and 5. You may use decimals (e.g., 4.2)."""
+    Answer with ONLY a single digit:
+    - 0 if the email is unnatural, incoherent, or difficult to understand
+    - 1 if the email is natural, coherent, and reads well
+
+    Your answer (0 or 1):"""
 
         response = self._call_ollama(prompt)
-        score = self._extract_score(response, scale_type="1-5")
+        score = self._extract_binary_score(response)
         return score, response
+
+    def _extract_binary_score(self, response: str) -> int:
+        """
+        Extract a binary score (0 or 1) from LLM response.
+        
+        Args:
+            response: Raw response from LLM
+            
+        Returns:
+            Integer score (0 or 1), defaults to 0 if parsing fails
+        """
+        # Clean the response
+        response = response.strip().lower()
+        
+        # Try to find 0 or 1 in the response
+        import re
+        
+        # Look for standalone 0 or 1
+        match = re.search(r'\b([01])\b', response)
+        if match:
+            return int(match.group(1))
+        
+        # Default to 0 if we can't determine
+        print(f"Warning: Could not extract binary score from response: {response}")
+        return None
     
     def evaluate_all(self, original: str, recreated: str) -> Dict[str, any]:
         """
@@ -176,7 +209,7 @@ Provide your answer as a single number between 1 and 5. You may use decimals (e.
         Returns:
             Dictionary containing all scores and responses
         """
-        print("Evaluating style difference...")
+        print("Evaluating style transfer...")
         style_score, style_response = self.evaluate_style_difference(original, recreated)
         
         print("Evaluating content preservation...")
@@ -186,10 +219,10 @@ Provide your answer as a single number between 1 and 5. You may use decimals (e.
         natural_score, natural_response = self.evaluate_naturalness(recreated)
         
         return {
-            "style_difference": {
+            "style_transfer": {
                 "score": style_score,
                 "response": style_response,
-                "description": "1=identical styles, 5=completely different styles"
+                "description": "1=different styles, 5=Identical styles"
             },
             "content_preservation": {
                 "score": content_score,

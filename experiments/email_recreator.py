@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 from typing import Dict, List
 from .stylometric_features import get_historical_context
 from .database import SessionLocal
+from .chroma import EmailEmbeddingStore
 
 
 class EmailRecreator:
@@ -15,6 +16,7 @@ class EmailRecreator:
             base_url: Base URL for Ollama API
         """
         self.model_name = model_name
+        self.embedding_store = EmailEmbeddingStore(persist_directory="./experiments/chroma_db")
         self.base_url = base_url
         self.api_url = f"{base_url}/api/generate"
     
@@ -72,7 +74,13 @@ Email:"""
         recreated_email = self._call_ollama(prompt)
         return recreated_email
     
-    def recreate_email_with_rag(self, db: Session, result: Dict, number_of_emails: int = 5) -> str:
+    def recreate_email_with_rag(
+        self, 
+        db: Session, 
+        result: Dict, 
+        number_of_emails: int = 5,
+        embedding_store: EmailEmbeddingStore = None  # Add this parameter
+    ) -> str:
         """
         Recreate an email using context + RAG (historical emails from sender to receiver).
         
@@ -80,6 +88,7 @@ Email:"""
             db: SQLAlchemy database session
             result: Dictionary containing 'context', 'sender', 'receiver', and other fields
             number_of_emails: Number of recent emails to retrieve for RAG
+            embedding_store: EmailEmbeddingStore instance for semantic search
             
         Returns:
             Recreated email text
@@ -99,27 +108,54 @@ Email:"""
         # Use recent emails for the prompt (more relevant)
         historical_context = recent_emails_context if recent_emails_context else all_emails_context
         
+        # Get semantically similar emails from the sender
+        similar_emails_context = ""
+        similar_emails = self.embedding_store.search_similar_emails(
+            query=context,
+            n_results=number_of_emails,
+            sender_filter=sender
+        )
+        
+        if similar_emails:
+            similar_emails_context = "\n\n".join([
+                f"Email {i+1} (similarity: {1 - email['distance']:.2f}):\n{email['content']}"
+                for i, email in enumerate(similar_emails)
+            ])
+        
         prompt = f"""You are tasked with writing an email based on the following information:
 
-Context: {context}
-From: {sender}
-To: {receiver}
+    Context: {context}
+    From: {sender}
+    To: {receiver}
 
-Here are some recent emails from {sender} to {receiver} for reference on writing style and tone:
+    Here are some recent emails from {sender} to {receiver} for reference on writing style and tone:
 
----RECENT EMAILS---
-{historical_context}
----END RECENT EMAILS---
+    ---RECENT EMAILS---
+    {historical_context}
+    ---END RECENT EMAILS---
+    """
 
-Based on the context and the writing style shown in the recent emails above, write an email that:
-1. Fulfills the intent described in the context
-2. Matches the writing style, tone, and formality level of the sender's previous emails
-3. Sounds natural and consistent with how {sender} typically writes to {receiver}
+        # Add semantically similar emails if available
+        if similar_emails_context:
+            prompt += f"""
+    Additionally, here are emails from {sender} that are semantically similar to the current context:
 
-Include a proper greeting, body, and closing.
-Make sure to base you generation on the Recent emails to check see how the message body is. 
-is
-Email:"""
+    ---SIMILAR EMAILS---
+    {similar_emails_context}
+    ---END SIMILAR EMAILS---
+    """
+
+        prompt += f"""
+    Based on the context and the writing style shown in the emails above, write an email that:
+    1. Fulfills the intent described in the context
+    2. Matches the writing style, tone, and formality level of the sender's previous emails
+    3. Sounds natural and consistent with how {sender} typically writes to {receiver}
+    4. Takes inspiration from the similar emails when relevant to the current context
+
+    Include a proper greeting, body, and closing.
+    Make sure to follow the writers writing style
+
+    Email:"""
 
         recreated_email = self._call_ollama(prompt)
         return recreated_email

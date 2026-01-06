@@ -30,10 +30,14 @@ export default function EmailUploader() {
         formData.append('files', files[i]);
       }
 
-      const response = await fetch('http://localhost:8000/upload-emails/', {
-        method: 'POST',
-        body: formData,
-      });
+const response = await fetch(
+  `${process.env.NEXT_PUBLIC_API_URL}/upload-emails/`,
+  {
+    method: 'POST',
+    body: formData,
+  }
+);
+
 
       if (!response.ok) {
         throw new Error(`Upload failed: ${response.statusText}`);

@@ -181,7 +181,7 @@ if __name__ == "__main__":
     # Run extraction
     results = extract_contexts_for_sender(
         sender=sender_email,
-        limit=30,
+        limit=20,
         model_name="ministral-3:8b",
         save_to_file=True
     )
