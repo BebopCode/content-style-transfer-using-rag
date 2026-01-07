@@ -360,7 +360,7 @@ async def generate_email(
 ):
     """
     Endpoint to retrieve historical email content between a sender and receiver,
-    and concatenate it for use (e.g., in a RAG or prompt context).
+    and generate two replies: one with full context, one with only thread context.
     """
     
     # 1. Extract clean, stripped values from the input model
@@ -398,7 +398,6 @@ async def generate_email(
     
     email_embedding_store = EmailEmbeddingStore()
     
-    # Search for similar emails sent BY ME (clean_receiver is my email in this context)
     similar_emails = email_embedding_store.search_similar_emails(
         query=search_query,
         n_results=3,
@@ -439,9 +438,12 @@ async def generate_email(
         client = genai.Client()
     except Exception as e:
         print(f"Error initializing client. Check your API key. Error: {e}")
-        return
+        return {"error": str(e)}
     
-    prompt = f"""
+    # ============================================================
+    # PROMPT 1: FULL CONTEXT (with stylometric features, recent emails, semantic search)
+    # ============================================================
+    prompt_full_context = f"""
     You are an expert email style transfer agent. Your task is to generate a reply email that perfectly mimics the writing style of a specific person.
 
     === IDENTITY ===
@@ -489,23 +491,76 @@ async def generate_email(
     Generate ONLY the email reply, nothing else. No explanations or meta-commentary.
     """
     
+    # ============================================================
+    # PROMPT 2: THREAD ONLY (no stylometric features, no recent emails, no semantic search)
+    # ============================================================
+    prompt_thread_only = f"""
+    You are an email assistant. Your task is to generate a reply email based only on the thread context.
+
+    === IDENTITY ===
+    I am: {final_context_object['my_email']}
+    Replying to: {final_context_object['person_I_want_to_reply_to']}
+
+    === EMAIL TO REPLY TO ===
+    {final_context_object["mail_I_want_to_reply_to"]}
+
+    === FULL THREAD HISTORY ===
+    {thread_context}
+
+    === ADDITIONAL CONTEXT FOR THIS REPLY ===
+    {additional_context}
+
+    === INSTRUCTIONS ===
+    Generate a professional and appropriate reply to this email based on the thread context.
+    Address the points raised in the email you're replying to.
+
+    Generate ONLY the email reply, nothing else. No explanations or meta-commentary.
+    """
+    
     print('final context object', final_context_object)
     print('additional_context', additional_context)
     print('number of recent mails found', len(recent_emails))
     print('number of thread messages', len(thread_messages))
     print('number of similar emails found', len(similar_emails))
     
+    # Generate both replies
+    generated_full_context = ""
+    generated_thread_only = ""
+    
     try:
-        response = client.models.generate_content(
+        # Generate full context reply
+        print("\n" + "=" * 60)
+        print("GENERATING FULL CONTEXT REPLY...")
+        print("=" * 60)
+        response_full = client.models.generate_content(
             model="gemini-2.5-flash",
-            contents=prompt,
+            contents=prompt_full_context,
         )
-        generated_email = response.text.strip()
-        print(generated_email)
-        return generated_email
+        generated_full_context = response_full.text.strip()
+        print("FULL CONTEXT REPLY:")
+        print(generated_full_context)
+        
+        # Generate thread only reply
+        print("\n" + "=" * 60)
+        print("GENERATING THREAD ONLY REPLY...")
+        print("=" * 60)
+        response_thread = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt_thread_only,
+        )
+        generated_thread_only = response_thread.text.strip()
+        print("THREAD ONLY REPLY:")
+        print(generated_thread_only)
+        
     except Exception as e:
         print(f"An error occurred during content generation: {e}")
-
+        return {"error": str(e)}
+    
+    # Return both replies
+    return {
+        "full_context_reply": generated_full_context,
+        "thread_only_reply": generated_thread_only
+    }
 
 def extract_email(header_value):
     """
