@@ -219,7 +219,67 @@ async def get_thread_by_subject(
         })
     
     return result
+def summarize_thread_context(thread_context: str) -> str:
+    """
+    Takes thread context and summarizes it using Gemini.
+    
+    Args:
+        thread_context: Formatted string containing all thread messages
+        
+    Returns:
+        A concise summary of the thread conversation
+    """
+    
+    if not thread_context or thread_context.strip() == "":
+        return "No thread context to summarize."
+    
+    print("\n" + "=" * 60)
+    print("DEBUG: summarize_thread_context() CALLED")
+    print("=" * 60)
+    print(f"Thread context length: {len(thread_context)} characters")
+    print("-" * 60)
+    
+    try:
+        client = genai.Client()
+    except Exception as e:
+        print(f"Error initializing Gemini client: {e}")
+        return "Error: Could not initialize Gemini client."
+    
+    summary_prompt = f"""
+    You are a precise email thread summarizer. Analyze the following email thread and provide a concise summary.
 
+    === EMAIL THREAD ===
+    {thread_context}
+
+    === INSTRUCTIONS ===
+    Provide a summary that includes:
+    1. **Main Topic**: What is this thread about? (1 sentence)
+    2. **Key Points**: What are the main points discussed? (bullet points)
+    3. **Current Status**: Where does the conversation stand? What was the last message about?
+    4. **Action Items**: Any pending tasks, questions, or requests that need addressing?
+    5. **Participants**: Who is involved and what are their roles/positions in this conversation?
+
+    Keep the summary concise but informative. Focus on what's most relevant for crafting a reply. Should be no longer than 50 words.
+    """
+    
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=summary_prompt,
+        )
+        summary = response.text.strip()
+        
+        print("THREAD SUMMARY GENERATED:")
+        print("-" * 40)
+        print(summary)
+        print("=" * 60 + "\n")
+        
+        return summary
+        
+    except Exception as e:
+        print(f"Error during summarization: {e}")
+        return f"Error summarizing thread: {str(e)}"
+    
 def get_historical_content(db: Session, sender: str, receiver: str) -> Tuple[str, List[str]]:
     """
     Retrieves and concatenates all 'content' from emails where the 
@@ -231,17 +291,37 @@ def get_historical_content(db: Session, sender: str, receiver: str) -> Tuple[str
     Returns: A tuple (concatenated_content, recent_emails_content_list)
     """
     
+    print("\n" + "=" * 60)
+    print("DEBUG: get_historical_content() CALLED")
+    print("=" * 60)
+    print(f"Input sender: {sender}")
+    print(f"Input receiver: {receiver}")
+    print("-" * 60)
+    
     # 1. Define the specific filter condition for the Receiver -> Sender direction
-    filter_condition = (EmailDB.sender == receiver) & (EmailDB.receiver == sender)
+    filter_condition = (EmailDB.sender == sender) & (EmailDB.receiver == receiver)
+    
+    print(f"Filter: EmailDB.sender == '{sender}' AND EmailDB.receiver == '{receiver}'")
+    print("-" * 60)
     
     # --- Fetch ALL matching content for concatenation ---
     historical_emails_all = db.query(EmailDB.content).filter(
         filter_condition
     ).limit(100).all()
     
+    print(f"Total emails found (limit 100): {len(historical_emails_all)}")
+    print("-" * 60)
+    
     # Extract and concatenate content
     content_list_all = [c[0] for c in historical_emails_all]
     concatenated_content = "\n\n---\n\n".join(content_list_all)
+
+    print("ALL EMAILS CONTENT PREVIEW:")
+    print("-" * 40)
+    for i, content in enumerate(content_list_all, 1):
+        preview = content[:100] + "..." if len(content) > 100 else content
+        print(f"[Email {i}]: {preview}")
+    print("-" * 60)
 
     # --- Fetch the 3 MOST RECENT email contents ---
     # We apply the same filter, but order by timestamp descending and limit to 3.
@@ -254,12 +334,25 @@ def get_historical_content(db: Session, sender: str, receiver: str) -> Tuple[str
     # Extract the content for the recent emails
     recent_emails_content_list = [c[0] for c in historical_emails_recent]
 
+    print(f"Recent emails found (limit 3): {len(recent_emails_content_list)}")
+    print("-" * 40)
+    print("RECENT EMAILS CONTENT:")
+    print("-" * 40)
+    for i, content in enumerate(recent_emails_content_list, 1):
+        preview = content[:150] + "..." if len(content) > 150 else content
+        print(f"[Recent {i}]:")
+        print(preview)
+        print("-" * 40)
+    
+    print("=" * 60)
+    print(f"SUMMARY: Returning {len(concatenated_content)} chars concatenated, {len(recent_emails_content_list)} recent emails")
+    print("=" * 60 + "\n")
+
     # Return both the concatenated string and the list of recent email content
     return concatenated_content, recent_emails_content_list
 
 
 
-### 2. ⚡ The FastAPI Endpoint
 @app.post("/api/generate")
 async def generate_email(
     data: Generate, 
@@ -274,6 +367,7 @@ async def generate_email(
     clean_sender = data.sender.strip()
     clean_receiver = data.receiver.strip()
     custom_prompt = data.custom_prompt
+    thread_messages = data.thread_messages
     
     # 2. Use the database function to retrieve concatenated historical content
     historical_context, recent_emails = get_historical_content(
@@ -283,7 +377,53 @@ async def generate_email(
     )
     features = extract_top_words(historical_context)
     
-    # 3. Compile all information into a final context object for the next step passing to the  
+    # 3. Format thread messages for context
+    thread_context = ""
+    if thread_messages:
+        thread_context = "\n\n--- THREAD HISTORY (in chronological order) ---\n"
+        for i, msg in enumerate(thread_messages, 1):
+            thread_context += f"\n[Message {i}]\n"
+            thread_context += f"From: {msg.sender}\n"
+            thread_context += f"To: {msg.receiver}\n"
+            thread_context += f"Date: {msg.sent_at or 'Unknown'}\n"
+            thread_context += f"Subject: {msg.subject}\n"
+            thread_context += f"Content:\n{msg.content}\n"
+            thread_context += "-" * 40
+    
+    # 4. Summarize thread context
+    thread_summary = summarize_thread_context(thread_context)
+    
+    # 5. Semantic search for similar emails based on thread context and mail to reply to
+    search_query = f"{data.content} {thread_summary}"
+    
+    email_embedding_store = EmailEmbeddingStore()
+    
+    # Search for similar emails sent BY ME (clean_receiver is my email in this context)
+    similar_emails = email_embedding_store.search_similar_emails(
+        query=search_query,
+        n_results=3,
+        sender_filter=clean_sender  
+    )
+    
+    # Format similar emails for the prompt
+    similar_emails_context = ""
+    if similar_emails:
+        similar_emails_context = "\n\n--- SEMANTICALLY SIMILAR EMAILS I'VE SENT ---\n"
+        for i, email in enumerate(similar_emails, 1):
+            similar_emails_context += f"\n[Similar Email {i}] (Similarity distance: {email['distance']:.4f})\n"
+            similar_emails_context += f"Content:\n{email['content']}\n"
+            similar_emails_context += "-" * 40
+    
+    print("\n" + "=" * 60)
+    print("DEBUG: SEMANTIC SEARCH RESULTS")
+    print("=" * 60)
+    print(f"Search query (truncated): {search_query[:200]}...")
+    print(f"Number of similar emails found: {len(similar_emails)}")
+    for i, email in enumerate(similar_emails, 1):
+        print(f"[{i}] Distance: {email['distance']:.4f} | Preview: {email['content'][:100]}...")
+    print("=" * 60 + "\n")
+    
+    # 6. Compile all information into a final context object
     additional_context = custom_prompt
     
     final_context_object = {
@@ -291,7 +431,10 @@ async def generate_email(
         "my_email": clean_receiver,
         "my_stylometric_features": features,
         "mail_I_want_to_reply_to": data.content,
+        "thread_summary": thread_summary,
+        "similar_emails_context": similar_emails_context,
     }
+    
     try:
         client = genai.Client()
     except Exception as e:
@@ -299,28 +442,60 @@ async def generate_email(
         return
     
     prompt = f"""
-    You are an email-responder agent that copies the authors writing style
-    and generates an email for them. I am {final_context_object['my_email']}. 
-    Your task is to reply to this mail {final_context_object["mail_I_want_to_reply_to"]}
-    The Person you have to reply to is {final_context_object["person_I_want_to_reply_to"]}
-    The three recent emails sent by me to this person are {recent_emails}.
-    My stylometric features(the verbs, adjectives and adverbs I use in decreasing order
-    are {final_context_object['my_stylometric_features']}
-    Your task is to generate a reply to the email by using my using my stylometric 
-    features. Make sure to use the greetings and the tone, stylometric features that I use 
-    to generate the reply using all the context given to you .
-    Here is some extra information about how the reply should be generated {additional_context} .
-    Do not add unnecessary commas or stylometric features that are not used by me.
-    """
+    You are an expert email style transfer agent. Your task is to generate a reply email that perfectly mimics the writing style of a specific person.
 
-    # You would typically pass final_context_object to a language model here
-    # For now, we return the context object as the response:
+    === IDENTITY ===
+    I am: {final_context_object['my_email']}
+    Replying to: {final_context_object['person_I_want_to_reply_to']}
+
+    === EMAIL TO REPLY TO ===
+    {final_context_object["mail_I_want_to_reply_to"]}
+
+    === THREAD SUMMARY ===
+    {final_context_object['thread_summary']}
+
+    === MY RECENT EMAILS TO THIS PERSON (study these for style) ===
+    {recent_emails}
+
+    === SEMANTICALLY SIMILAR EMAILS I'VE WRITTEN (study these for relevant content & style) ===
+    These are emails I've written in the past that are topically similar to the current conversation.
+    Use these to understand how I typically write about similar topics:
+    {final_context_object['similar_emails_context']}
+
+    === MY STYLOMETRIC FEATURES ===
+    Top verbs, adjectives, and adverbs I frequently use (in decreasing order of frequency):
+    {final_context_object['my_stylometric_features']}
+
+    === STYLE TRANSFER INSTRUCTIONS ===
+    Analyze my recent emails and semantically similar emails above, then copy these specific style features:
+    
+    1. **Sentence Structure**: Match my typical sentence length and complexity. Do I use short punchy sentences or longer flowing ones? Do I prefer simple sentences or compound/complex structures with multiple clauses?
+    2. **Vocabulary Choice**: Use words at the same sophistication level as mine. Am I formal or informal? Do I use technical jargon or casual language? Copy my word choices.
+    3. **Tone**: Match my tone exactly - whether professional, friendly, authoritative, casual, urgent, warm, or direct. Maintain the same emotional register.
+    4. **Formality Level**: Copy my greeting style e.g. (Hi/Hello/Dear/Hey), my closing style e.g. (Bests/Thanks/Regards/Cheers), my use of politeness markers, and whether I use contractions (don't vs do not).
+    5. **Punctuation Patterns**: Match my punctuation habits - do I use exclamation marks? Dashes? Semicolons? Ellipses? How frequently?
+    6. **Paragraph Organization**: Structure paragraphs like I do - match my typical paragraph length and how I organize information.
+    7. **Expressiveness**: Match my level of expressiveness - do I use many adjectives and adverbs? Do I use intensifiers (very, really, extremely) or hedging language (perhaps, maybe, I think)?
+    8. **Voice**: Match my preference for active or passive voice.
+
+    === ADDITIONAL CONTEXT FOR THIS REPLY ===
+    {additional_context}
+
+    === CRITICAL RULES ===
+    - Match my greeting and sign-off patterns exactly
+    - Use the semantically similar emails to understand how I discuss similar topics
+    - The reply should address the content of the email while matching my style
+
+    Generate ONLY the email reply, nothing else. No explanations or meta-commentary.
+    """
+    
     print('final context object', final_context_object)
     print('additional_context', additional_context)
     print('number of recent mails found', len(recent_emails))
-    print('Print additional context', additional_context)
+    print('number of thread messages', len(thread_messages))
+    print('number of similar emails found', len(similar_emails))
+    
     try:
-        # 2. Call the API to generate the CSV content
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=prompt,
@@ -330,6 +505,7 @@ async def generate_email(
         return generated_email
     except Exception as e:
         print(f"An error occurred during content generation: {e}")
+
 
 def extract_email(header_value):
     """

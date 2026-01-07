@@ -6,6 +6,7 @@ import {
   RecipientSelect, 
   ThreadSelect, 
   ThreadView,
+  GenerateReply,
   EmptyState,
   Recipient,
   Email,
@@ -181,11 +182,21 @@ export default function EmailSearch() {
             )}
 
             {selectedEmailId && (
-              <ThreadView
-                messages={threadMessages}
-                loading={loadingThread}
-                myEmail={myEmail}
-              />
+              <>
+                <ThreadView
+                  messages={threadMessages}
+                  loading={loadingThread}
+                  myEmail={myEmail}
+                />
+
+                {threadMessages.length > 0 && (
+                  <GenerateReply
+                    threadMessages={threadMessages}
+                    myEmail={myEmail}
+                    selectedRecipient={selectedRecipient}
+                  />
+                )}
+              </>
             )}
           </>
         )}
