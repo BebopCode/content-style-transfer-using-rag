@@ -28,7 +28,7 @@ RUN gdown --id 1wTbb7J4O20hZFmyMTpntFLQ0-zt_eaEX -O experiments/emails_cleaned.c
 
 # Create entrypoint script
 RUN echo '#!/bin/bash\n\
-python -m experiments.enron\
+python -m experiments.enron\n\
 python -m experiments.pipeline --limit $NUMBER_OF_SAMPLE_EMAILS --model-name $GENERATOR_MODEL_NAME --number-of-emails $RETRIEVED_EMAILS\n\
 python -m experiments.evaluator --model-name $EVALUATOR_MODEL_NAME' > /app/entrypoint.sh \
 && chmod +x /app/entrypoint.sh
