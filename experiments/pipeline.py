@@ -7,6 +7,7 @@ from .models import EmailDB
 from .database import SessionLocal
 from .email_recreator import EmailRecreator
 from sqlalchemy import func
+import argparse
 
 def sample_emails_by_sender(db: Session, sender: str, limit: int = 100) -> List[EmailDB]:
     """
@@ -172,37 +173,40 @@ def print_summary(results: List[Dict]):
 
 # Main execution
 if __name__ == "__main__":
-    # Example usage: Extract contexts for a single sender
-    sender_email = "vince.kaminski@enron.co"
+    parser = argparse.ArgumentParser(description="Email Context Extraction Pipeline")
+    parser.add_argument("--sender", default="vince.kaminski@enron.co", help="Sender email address")
+    parser.add_argument("--limit", type=int, default=10, help="Limit for context extraction")
+    parser.add_argument("--model-name", default="ministral-3:8b", help="Model name to use")
+    parser.add_argument("--base-url", default="http://localhost:11434", help="Base URL for the API")
+    parser.add_argument("--number-of-emails", type=int, default=5, help="Number of emails to recreate")
+    
+    args = parser.parse_args()
     
     print("Starting Email Context Extraction Pipeline")
     print("="*60)
     
     # Run extraction
     results = extract_contexts_for_sender(
-        sender=sender_email,
-        limit=20,
-        model_name="ministral-3:8b",
+        sender=args.sender,
+        limit=args.limit,
+        model_name=args.model_name,
         save_to_file=True
     )
-    
     
     print("\n" + "="*60)
     print("Starting Email Recreation")
     print("="*60)
     
-    recreator = EmailRecreator(model_name="ministral-3:8b")
+    recreator = EmailRecreator(model_name=args.model_name, base_url=args.base_url)
     db = SessionLocal()
     
     try:
-        # Recreate all emails with both methods
         recreated_results = recreator.recreate_batch_both_methods(
             db=db,
             results=results,
-            number_of_emails=5
+            number_of_emails=args.number_of_emails
         )
         
-        # Save recreated results
         with open('experiments/recreated_emails.json', 'w') as f:
             json.dump(recreated_results, f, indent=2)
         
@@ -212,11 +216,4 @@ if __name__ == "__main__":
         db.close()
     
     print("\nPipeline completed!")
-    # Print summary
     print_summary(results)
-    
-    # Example: Process multiple senders
-    # senders = ["john@example.com", "sarah@example.com", "mike@example.com"]
-    # batch_results = extract_contexts_batch(senders, limit_per_sender=100)
-    
-    print("\nPipeline completed!")

@@ -68,7 +68,7 @@ From: {sender}
 To: {receiver}
 
 Write a professional email that fulfills the intent described in the context. The email should sound natural and appropriate for the sender and receiver. Include a proper greeting, body, and closing.
-
+Do not add subject to the as you only have to generate the body
 Email:"""
 
         recreated_email = self._call_ollama(prompt)
@@ -154,7 +154,7 @@ Email:"""
 
     Include a proper greeting, body, and closing.
     Make sure to follow the writers writing style
-
+    Do not add subject to the generated mail as you only have to generate the body
     Email:"""
 
         recreated_email = self._call_ollama(prompt)

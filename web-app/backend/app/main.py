@@ -423,11 +423,11 @@ async def generate_email(
     print("=" * 60 + "\n")
     
     # 6. Compile all information into a final context object
-    additional_context = custom_prompt
+    generation_prompt = custom_prompt
     
     final_context_object = {
-        "person_I_want_to_reply_to": clean_sender,
-        "my_email": clean_receiver,
+        "person_I_want_to_reply_to": clean_receiver,
+        "my_email": clean_sender,
         "my_stylometric_features": features,
         "mail_I_want_to_reply_to": data.content,
         "thread_summary": thread_summary,
@@ -450,11 +450,6 @@ async def generate_email(
     I am: {final_context_object['my_email']}
     Replying to: {final_context_object['person_I_want_to_reply_to']}
 
-    === EMAIL TO REPLY TO ===
-    {final_context_object["mail_I_want_to_reply_to"]}
-
-    === THREAD SUMMARY ===
-    {final_context_object['thread_summary']}
 
     === MY RECENT EMAILS TO THIS PERSON (study these for style) ===
     {recent_emails}
@@ -480,8 +475,8 @@ async def generate_email(
     7. **Expressiveness**: Match my level of expressiveness - do I use many adjectives and adverbs? Do I use intensifiers (very, really, extremely) or hedging language (perhaps, maybe, I think)?
     8. **Voice**: Match my preference for active or passive voice.
 
-    === ADDITIONAL CONTEXT FOR THIS REPLY ===
-    {additional_context}
+    === MAIL GENERATION CONTEXT ===
+    Use this context to create the reply - "{generation_prompt}". This is the theme of the reply I want to generate
 
     === CRITICAL RULES ===
     - Match my greeting and sign-off patterns exactly
@@ -501,14 +496,11 @@ async def generate_email(
     I am: {final_context_object['my_email']}
     Replying to: {final_context_object['person_I_want_to_reply_to']}
 
-    === EMAIL TO REPLY TO ===
-    {final_context_object["mail_I_want_to_reply_to"]}
 
-    === FULL THREAD HISTORY ===
-    {thread_context}
 
-    === ADDITIONAL CONTEXT FOR THIS REPLY ===
-    {additional_context}
+
+    === MAIL GENERATION CONTEXT ===
+    Use this context to create the reply - "{generation_prompt}". This is the theme of the reply I want to generate
 
     === INSTRUCTIONS ===
     Generate a professional and appropriate reply to this email based on the thread context.
@@ -518,7 +510,7 @@ async def generate_email(
     """
     
     print('final context object', final_context_object)
-    print('additional_context', additional_context)
+    print('additional_context', generation_prompt)
     print('number of recent mails found', len(recent_emails))
     print('number of thread messages', len(thread_messages))
     print('number of similar emails found', len(similar_emails))

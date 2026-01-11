@@ -2,6 +2,7 @@ import requests
 import json
 import re
 from typing import Dict, List, Tuple
+import argparse
 
 class StyleTransferEvaluator:
     def __init__(self, model_name: str = "ministral-3:8b", base_url: str = "http://localhost:11434"):
@@ -77,9 +78,9 @@ class StyleTransferEvaluator:
         print(f"Warning: Could not extract valid score from response: {response[:100]}")
         return -1.0
     
-    def evaluate_style_difference(self, original: str, recreated: str) -> Tuple[float, str]:
+    def evaluate_style_transfer(self, original: str, recreated: str) -> Tuple[float, str]:
         """
-        Evaluate style difference between original and recreated text.
+        Evaluate style transfer between original and recreated text.
         Scale: 1 (completely different styles) to 5 (completely identical styles)
         
         Args:
@@ -104,7 +105,7 @@ class StyleTransferEvaluator:
 
     Be STRICT in your evaluation. Focus on these specific style features:
 
-    1. **Sentence Structure**: Length, complexity, use of clauses (simple vs. compound vs. complex)
+    1. **Sentence Structure**: Length, complexity, use of clauses (simple vs. compound vs. complex). World length should be comparable
     2. **Vocabulary Choice**: Formal vs. informal words, technical vs. casual language, word sophistication
     3. **Tone**: Professional, friendly, authoritative, casual, urgent, etc.
     4. **Formality Level**: Greetings, closings, politeness markers, contractions usage
@@ -210,7 +211,7 @@ class StyleTransferEvaluator:
             Dictionary containing all scores and responses
         """
         print("Evaluating style transfer...")
-        style_score, style_response = self.evaluate_style_difference(original, recreated)
+        style_score, style_response = self.evaluate_style_transfer(original, recreated)
         
         print("Evaluating content preservation...")
         content_score, content_response = self.evaluate_content_preservation(original, recreated)
@@ -258,8 +259,13 @@ class StyleTransferEvaluator:
 
 
 if __name__ == "__main__":
-    # Initialize evaluator
-    evaluator = StyleTransferEvaluator(model_name="ministral-3:8b")
+    parser = argparse.ArgumentParser(description="Style Transfer Evaluator")
+    parser.add_argument("--model-name", default="ministral-3:8b", help="Model name to use")
+    parser.add_argument("--base-url", default="http://localhost:11434", help="Base URL for the API")
+    
+    args = parser.parse_args()
+    
+    evaluator = StyleTransferEvaluator(model_name=args.model_name, base_url=args.base_url)   
     
     # Load recreated emails from JSON
     print("Loading recreated_emails.json...")
@@ -307,13 +313,13 @@ if __name__ == "__main__":
     print("CONTEXT-ONLY METHOD - AVERAGE SCORES")
     print("="*60)
     
-    valid_context_results = [r for r in results_context_only if r['style_difference']['score'] != -1]
+    valid_context_results = [r for r in results_context_only if r['style_transfer']['score'] != -1]
     if valid_context_results:
-        avg_style_context = sum(r['style_difference']['score'] for r in valid_context_results) / len(valid_context_results)
+        avg_style_context = sum(r['style_transfer']['score'] for r in valid_context_results) / len(valid_context_results)
         avg_content_context = sum(r['content_preservation']['score'] for r in valid_context_results) / len(valid_context_results)
         avg_natural_context = sum(r['naturalness']['score'] for r in valid_context_results) / len(valid_context_results)
         
-        print(f"  Style Difference: {avg_style_context:.2f}/5.0")
+        print(f"  Style Transfer: {avg_style_context:.2f}/5.0")
         print(f"  Content Preservation: {avg_content_context:.2f}/5.0")
         print(f"  Naturalness: {avg_natural_context:.2f}/5.0")
     
@@ -322,13 +328,13 @@ if __name__ == "__main__":
     print("RAG METHOD - AVERAGE SCORES")
     print("="*60)
     
-    valid_rag_results = [r for r in results_rag if r['style_difference']['score'] != -1]
+    valid_rag_results = [r for r in results_rag if r['style_transfer']['score'] != -1]
     if valid_rag_results:
-        avg_style_rag = sum(r['style_difference']['score'] for r in valid_rag_results) / len(valid_rag_results)
+        avg_style_rag = sum(r['style_transfer']['score'] for r in valid_rag_results) / len(valid_rag_results)
         avg_content_rag = sum(r['content_preservation']['score'] for r in valid_rag_results) / len(valid_rag_results)
         avg_natural_rag = sum(r['naturalness']['score'] for r in valid_rag_results) / len(valid_rag_results)
         
-        print(f"  Style Difference: {avg_style_rag:.2f}/5.0")
+        print(f"  Style Transfer: {avg_style_rag:.2f}/5.0")
         print(f"  Content Preservation: {avg_content_rag:.2f}/5.0")
         print(f"  Naturalness: {avg_natural_rag:.2f}/5.0")
     
@@ -358,7 +364,7 @@ if __name__ == "__main__":
         'context_only': {
             'results': results_context_only,
             'averages': {
-                'style_difference': avg_style_context if valid_context_results else -1,
+                'style_transfer': avg_style_context if valid_context_results else -1,
                 'content_preservation': avg_content_context if valid_context_results else -1,
                 'naturalness': avg_natural_context if valid_context_results else -1
             }
@@ -366,7 +372,7 @@ if __name__ == "__main__":
         'rag': {
             'results': results_rag,
             'averages': {
-                'style_difference': avg_style_rag if valid_rag_results else -1,
+                'style_transfer': avg_style_rag if valid_rag_results else -1,
                 'content_preservation': avg_content_rag if valid_rag_results else -1,
                 'naturalness': avg_natural_rag if valid_rag_results else -1
             }

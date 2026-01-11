@@ -186,7 +186,11 @@ export default function GenerateReply({
         ))}
       </div>
       <p className="text-xs text-gray-500">
-        1=Completely different, 5=Identical styles
+     1 = Completely different styles <br/>
+     2 = Mostly different styles with minor similarities <br/>
+     3 = Moderately similar styles with notable differences <br/>
+     4 = Very similar styles with minor differences <br/>
+     5 = Completely identical styles <br/>
       </p>
     </div>
   );
@@ -242,7 +246,7 @@ export default function GenerateReply({
       
       <BinaryScale
         label="Content Preservation"
-        description="0=Content NOT preserved, 1=Content IS preserved"
+        description="0=Content/Meaning NOT preserved, 1=Content IS preserved"
         value={evalData.content_preservation}
         onChange={(val) => setEvalData(prev => ({ ...prev, content_preservation: val }))}
       />
@@ -294,6 +298,9 @@ export default function GenerateReply({
 
       {generatedReplies && (
         <div className="mt-6 space-y-6">
+          <div className='text-lg font-extrabold'>Now you have to rate these two replies based on your general style of writing to this person.
+            Does it match features like - Formality, Tone, Mail length, Vocabulary, Punctuation and Structure that you follow to talk to the person
+          </div>
           {/* Reply 1 */}
           <div>
             <div className="flex items-center justify-between mb-2">
