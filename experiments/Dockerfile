@@ -3,8 +3,8 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Build arguments with defaults
-ARG NUMBER_OF_SAMPLE_EMAILS=1000
-ARG GENERATOR_MODEL_NAME=ministral-3:8b
+ARG NUMBER_OF_SAMPLE_EMAILS=2
+ARG GENERATOR_MODEL_NAME=ministral
 ARG RETRIEVED_EMAILS=5
 ARG EVALUATOR_MODEL_NAME=ministral-3:8b
 
@@ -20,12 +20,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --no-cache-dir gdown
 RUN python -m spacy download en_core_web_sm
 
-# Copy your code
-COPY . .
+# Copy your code into experiments/ directory
+COPY . ./experiments/
 
-# Download dataset from Google Drive
-RUN mkdir -p experiments && \
-    gdown --id 1wTbb7J4O20hZFmyMTpntFLQ0-zt_eaEX -O experiments/emails_cleaned.csv
+# Download dataset from Google Drive (skip if already exists)
+RUN gdown --id 1wTbb7J4O20hZFmyMTpntFLQ0-zt_eaEX -O experiments/emails_cleaned.csv
 
 # Create entrypoint script
 RUN echo '#!/bin/bash\n\
