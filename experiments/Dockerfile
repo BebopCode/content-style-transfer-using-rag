@@ -7,12 +7,14 @@ ARG NUMBER_OF_SAMPLE_EMAILS=2
 ARG GENERATOR_MODEL_NAME=ministral
 ARG RETRIEVED_EMAILS=5
 ARG EVALUATOR_MODEL_NAME=ministral-3:8b
+ARG BASE_URL=http://localhost:11434
 
 # Convert to environment variables (available at runtime)
 ENV NUMBER_OF_SAMPLE_EMAILS=${NUMBER_OF_SAMPLE_EMAILS}
 ENV GENERATOR_MODEL_NAME=${GENERATOR_MODEL_NAME}
 ENV RETRIEVED_EMAILS=${RETRIEVED_EMAILS}
 ENV EVALUATOR_MODEL_NAME=${EVALUATOR_MODEL_NAME}
+ENV BASE_URL=${BASE_URL}
 
 # Install dependencies
 COPY requirements.txt .
@@ -29,8 +31,8 @@ RUN gdown --id 1wTbb7J4O20hZFmyMTpntFLQ0-zt_eaEX -O experiments/emails_cleaned.c
 # Create entrypoint script
 RUN echo '#!/bin/bash\n\
 python -m experiments.enron\n\
-python -m experiments.pipeline --limit $NUMBER_OF_SAMPLE_EMAILS --model-name $GENERATOR_MODEL_NAME --number-of-emails $RETRIEVED_EMAILS\n\
-python -m experiments.evaluator --model-name $EVALUATOR_MODEL_NAME' > /app/entrypoint.sh \
+python -m experiments.pipeline --limit $NUMBER_OF_SAMPLE_EMAILS --model-name $GENERATOR_MODEL_NAME --number-of-emails $RETRIEVED_EMAILS --base-url $BASE_URL\n\
+python -m experiments.evaluator --model-name $EVALUATOR_MODEL_NAME --base-url $BASE_URL' > /app/entrypoint.sh \
 && chmod +x /app/entrypoint.sh
 
 ENTRYPOINT ["/app/entrypoint.sh"]
