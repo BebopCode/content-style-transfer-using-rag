@@ -6,7 +6,7 @@ from datetime import datetime
 from .models import EmailDB
 
 class EmailEmbeddingStore:
-    def __init__(self, persist_directory="./chroma_db"):
+    def __init__(self, persist_directory="/app/chroma_db"):
         """
         Initializes the EmailEmbeddingStore.
         """

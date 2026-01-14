@@ -1,9 +1,12 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-
+import os
 # 1. SQLAlchemy Database URL
-SQLALCHEMY_DATABASE_URL = "sqlite:///.eml.db"
+DATABASE_DIR = "/app/data"
+os.makedirs(DATABASE_DIR, exist_ok=True)
+
+SQLALCHEMY_DATABASE_URL = f"sqlite:///{DATABASE_DIR}/eml.db"
 
 # 2. Database Engine
 engine = create_engine(

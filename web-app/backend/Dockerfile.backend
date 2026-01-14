@@ -14,6 +14,9 @@ RUN python -m spacy download en_core_web_sm
 # Copy your application code
 COPY . .
 
+# Create directories for persistent data
+RUN mkdir -p /app/data /app/chroma_db
+
 ENV PYTHONPATH=/app
 
 COPY start.sh /start.sh

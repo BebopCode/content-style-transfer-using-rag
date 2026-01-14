@@ -394,7 +394,7 @@ async def generate_email(
     thread_summary = summarize_thread_context(thread_context)
     
     # 5. Semantic search for similar emails based on thread context and mail to reply to
-    search_query = f"{data.content} {thread_summary}"
+    search_query = f"{data.custom_prompt}"
     
     email_embedding_store = EmailEmbeddingStore()
     
@@ -746,7 +746,7 @@ async def upload_eml(
     try:
         # 2. Call the API to generate the CSV content
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-2.5-flash-lite",
             contents=prompt,
         )
         generated_email = response.text.strip()
