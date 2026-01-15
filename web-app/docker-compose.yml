@@ -33,3 +33,7 @@ services:
       - PORT=3000
     depends_on:
       - backend
+
+volumes:
+  sqlite_data:
+  chroma_data:
